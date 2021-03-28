@@ -10,7 +10,7 @@ It is a work-in-progress, and is intended to:
 
 We assume a reasonable level of familiarity with modern web infrastructure.
 
-## Quick jump
+## Quick start
 
 - [Frontend deployment](frontend/index.md)
 - [Backend deployment](backend/index.md)
@@ -30,7 +30,7 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   frontend is [js-slang](https://github.com/source-academy/js-slang), the implementation of our JavaScript subset
   language called Source. (It does not affect deployment, but it is good to know.)
 
-  This can be deployed on any static site hosting service that supports SPAs (in particular, it must be able to rewrite non-existent paths to a 200 on index.html, as is needed for a SPA), such as Netlify, Vercel, Render, Surge, CloudFlare Pages, etc. GitHub Pages is not suitable as it does not allow you to rewrite non-existent paths. The CS1101S deployment uses Amazon CloudFront with Amazon S3.
+  This can be deployed on any static site hosting service that supports SPAs (in particular, it must be able to rewrite non-existent paths to a 200 on index.html, as is needed for a SPA), such as Netlify, Vercel, Render, Surge, Cloudflare Pages, etc. GitHub Pages is not suitable as it does not allow you to rewrite non-existent paths. The CS1101S deployment uses Amazon CloudFront with Amazon S3.
 
 - [cadet](https://github.com/source-academy/cadet)*: the main backend, sometimes referred to as the Elixir backend. This
   stores most of the dynamic data: the users, assessments, students' work, grading, etc. It is built on the Phoenix
@@ -88,6 +88,9 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   token provided by the authentication provider). The CS1101S deployment uses the university's single sign-on service.
   There is also support for Amazon Cognito, which is used for the staging deployment. It is not hard to add support for
   other services provided that they support OAuth2 or OpenID.
+
+- Google Drive: used for the Google Drive integration. You only need to obtain an API key and OAuth credentials; the
+  deployment guide will detail this. Optional; without this, the Google Drive integration will be unavailable.
 
 ## Deployment costs
 
