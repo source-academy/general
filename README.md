@@ -12,9 +12,9 @@ We assume a reasonable level of familiarity with modern web infrastructure.
 
 ## Quick jump
 
-- Frontend deployment
-- Backend deployment
-- Auxilliary services deployment
+- [Frontend deployment](frontend/index.md)
+- [Backend deployment](backend/index.md)
+- [Auxilliary services deployment](aux/index.md)
 
 ## High-level overview
 
@@ -83,6 +83,21 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   (This only really needs modifications to the Elixir backend to support authenticating with a different, possibly
   self-hosted, MQTT broker. Again, any contributions will be appreciated.)
 
+- Authentication service*: used to authenticate users. Any service supporting OpenID or OAuth2 works, but some code
+  modifications may be needed (to determine the user's role&mdash;whether they are a student or staff&mdash;from the
+  token provided by the authentication provider). The CS1101S deployment uses the university's single sign-on service.
+  There is also support for Amazon Cognito, which is used for the staging deployment. It is not hard to add support for
+  other services provided that they support OAuth2 or OpenID.
+
+## Deployment costs
+
+A full deployment on AWS (except the modules repository) supporting over 600 students and about 80 instructors costs about 120 to 130 USD per month, give or take. Using AWS IoT may add another 30 USD per month, thereabouts, during the period it is used.
+
+This estimate includes about 50 USD per month in bandwidth costs. It may be slightly lower if you are in an AWS region with lower bandwidth costs (the Singapore ap-southeast-1 region has one of the highest).
+
+Most components are not tied to AWS, so it is possible to use cheaper (or free) services, or host on
+institution-provided servers.
+
 ## Get started
 
-Start off by deploying the frontend, followed by the backend, followed by auxilliary services.
+Start off by deploying [the frontend](frontend/index.md), followed by [the backend](backend/index.md), followed by [auxilliary services](aux/index.md).
