@@ -9,7 +9,7 @@ The frontend can be deployed on any static site hosting service that supports SP
 - [Deployment to a static site host](#static-site-host-deployment)
 - [Amazon S3 + CloudFront deployment](aws.md)
 
-### Manual deployment
+## Manual deployment
 
 1. Clone the cadet-frontend repository: `git clone https://github.com/source-academy/cadet-frontend.git`
 
@@ -34,7 +34,7 @@ The frontend can be deployed on any static site hosting service that supports SP
 
 To update the site, simply repeat steps 4 onwards after pulling and/or making your desired changes.
 
-### Static site host deployment
+## Static site host deployment
 
 The stack used by cadet-frontend is very common and quite well-supported. Some services include
 [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), [Render](https://render.com/),
