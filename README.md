@@ -12,6 +12,8 @@ We assume a reasonable level of familiarity with modern web infrastructure.
 
 ## Quick start
 
+You should read the overview below if you have not done so before.
+
 - [Frontend deployment](frontend/index.md)
 - [Backend deployment](backend/index.md)
 - [Auxilliary services deployment](aux/index.md)
@@ -91,6 +93,9 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
 
 - Google Drive: used for the Google Drive integration. You only need to obtain an API key and OAuth credentials; the
   deployment guide will detail this. Optional; without this, the Google Drive integration will be unavailable.
+
+- [Sentry](https://sentry.io): used to capture errors on both the backend and frontend. Optional, of course; it is
+  really useful only to us as the primary developers, but is included here for completeness' sake.
 
 ## Deployment costs
 
