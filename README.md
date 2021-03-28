@@ -16,11 +16,12 @@ We assume a reasonable level of familiarity with modern web infrastructure.
 - Backend deployment
 - Auxilliary services deployment
 
-## High-level description
+## High-level overview
 
 The full Source Academy deployment as used for the CS1101S module in NUS SoC comprises these components:
 
-\* denotes a mandatory component
+\* denotes a mandatory component\
+\# denotes a component that can be shared (e.g. you could use our deployment of that component)
 
 ### Components developed in-house
 
@@ -44,13 +45,13 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   (It should not be too hard adapt the existing grader into an alternative, self-hosted solution for those who do not
   wish to use AWS. Contributions appreciated.)
 
-- [modules](https://github.com/source-academy/modules): a repository of libraries that can be `import`ed into programs.
+- [modules](https://github.com/source-academy/modules)#: a repository of libraries that can be `import`ed into programs.
   This only needs any web hosting service; the CS1101S deployment uses GitHub Pages. It is possible to simply use our
   module repository at https://source-academy.github.io/modules/. Optional; without this, modules will not be available.
   (While some libraries such as the runes, curves and sounds library are currently bundled with the frontend, they will
   eventually be migrated to be modules.)
 
-- [sharedb-ace-backend](https://github.com/source-academy/sharedb-ace-backend): a simple backend service that exposes a
+- [sharedb-ace-backend](https://github.com/source-academy/sharedb-ace-backend)#: a simple backend service that exposes a
   ShareDB database. This is used for the collaborative editor functionality. It is possible to simply use our instance;
   contact us for more information. Optional; without this, the collaborative editor will not be available.
 
@@ -60,7 +61,7 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
 
 - PostgreSQL*: the main database where the Elixir backend stores its data. You can run your own instance or use a managed instance. The CS1101S deployment uses Amazon RDS.
 
-- [YOURLS](https://github.com/YOURLS/YOURLS): the URL shortener service, used to provide the share function in the
+- [YOURLS](https://github.com/YOURLS/YOURLS)#: the URL shortener service, used to provide the share function in the
   Playground. It is possible to simply use our instance; contact us for more information. Optional; without this, the
   share function in the Playground will not be available.
 
