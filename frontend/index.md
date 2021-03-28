@@ -16,7 +16,7 @@ The frontend can be deployed on any static site hosting service that supports SP
 2. Enter the directory and install dependencies: `yarn install --frozen-lockfile`
 
 3. Configure the frontend for your deployment. [See the cadet-frontend
-   README.](https://github.com/source-academy/cadet-frontend#setting-up-your-environment), as well as the
+   README](https://github.com/source-academy/cadet-frontend#setting-up-your-environment), as well as the
    [production-specific configuration](https://github.com/source-academy/cadet-frontend#build-and-deployment).
 
    Additionally set (in the `.env` file) `PUBLIC_URL` to be the URL of your deployment. For example,
@@ -53,7 +53,7 @@ Most of these services are able to integrate with a GitHub repository and deploy
 4. Configure the frontend. Instead of using a `.env`, you should be able to set environment variables using the
    service's interface or configuration file.
 
-   [See the cadet-frontend README.](https://github.com/source-academy/cadet-frontend#setting-up-your-environment), as
+   [See the cadet-frontend README](https://github.com/source-academy/cadet-frontend#setting-up-your-environment), as
    well as the [production-specific
    configuration](https://github.com/source-academy/cadet-frontend#build-and-deployment), for the environment variables
    to configure.
