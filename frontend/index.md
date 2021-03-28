@@ -62,6 +62,10 @@ Most of these services are able to integrate with a GitHub repository and deploy
 
 5. Trigger a build using the service.
 
-6. Done!
+7. Ensure that your web host is configured to route all non-existent paths to the root (i.e. `/` or `/index.html`).
+   Consult your service's documentation on deploying single-page apps (SPAs) for more information. (Note: GitHub Pages
+   does not support this.)
+
+8. Done!
 
 To update the site, you should be able to push directly to your fork.
