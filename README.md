@@ -12,7 +12,7 @@ We assume a reasonable level of familiarity with modern web infrastructure.
 
 ## Quick start
 
-You should read the overview below if you have not done so before.
+You should read the overview below first if you have not done so before.
 
 - [Frontend deployment](frontend/index.md)
 - [Backend deployment](backend/index.md)
