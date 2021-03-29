@@ -56,3 +56,15 @@ aws cloudfront create-invalidation --distribution-id "CLOUDFRONT ID HERE" --path
 Replace `CLOUDFRONT ID HERE` with your distribution ID (something like `EA3DF4YZDML1G`).
 
 This command creates an _invalidation_, clearing the CloudFront cache so updated contents are served.
+
+You can also do this via the AWS console under the "Invalidations" tab of the distribution. If so, these are the paths to invalidate:
+
+```
+/externalLibs/*
+/manifest.json
+/asset-manifest.json
+/service-worker.js
+/index.html
+/assets/*
+/
+```
