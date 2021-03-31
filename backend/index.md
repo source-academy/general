@@ -6,9 +6,9 @@ we do not test that the backend works those platforms.)
 
 ## Deployment methods
 
-- Local development: see the [cadet
-  README](https://github.com/source-academy/cadet#developer-setup)
+- Local development: see the [cadet README](https://github.com/source-academy/cadet#developer-setup)
 - [Install on Linux server](#install-on-linux-server)
+- [Full Terraform deployment](terraform.md) (This is what is used by CS1101S.)
 
 ## Install on Linux server
 
@@ -67,7 +67,14 @@ we do not test that the backend works those platforms.)
    The script extracts the release package to `/opt/cadet`. If you wish to install it somewhere else, change the script
    and systemd service file accordingly.
 
-6. Done! Check that the backend is accessible at http://localhost:4000 (on the server).
+6. Check that the backend is accessible at http://localhost:4000 (on the server).
+
+7. Initialise (or update) the database. Run `/opt/cadet/bin/cadet remote`, which should drop you into an Elixir REPL.
+   Run this:
+
+   ```elixir
+   Ecto.Migrator.run(Cadet.Repo, Application.app_dir(:cadet, "priv/repo/migrations"), :up, [all: true])
+   ```
 
 7. Note that you need a service to act as a TLS termination proxy for the backend. If you are following our Terraform
    deployment, this will be AWS's Elastic Load Balancer.
@@ -82,3 +89,6 @@ we do not test that the backend works those platforms.)
 
 8. Check that the backend is accessible over HTTPS from your own computer.
 
+9. Next, follow the guide to [manually setup the optional AWS services](aws-manual.md), if needed.
+
+To update the backend, repeat steps 1, 2, 5 and 7.

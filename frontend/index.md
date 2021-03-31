@@ -4,10 +4,11 @@ The frontend can be deployed on any static site hosting service that supports SP
 
 ## Deployment methods
 
-- Local development: see the [cadet-frontend README](https://github.com/source-academy/cadet-frontend#installation-of-course-edition).
+- Local development: see the [cadet-frontend
+  README](https://github.com/source-academy/cadet-frontend#installation-of-course-edition).
 - [Manual build and deploy to a web server](#manual-deployment)
 - [Deployment to a static site host](#static-site-host-deployment)
-- [Amazon S3 + CloudFront deployment](aws.md)
+- [Amazon S3 + CloudFront deployment](aws.md) (This is what is used by CS1101S.)
 
 ## Manual deployment
 
