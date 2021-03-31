@@ -33,7 +33,10 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   frontend is [js-slang](https://github.com/source-academy/js-slang), the implementation of our JavaScript subset
   language called Source. (It does not affect deployment, but it is good to know.)
 
-  This can be deployed on any static site hosting service that supports SPAs (in particular, it must be able to rewrite non-existent paths to a 200 on index.html, as is needed for a SPA), such as Netlify, Vercel, Render, Surge, Cloudflare Pages, etc. GitHub Pages is not suitable as it does not allow you to rewrite non-existent paths. The CS1101S deployment uses Amazon CloudFront with Amazon S3.
+  This can be deployed on any static site hosting service that supports SPAs (in particular, it must be able to rewrite
+  non-existent paths to a 200 on index.html, as is needed for a SPA), such as Netlify, Vercel, Render, Surge, Cloudflare
+  Pages, etc. GitHub Pages is not suitable as it does not allow you to rewrite non-existent paths. The CS1101S
+  deployment uses Amazon CloudFront with Amazon S3.
 
 - [cadet](https://github.com/source-academy/cadet)*: the main backend, sometimes referred to as the Elixir backend. This
   stores most of the dynamic data: the users, assessments, students' work, grading, etc. It is built on the Phoenix
@@ -62,13 +65,15 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
 
 ### Off-the-shelf components
 
-- PostgreSQL*: the main database where the Elixir backend stores its data. You can run your own instance or use a managed instance. The CS1101S deployment uses Amazon RDS.
+- PostgreSQL*: the main database where the Elixir backend stores its data. You can run your own instance or use a
+  managed instance. The CS1101S deployment uses Amazon RDS.
 
 - [YOURLS](https://github.com/YOURLS/YOURLS)#: the URL shortener service, used to provide the share function in the
   Playground. It is possible to simply use our instance; contact us for more information. Optional; without this, the
   share function in the Playground will not be available.
 
-  This can be deployed on any service that supports PHP. It additionally requires a MariaDB (or MySQL) instance. The CS1101S deployment runs this using php-fpm, nginx and MariaDB on an EC2 instance.
+  This can be deployed on any service that supports PHP. It additionally requires a MariaDB (or MySQL) instance. The
+  CS1101S deployment runs this using php-fpm, nginx and MariaDB on an EC2 instance.
 
 ### Cloud services
 
@@ -77,8 +82,8 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   will do), but because the game editor uses the S3 API to upload files, as does the Sourcecasts feature, those will not
   work.
 
-  (It should not be too hard to allow these features to work without S3 e.g. just uploading the files to the backend itself
-  and serving it from there. Any contributions will be appreciated.)
+  (It should not be too hard to allow these features to work without S3 e.g. just uploading the files to the backend
+  itself and serving it from there. Any contributions will be appreciated.)
 
 - Amazon IoT: used as an MQTT broker for the remote execution functionality. Optional; without this, the remote
   execution functionality (i.e. robotics) will not work.
@@ -100,13 +105,17 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
 
 ## Deployment costs
 
-A full deployment on AWS (except the modules repository) supporting over 600 students and about 80 instructors costs about 120 to 130 USD per month, give or take. Using AWS IoT may add another 30 USD per month, thereabouts, during the period it is used.
+A full deployment on AWS (except the modules repository) supporting over 600 students and about 80 instructors costs
+about 120 to 130 USD per month, give or take. Using AWS IoT may add another 30 USD per month, thereabouts, during the
+period it is used.
 
-This estimate includes about 50 USD per month in bandwidth costs. It may be slightly lower if you are in an AWS region with lower bandwidth costs (the Singapore ap-southeast-1 region has one of the highest).
+This estimate includes about 50 USD per month in bandwidth costs. It may be slightly lower if you are in an AWS region
+with lower bandwidth costs (the Singapore ap-southeast-1 region has one of the highest).
 
 Most components are not tied to AWS, so it is possible to use cheaper (or free) services, or host on
 institution-provided servers.
 
 ## Get started
 
-Start off by deploying [the backend](backend/index.md), then [the frontend](frontend/index.md), followed by [the auxilliary services](aux/index.md).
+Start off by deploying [the backend](backend/index.md), then [the frontend](frontend/index.md), followed by [the
+auxilliary services](aux/index.md).
