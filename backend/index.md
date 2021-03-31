@@ -62,6 +62,9 @@ we do not test that the backend works those platforms.)
    sudo systemctl start cadet
    ```
 
+   (Note: adapt as needed. This script makes it so the extracted files are owned by root, but gives write access to
+   certain files which are modified at runtime. It assumes that the backend is going to be run as `nobody`.)
+
    Make it executable and execute the script.
 
    The script extracts the release package to `/opt/cadet`. If you wish to install it somewhere else, change the script
