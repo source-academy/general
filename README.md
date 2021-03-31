@@ -8,7 +8,8 @@ It is a work-in-progress, and is intended to:
 - describe a small range of deployment options
 - be more structured and versioned than the old single Google Doc
 
-We assume a reasonable level of familiarity with modern web infrastructure.
+We assume a reasonable level of familiarity with modern web infrastructure as
+well as Linux system administration.
 
 ## Quick start
 
@@ -108,4 +109,4 @@ institution-provided servers.
 
 ## Get started
 
-Start off by deploying [the frontend](frontend/index.md), followed by [the backend](backend/index.md), followed by [auxilliary services](aux/index.md).
+Start off by deploying [the backend](backend/index.md), then [the frontend](frontend/index.md), followed by [the auxilliary services](aux/index.md).

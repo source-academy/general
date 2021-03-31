@@ -1,1 +1,84 @@
-# TODO
+# Backend
+
+The backend can be deployed on any Linux server. (It is, in theory, possible to
+deploy it on Windows and macOS as well, as Elixir runs on those platforms, but
+we do not test that the backend works those platforms.)
+
+## Deployment methods
+
+- Local development: see the [cadet
+  README](https://github.com/source-academy/cadet#developer-setup)
+- [Install on Linux server](#install-on-linux-server)
+
+## Install on Linux server
+
+1. [Compile the backend.](shared.md#compiling-the-backend)
+
+2. Transfer the package to the server the backend will be run on.
+
+3. On the server, [configure the backend](shared.md#configuring-the-backend).
+
+4. Install this systemd unit file onto the server, at `/etc/systemd/system/cadet.service`.
+
+   ```ini
+   [Unit]
+   After=network.target
+   Requires=network.target
+   StartLimitIntervalSec=0
+
+   [Service]
+   Type=simple
+   TimeoutStartSec=0
+   Restart=always
+   RestartSec=5
+   ExecStart=/opt/cadet/bin/cadet start
+   User=nobody
+   Environment=HOME=/opt/cadet/tmp
+   Environment=PORT=4000
+   Environment=LEADER=1
+
+   [Install]
+   WantedBy=multi-user.target
+   ```
+
+   Note the `Environment=LEADER=1` line. If you are setting up multiple instances of the backend for load-balancing,
+   this should be set on **only one instance**. **Remove the line entirely** for other instances.
+
+5. Place this Bash script into the same directory as the package.
+
+   ```bash
+   #!/bin/bash
+
+   BASEDIR=/opt/cadet
+
+   sudo systemctl stop cadet
+   sudo rm -rf "$BASEDIR"
+   sudo mkdir -p "$BASEDIR"
+   sudo tar -zxf cadet-0.0.1.tar.gz -C "$BASEDIR" --no-same-owner
+   sudo mkdir -p "$BASEDIR/tmp"
+   sudo chmod 1777 "$BASEDIR"/{tmp,lib/tzdata-*/priv/tmp_downloads}
+   sudo chmod a+x "$BASEDIR"/{bin/cadet,erts-*/bin/*,releases/*/{iex,elixir}}
+   sudo chown -R nobody:nogroup "$BASEDIR"/lib/tzdata-*/priv/{release_ets,latest_remote_poll.txt}
+   sudo systemctl start cadet
+   ```
+
+   Make it executable and execute the script.
+
+   The script extracts the release package to `/opt/cadet`. If you wish to install it somewhere else, change the script
+   and systemd service file accordingly.
+
+6. Done! Check that the backend is accessible at http://localhost:4000 (on the server).
+
+7. Note that you need a service to act as a TLS termination proxy for the backend. If you are following our Terraform
+   deployment, this will be AWS's Elastic Load Balancer.
+
+   If not, consider using Nginx. [This
+   guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-load-balancing-with-ssl-termination) may
+   be helpful,    but instead of having an upstream with multiple endpoints, just `proxy_pass http://localhost:4000`.
+
+   Alternatively, you can terminate SSL directly at the backend; follow [this
+   guide](https://hexdocs.pm/phoenix/using_ssl.html) (the configuration changes can be merged into the endpoint key in
+   `cadet.exs`).
+
+8. Check that the backend is accessible over HTTPS from your own computer.
+
