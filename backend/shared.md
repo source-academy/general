@@ -30,6 +30,7 @@ Copy the [example configuration](https://github.com/source-academy/cadet/blob/ma
 `/etc/cadet.exs` (or some other location, if you are overriding the default), and edit the values.
 
 In particular, you should edit the CORS allowed origins (`cors_endpoints`), the database credentials, as well as all the
-AWS resource names and ARNs to match those you have created, if any.
+AWS resource names and ARNs to match those you have created, if any. Also set up the authentication configuration; you
+may wish to check out the [authentication guide](../auth/index.md).
 
 Once done, return to the guide you came from.

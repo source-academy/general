@@ -18,6 +18,7 @@ You should read the overview below first if you have not done so before.
 - [Frontend deployment](frontend/index.md)
 - [Backend deployment](backend/index.md)
 - [Auxilliary services deployment](aux/index.md)
+- [Authentication services](auth/index.md)
 
 ## High-level overview
 
@@ -119,3 +120,6 @@ institution-provided servers.
 
 Start off by deploying [the backend](backend/index.md), then [the frontend](frontend/index.md), followed by [the
 auxilliary services](aux/index.md).
+
+If your organisation has no in-house authentication service, you may wish to follow one of the guides on [authentication
+services](auth/index.md) as well.
