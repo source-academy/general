@@ -10,9 +10,46 @@ we do not test that the backend works those platforms.)
 - [Install on Linux server](#install-on-linux-server)
 - [Full Terraform deployment](terraform.md) (This is what is used by CS1101S.)
 
-## Install on Linux server
+## Scripted install on Linux server
 
-1. [Compile the backend.](shared.md#compiling-the-backend)
+1. On the server, [configure the backend](shared.md#configuring-the-backend).
+
+2. If you are running on Ubuntu 20.04, you can run the automated installation script:
+
+   ```bash
+   curl -LO https://raw.githubusercontent.com/source-academy/cadet/stable/deployment/init.sh
+   # inspect init.sh
+   sudo bash init.sh
+   ```
+
+   The script downloads and extracts the precompiled Linux release, sets up a systemd unit file, and starts the backend.
+   The configuration file should be at `/etc/cadet.exs`.
+
+   If you are not running Ubuntu 20.04, you may try the script, but the precompiled script may not work if your glibc
+   version is not new enough. In that case, [manually compile](#manual-compile) the backend and install it.
+
+3. Check that the backend is accessible at http://localhost:4000 (on the server).
+
+4. Note that you need a service to act as a TLS termination proxy for the backend. If you are following our Terraform
+   deployment, this will be AWS's Elastic Load Balancer.
+
+   If not, consider using Nginx. [This
+   guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-load-balancing-with-ssl-termination) may
+   be helpful, but instead of having an upstream with multiple endpoints, just `proxy_pass http://localhost:4000`.
+
+   Alternatively, you can terminate SSL directly at the backend; follow [this
+   guide](https://hexdocs.pm/phoenix/using_ssl.html) (the configuration changes can be merged into the endpoint key in
+   `cadet.exs`).
+
+5. Check that the backend is accessible over HTTPS from your own computer.
+
+6. Next, follow the guide to [manually setup the optional AWS services](aws-manual.md), if needed.
+
+To update the backend, repeat steps 2, 3, 4, and 6.
+
+## Manual compile
+
+1. [Compile the backend](shared.md#compiling-the-backend).
 
 2. Transfer the package to the server the backend will be run on.
 
@@ -35,14 +72,10 @@ we do not test that the backend works those platforms.)
    User=nobody
    Environment=HOME=/opt/cadet/tmp
    Environment=PORT=4000
-   Environment=LEADER=1
 
    [Install]
    WantedBy=multi-user.target
    ```
-
-   Note the `Environment=LEADER=1` line. If you are setting up multiple instances of the backend for load-balancing,
-   this should be set on **only one instance**. **Remove the line entirely** for other instances.
 
 5. Place this Bash script into the same directory as the package.
 
@@ -59,6 +92,7 @@ we do not test that the backend works those platforms.)
    sudo chmod 1777 "$BASEDIR"/{tmp,lib/tzdata-*/priv/tmp_downloads}
    sudo chmod a+x "$BASEDIR"/{bin/cadet,erts-*/bin/*,releases/*/{iex,elixir}}
    sudo chown -R nobody:nogroup "$BASEDIR"/lib/tzdata-*/priv/{release_ets,latest_remote_poll.txt}
+   /opt/cadet/bin/cadet eval Cadet.Release.migrate
    sudo systemctl start cadet
    ```
 
@@ -70,28 +104,4 @@ we do not test that the backend works those platforms.)
    The script extracts the release package to `/opt/cadet`. If you wish to install it somewhere else, change the script
    and systemd service file accordingly.
 
-6. Check that the backend is accessible at http://localhost:4000 (on the server).
-
-7. Initialise (or update) the database. Run `/opt/cadet/bin/cadet remote`, which should drop you into an Elixir REPL.
-   Run this:
-
-   ```elixir
-   Ecto.Migrator.run(Cadet.Repo, Application.app_dir(:cadet, "priv/repo/migrations"), :up, [all: true])
-   ```
-
-7. Note that you need a service to act as a TLS termination proxy for the backend. If you are following our Terraform
-   deployment, this will be AWS's Elastic Load Balancer.
-
-   If not, consider using Nginx. [This
-   guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-load-balancing-with-ssl-termination) may
-   be helpful,    but instead of having an upstream with multiple endpoints, just `proxy_pass http://localhost:4000`.
-
-   Alternatively, you can terminate SSL directly at the backend; follow [this
-   guide](https://hexdocs.pm/phoenix/using_ssl.html) (the configuration changes can be merged into the endpoint key in
-   `cadet.exs`).
-
-8. Check that the backend is accessible over HTTPS from your own computer.
-
-9. Next, follow the guide to [manually setup the optional AWS services](aws-manual.md), if needed.
-
-To update the backend, repeat steps 1, 2, 5 and 7.
+6. Continue with the rest of the steps in the scripted install guide.
