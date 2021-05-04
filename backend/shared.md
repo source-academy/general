@@ -27,10 +27,14 @@ The backend in production mode loads its configuration from `/etc/cadet.exs` by 
 environment variable `CONFIG` to override this.
 
 Copy the [example configuration](https://github.com/source-academy/cadet/blob/master/config/cadet.exs.example) to
-`/etc/cadet.exs` (or some other location, if you are overriding the default), and edit the values.
+`/etc/cadet.exs` (or some other location, if you are overriding the default), and edit the values. If you are following
+the Terraform deployment, you will upload the file to your configuration bucket instead.
 
 In particular, you should edit the CORS allowed origins (`cors_endpoints`), the database credentials, as well as all the
 AWS resource names and ARNs to match those you have created, if any. Also set up the authentication configuration; you
 may wish to check out the [authentication guide](../auth/index.md).
+
+If you are following the Terraform deployment, you can search and replace `<unique-identifier>` in the example
+configuration which should give you the correct name for all the AWS resources.
 
 Once done, return to the guide you came from.
