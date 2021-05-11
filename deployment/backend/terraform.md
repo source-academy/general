@@ -33,9 +33,14 @@
    }
    ```
 
-2. Generate an SSH RSA key, and upload the public key to AWS EC2. We will refer to this as the "API SSH key". Also,
-   upload your own SSH public key (which must be RSA since EC2 does not support Ed25519 keys...) to EC2. We will refer
-   to this as the "Bastion SSH key".
+2. Generate an SSH RSA key locally using `ssh-keygen`, and upload the public key to AWS EC2. We will refer to this as
+   the "API SSH key". Also, upload your own SSH public key (which must be RSA since EC2 does not support Ed25519
+   keys...) to EC2. We will refer to this as the "Bastion SSH key".
+
+   The API SSH key is used to SSH from the Bastion node to the API nodes. The Bastion SSH key is used to SSH to the
+   Bastion.
+
+   Note: when uploading the public keys, be sure to switch to the correct AWS region!
 
 3. In AWS Lambda, install the XVFB Lambda layer, and name it "xvfb". Also, download the compiled grader Lambda ZIP archive.
 
@@ -111,19 +116,28 @@
 
 10. Initialise Terraform by running `terraform init` (in the current directory i.e. `cadet/deployment/terraform`).
 
-11. [Import](https://www.terraform.io/docs/cli/commands/import.html) any existing resources, if needed. (This most
-    likely applies to any existing S3 buckets that you would like to re-use.)
+11. Provision the resources by running `terraform apply`.
 
-    If you are starting from scratch, then there is nothing to import.
+    Note: if you are running on Mac, ensure that you have granted your Terminal and/or whatever application you are
+    running Terraform through (e.g. VS Code using its built-in terminal) has the Full Disk Access permission.
 
-12. Provision the resources by running `terraform apply`.
+    Note: if you encounter an error like this:
 
-13. In AWS IoT, create a Thing Group and name it `<unique-identifier>-sling`. Go to the Security tab and attach the
-    `<unique-identifier>-sling` policy to it.
+    > error creating Secrets Manager Secret: InvalidRequestException: You can't create this secret because a secret with
+    > this name is already scheduled for deletion
+
+    you will have to use the AWS CLI to force-delete the secret:
+
+    ```
+    aws secretsmanager delete-secret --force-delete-without-recovery --secret-id secret-id-here
+    ```
+
+12. In AWS IoT, create a Thing Group and name it `<unique-identifier>-sling`, if a thing group by that name does not
+    already exist. Go to the Security tab and attach the `<unique-identifier>-sling` policy to it.
 
     (This is done because Terraform's AWS provider does not yet support thing groups.)
 
-14. Go to CloudFront. Create or update the distribution for the backend.
+13. Go to CloudFront. Create or update the distribution for the backend.
 
     If you already have a distribution configured for the backend in the past, simply update the origin to the ELB that
     was just created.
@@ -148,6 +162,6 @@
 
     Any other options can be left at the default.
 
-15. Wait for the distribution to propagate. Then, test that the backend can be reached.
+14. Wait for the distribution to propagate. Then, test that the backend can be reached.
 
-16. Done!
+15. Done!
