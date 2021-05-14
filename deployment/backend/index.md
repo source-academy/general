@@ -92,8 +92,13 @@ To update the backend, repeat steps 2, 3, 4, and 6.
    sudo chmod 1777 "$BASEDIR"/{tmp,lib/tzdata-*/priv/tmp_downloads}
    sudo chmod a+x "$BASEDIR"/{bin/cadet,erts-*/bin/*,releases/*/{iex,elixir}}
    sudo chown -R nobody:nogroup "$BASEDIR"/lib/tzdata-*/priv/{release_ets,latest_remote_poll.txt}
-   /opt/cadet/bin/cadet eval Cadet.Release.migrate
    sudo systemctl start cadet
+   # this just loops until we can reach the running application
+   while ! "$BASEDIR/bin/cadet" rpc 1; do
+      sleep 0.5
+   done
+   sleep 5 # Allow application to fully start up - avoid a race condition
+   "$BASEDIR/bin/cadet" rpc Cadet.Release.migrate
    ```
 
    (Note: adapt as needed. This script makes it so the extracted files are owned by root, but gives write access to

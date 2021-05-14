@@ -13,7 +13,7 @@ too-new a glibc. (Of course, you can just do this on the server you will be runn
 
 2. Clone the cadet repository: `git clone https://github.com/source-academy/cadet.git`
 
-3. Enter the directory and install dependencies: `mix deps.get`
+3. Enter the directory and install dependencies: `MIX_ENV=prod mix deps.get`
 
 4. Build: `MIX_ENV=prod mix release`
 
