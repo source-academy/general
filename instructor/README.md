@@ -1,6 +1,6 @@
 # Resources for instructors
 
-The instructors in the Source Academy community might find the following resources useful.
+The instructors in the Source Academy community might find the following resources useful. 
 
 ## Student resources
 
@@ -11,14 +11,16 @@ The instructors in the Source Academy community might find the following resourc
 
 ## Resources for instructors who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
-- [Guide for authoring and uploading assessments](assessment/README.md)
-- [Guide for managing voting](voting/README.md)
-- [Guide for setting up a Source Academy game](game/README.md): 
+- [Guide for authoring and uploading assessments](assessment/README.md): homework submissions stored on a server, graded by yourself and your assistants or auto-graded
+- [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of "contest" assessments 
+- [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
 ## Resources for instructors who use Source Academy with Github Classroom
 
-under construction
+under construction (contest voting and Source Academy game are currently not available in the Github Classroom option)
 
 ## Resources for instructors who deploy their own clone of Source Academy
 
-under construction
+For assessment authoring, contest voting and the game, see **Resources for instructors who use Source Academy @ NUS** above.
+
+- [Resources for administrators](../admin/README.md)
