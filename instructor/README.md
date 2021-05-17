@@ -23,4 +23,4 @@ under construction (contest voting and Source Academy game are currently not ava
 
 For assessment authoring, contest voting and the game, see **Resources for instructors who use Source Academy @ NUS** above.
 
-- [Resources for administrators](../admin/README.md)
+- [Resources for administrators](../deployment/README.md)
