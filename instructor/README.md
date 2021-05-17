@@ -11,8 +11,10 @@ The instructors in the Source Academy community might find the following resourc
 
 ## Resources for instructors who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
-- [Guide for authoring and uploading assessments](assessment/README.md): homework submissions stored on a server, graded by yourself and your assistants or auto-graded
-- [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of "contest" assessments 
+This option will be available from August 2021 onwards. 
+
+- [Guide for authoring and uploading assessments](assessment/README.md): homework submissions stored on the **Source Academy @ NUS** server, graded by yourself and your assistants or auto-graded
+- [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of specific assessments 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
 ## Resources for instructors who use Source Academy with Github Classroom
