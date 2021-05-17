@@ -1,11 +1,6 @@
-# Instructor manual
+# Resources for instructors
 
-This is the instructor manual for the Source Academy.
-
-It is a work-in-progress, and is intended to:
-
-- be publically usable and available
-- describe whatever an instructor needs to know about Source Academy
+Instructors who use 
 
 ## Instructor activities
 
