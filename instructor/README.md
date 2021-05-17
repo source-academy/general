@@ -1,6 +1,8 @@
 # Resources for instructors
 
-The instructors in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides instructor material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. Currently, instructors need to deploy their own clone of Source Academy to use the system; see **Resources for instructors who deploy their own clone of Source Academy** below. Starting in August 2021, instructors will have two additional options:
+The instructors in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides instructor material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 
+
+Currently, instructors need to deploy their own clone of Source Academy to use the system; see **Resources for instructors who deploy their own clone of Source Academy** below. Starting in August 2021, instructors will have two additional options:
 - **Source Academy @ NUS**: use the NUS deployment
 - **Source Academy + GitHub Classroom**: use GitHub Classroom to author and manage weekly assessments
 
