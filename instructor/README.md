@@ -17,9 +17,11 @@ This option will be available from August 2021 onwards.
 - [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of specific assessments 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
-## Resources for instructors who use Source Academy with Github Classroom
+## Resources for instructors who use Source Academy with GitHub Classroom
 
-under construction (contest voting and Source Academy game are currently not available in the Github Classroom option)
+This option will be available from August 2021 onwards. Contest voting and Source Academy game will not be available in the Github Classroom option.
+
+- [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
 
 ## Resources for instructors who deploy their own clone of Source Academy
 
