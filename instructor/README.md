@@ -9,7 +9,7 @@ The instructors in the Source Academy community might find the following resourc
 - [Source](https://source-academy.github.io/source/): Source languages used in the book (sublanguages of JavaScript)
 - [sicp repository](https://github.com/source-academy/sicp): textbook github repository, for reporting errors and for typesetting our own copy
 
-## Instructors who use Source Academy @ NUS
+## Instructors who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
 - [Guide for authoring and uploading assessments](assessment/README.md)
 - [Guide for managing voting](voting/README.md)
