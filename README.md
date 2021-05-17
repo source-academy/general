@@ -1,7 +1,9 @@
 # Source Academy
 
-This repository contains documentation, resources, and other information that pertains to the Source Academy in general.
+The Source Academy is a community of learners that use the book Structure and Interpretation of Computer Programs, JavaScript Adaptation. The community is developing and maintaining an immersive online experiential environment for learning programming, also called Source Academy.
+Here you find resources for learners, instructors, and system administrators.
 
-- [Deployment manual](deployment/README.md)
-- [Instructor manual](instructor/README.md)
+- [For learners](learner/README.md)
+- [For instructors](instructor/README.md)
+- [For system administrators](deployment/README.md)
 
