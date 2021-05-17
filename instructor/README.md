@@ -1,6 +1,6 @@
 # Resources for instructors
 
-The instructors in the Source Academy community might find the following resources useful. 
+The instructors in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides instructor material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources.
 
 ## Student resources
 
