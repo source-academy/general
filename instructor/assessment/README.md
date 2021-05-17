@@ -1,5 +1,3 @@
-This XML specification is only concerned with how XML renders in cadet. For example, unspecified [TEXT](#text) elements may not be rendered in cadet, but may be rendered in the generated pdf files.
-
 Each node may have `attributes`. Each node has either `children` nodes or a `value`. There are no empty elements.
 
 If a property is not documented for an element, then that element does not specify that property. For example, a [TASK](#task) has `attributes` and `children` nodes, and no `value`; and a [READING](#reading) has a `value` and neither `attributes` nor `children`.
