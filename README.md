@@ -4,4 +4,4 @@ This repository contains documentation, resources, and other information that pe
 
 - [Deployment manual](deployment/README.md)
 - [Instructor manual](instructor/README.md)
-hhhh
+
