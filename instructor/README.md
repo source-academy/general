@@ -25,7 +25,7 @@ This option will be available from August 2021 onwards.
 
 This option will be available from August 2021 onwards. Contest voting and Source Academy game will not be available in the Github Classroom option.
 
-- [Guide for authoring and managing assessments using GitHub Classroom](../github/README.md)
+- [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
 
 ## Resources for instructors who deploy their own clone of Source Academy
 
