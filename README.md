@@ -1,6 +1,5 @@
 # Source Academy
 
-This repository contains documentation, resources, and other information that does not fit naturally in any of the
-specific component repositories.
+This repository contains documentation, resources, and other information that pertains to the Source Academy in general.
 
 - [Deployment manual](deployment/README.md)
