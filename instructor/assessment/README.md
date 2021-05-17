@@ -2,6 +2,10 @@
 
 Instructors can specify assessments in an XML format that is documented in this page. They upload assessment files using the "Ground Control" feature of the Source Academy frontend.
 
+Your Source Academy deployment comes with an authoring tool for assessments. Visit
+https://your-source-academy-url/mission-control
+to access the tool. This page describes the XML format, in case you want to or need to manually edit the assessment XML files.
+
 ## General XML file format
 
 Each node may have `attributes`. Each node has either `children` nodes or a `value`. There are no empty elements.
