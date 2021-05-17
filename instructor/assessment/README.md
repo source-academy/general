@@ -1,3 +1,9 @@
+## Overview
+
+Instructors can specify assessments in an XML format that is documented in this page. They upload assessment files using the "Ground Control" feature of the Source Academy frontend.
+
+## General XML file format
+
 Each node may have `attributes`. Each node has either `children` nodes or a `value`. There are no empty elements.
 
 If a property is not documented for an element, then that element does not specify that property. For example, a [TASK](#task) has `attributes` and `children` nodes, and no `value`; and a [READING](#reading) has a `value` and neither `attributes` nor `children`.
@@ -6,10 +12,7 @@ Each element is marked as `required` or `optional`. A `required` element is comp
 
 You may assume that each element must be unique (i.e. only one exists per parent), unless specified as "can have many".
 
-## Source Academy 2021 Changes from Source Academy 1920
-- Removed startdate and duedate from TASK; these are now entered through the staff dashboard
-
-## Contents
+## XML details
 - [TASK](#task)
     - [PASSWORD](#password)
     - [READING](#reading)
