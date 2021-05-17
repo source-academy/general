@@ -15,10 +15,10 @@ well as Linux system administration.
 
 You should read the overview below first if you have not done so before.
 
-- [Frontend deployment](frontend/index.md)
-- [Backend deployment](backend/index.md)
-- [Auxilliary services deployment](aux/index.md)
-- [Authentication services](auth/index.md)
+- [Frontend deployment](frontend/README.md)
+- [Backend deployment](backend/README.md)
+- [Auxilliary services deployment](aux/README.md)
+- [Authentication services](auth/README.md)
 
 ## High-level overview
 
