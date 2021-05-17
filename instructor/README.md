@@ -21,6 +21,6 @@ under construction (contest voting and Source Academy game are currently not ava
 
 ## Resources for instructors who deploy their own clone of Source Academy
 
-For assessment authoring, contest voting and the game, see **Resources for instructors who use Source Academy @ NUS** above.
+For assessment authoring, contest voting and the game, see **Resources for instructors who use Source Academy @ NUS** above. You or your staff will also need:
 
 - [Resources for administrators](../deployment/README.md)
