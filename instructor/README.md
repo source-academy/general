@@ -2,7 +2,12 @@
 
 The instructors in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides instructor material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 
 
-Currently, instructors need to deploy their own clone of Source Academy to use the system; see **Resources for instructors who deploy their own clone of Source Academy** below. Starting in August 2021, instructors will have two additional options:
+Currently, instructors have the following options to work with SICP JS:
+- Not use Source Academy: You can use SICP JS with the IDE of your choice; [see here](package/README.md) for more information
+- Use the public version of the Source Academy; [see here](vanilla/README.md) how [Source Academy](https://source-academy.github.io/) supports your course
+- Deploy your own clone of Source Academy; [see here](../deployment/README.md) how to do that
+
+Starting in August 2021, instructors will have two additional options:
 - **Source Academy @ NUS**: use the NUS deployment
 - **Source Academy + GitHub Classroom**: use GitHub Classroom to author and manage weekly assessments
 
@@ -27,8 +32,3 @@ This option will be available from August 2021 onwards. Contest voting and Sourc
 
 - [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
 
-## Resources for instructors who deploy their own clone of Source Academy
-
-For assessment authoring, contest voting and the game, see **Resources for instructors who use Source Academy @ NUS** above. You or your staff will also need:
-
-- [Resources for administrators](../deployment/README.md)
