@@ -6,4 +6,5 @@ under construction
 
 ## Programs of SICP JS
 
-under construction
+The programs of SICP JS are available [as a zip file](https://source-academy.github.io/sicp/sicpjs.zip).
+
