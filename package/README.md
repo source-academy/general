@@ -1,6 +1,6 @@
 # Using SICP JS with the IDE of your choice
 
-## Package `sicp`
+## Node.js package `sicp`
 
 under construction
 
