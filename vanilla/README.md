@@ -1,6 +1,6 @@
 # Using Source Academy (public version) in a Course that follows SICP JS
 
-## Source Package
+## Package `sicp`
 
 under construction
 
