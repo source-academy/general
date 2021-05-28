@@ -62,7 +62,7 @@ You can now vote on the most beautiful runes made by your fellow students!
 Rank the beautiful runes!
         </TEMPLATE>
       </SNIPPET
-      <VOTING contest_number="C4"/> <!-- addditional Voting tag -->
+      <VOTING assessment_number="C4"/> <!-- addditional Voting tag -->
     </PROBLEM>
   </PROBLEMS>
   <DEPLOYMENT interpreter="1">
