@@ -4,7 +4,7 @@ Instructors can setup a voting question for students to vote for some popular so
 
 ## Content
 
-- [Voting Workflow](#contest-voting-workflow)
+- [Voting Workflow](#voting-workflow)
    - [Instructor](#instructor)
    - [Students](#students)
 - [Voting XML](#contest-voting-xml)
@@ -13,7 +13,7 @@ Instructors can setup a voting question for students to vote for some popular so
   - [Random Assignment of Entries](#random-assignment-of-entries)
   - [Valid vs Invalid Entries](#valid-vs-invalid-entries)
 - [Leaderboard](#leaderboard)
-## Contest Voting Workflow
+## Voting Workflow
 
 ### Instructor
 
