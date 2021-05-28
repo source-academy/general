@@ -44,6 +44,12 @@ Similar to the creating an [assessment xml](https://github.com/source-academy/ge
 
 ### Example of a contest voting xml: 
 ```xml
+<?xml version="1.0"?>
+<CONTENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://128.199.210.247">
+
+<!-- ***********************************************************************
+**** Contest Voting #D7
+************************************************************************ -->
 <TASK 
   kind="practical" 
   coverimage="http://via.placeholder.com/350x150"
@@ -57,6 +63,7 @@ Now is the time to rank the most beautiful runes made by your peers!
 
 You will be randomly assigned 10 runes to rank!
   </TEXT>
+   
   <PROBLEMS>
     <PROBLEM type="voting" maxgrade="0" maxxp="100"> <!-- problem type is "voting"-->
       <TEXT>
@@ -70,9 +77,12 @@ Rank the beautiful runes!
       <VOTING assessment_number="C4"/> <!-- addditional Voting tag -->
     </PROBLEM>
   </PROBLEMS>
+     
   <DEPLOYMENT interpreter="1">
   </DEPLOYMENT>
+     
 </TASK>
+</CONTENT>
 ```
 ## Voting Guide
 
