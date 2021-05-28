@@ -17,10 +17,10 @@ Instructors can setup a voting question for students to vote for some popular so
 
 ### Instructor
 
-1. Upload a contest.xml
+1. Upload a contest.xml in ground control
     
    Note that the backend **does not anonymize** students' answers, hence students should submit a standardized function header without their names for anonymity.
-2. Once the contest has ended, upload the contest-voting.xml
+2. Once the contest has ended, upload the contest-voting.xml in ground control
 
    The vote assignment will be generated at the point of time of upload of contest-voting.xml (this is a possible future improvement that can be made)
 3. Students can vote once the contest voting assessment is open, and the rolling leaderboard will compute the scores 
@@ -35,9 +35,14 @@ Students can then execute the program and view the contest entries to vote for.
 ![image](https://user-images.githubusercontent.com/51410656/120004034-e342a880-c008-11eb-9bf9-d6d3bffde054.png)
 
 ## Contest Voting XML
-Similar to the creating an assessment for programming and mcq questions, except that except that you need to declare the [problem](https://github.com/source-academy/general/blob/master/instructor/assessment/README.md#problem) type as “voting” and include a voting tag \<VOTING assessment_number
-= ‘??’ \/\>. '??' refers to the **contest** assessment number. That means if the contest was uploaded with assessment number ‘C4’, then the voting tag will be \<VOTING assessment_number = ‘C4’ \/\>.
-Example of a contest voting xml: 
+Similar to the creating an [assessment xml](https://github.com/source-academy/general/blob/master/instructor/assessment/README.md) for programming and mcq questions, except that except that you need to declare the [PROBLEM](https://github.com/source-academy/general/blob/master/instructor/assessment/README.md#problem) type as “voting” and include a VOTING tag \<VOTING assessment_number
+= ‘??’ \/\>. 
+### VOTING Attributes
+| attribute | details |
+| --- | --- |
+| assessment_number | The assessment number of the **contest** (i.e. If a contest was uploaded with the number "C4", the assessment_number will be "C4"). Required. |
+
+### Example of a contest voting xml: 
 ```xml
 <TASK 
   kind="practical" 
