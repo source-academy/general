@@ -2,7 +2,7 @@
 
 ## Node.js package `sicp`
 
-under construction
+The [Node.js NPM package `sicp`](https://www.npmjs.com/package/sicp) provides all predeclared functions and constants assumed by the [SICP JS textbook](https://source-academy.github.io/sicp).
 
 ## Programs of SICP JS
 
