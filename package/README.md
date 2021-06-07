@@ -11,4 +11,4 @@ The programs of SICP JS are available [as a zip file](https://source-academy.git
 
 ## Caveat
 
-SICP JS relies on a JavaScript feature called "proper tail calls". This feature is specified by the JavaScript standards since 2015, but unfortunately only the Safari browser complies with this aspect of the standard. As a result, some programs in SICP JS will not scale in the way they should. This will not affect learners in a major way.
+SICP JS relies on a JavaScript feature called "proper tail calls". This feature is specified by the JavaScript standards since 2015, but unfortunately only the Safari browser complies with this aspect of the standard. Node.js does not comply, either, and as a result, some programs in SICP JS will not scale when using the package `sicp` in Node.js in the way they should. This will not affect learners in a major way.
