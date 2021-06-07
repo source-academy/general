@@ -9,3 +9,6 @@ The functions and constants are [documented here](https://source-academy.github.
 
 The programs of SICP JS are available [as a zip file](https://source-academy.github.io/sicp/sicpjs.zip).
 
+## Caveat
+
+SICP JS relies on a JavaScript feature called "proper tail calls". This feature is specified by the JavaScript standards since 2015, but unfortunately only the Safari browser complies with this aspect of the standard. As a result, some programs in SICP JS will not scale in the way they should. This will not affect learners in a major way.
