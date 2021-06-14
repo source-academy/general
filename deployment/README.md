@@ -17,7 +17,7 @@ You should read the overview below first if you have not done so before.
 
 - [Frontend deployment](frontend/README.md)
 - [Backend deployment](backend/README.md)
-- [Auxilliary services deployment](aux/README.md)
+- [Auxilliary services deployment](auxilliary/README.md)
 - [Authentication services](auth/README.md)
 
 ## High-level overview
@@ -119,7 +119,7 @@ institution-provided servers.
 ## Get started
 
 Start off by deploying [the backend](backend/index.md), then [the frontend](frontend/index.md), followed by [the
-auxilliary services](aux/index.md).
+auxilliary services](auxilliary/index.md).
 
 If your organisation has no in-house authentication service, you may wish to follow one of the guides on [authentication
 services](auth/index.md) as well.
