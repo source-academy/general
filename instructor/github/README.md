@@ -1,4 +1,7 @@
 ## Overview
+This guide will detail the intended usage of the SourceAcademy website for GitHub-hosted courses.
+
+It will detail the use of both SourceAcademy and GitHub in order to create a lightweight deployment of a SourceAcademy course.
 
 ## Content
 -  [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
