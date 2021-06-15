@@ -4,10 +4,10 @@ This guide will detail the intended usage of the SourceAcademy website for GitHu
 It will detail the use of both SourceAcademy and GitHub in order to create a lightweight deployment of a SourceAcademy course.
 
 ## Content
--  [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
--  [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
--  [Adding students to your classroom organization](#adding-students-to-your-classroom-organization)
--  [Authoring new assignments](#authoring-new-assignments)
+- [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
+- [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
+- [Adding students to your classroom organization](#adding-students-to-your-classroom-organization)
+- [Authoring new assignments](#authoring-new-assignments)
     - [Editing starter code](#editing-starter-code)
     - [Editing an MCQ question](#editing-an-MCQ-question)
     - [Editing the assignment briefing and question descriptions](#Editing-the-assignment-briefing-and-question-descriptions)
