@@ -5,6 +5,8 @@ It will detail the use of both SourceAcademy and GitHub in order to create a lig
 
 ## Content
 -  [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
+-  [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
+-  [Adding students to your classroom organization](#adding-students-to-your-classroom-organization)
 -  [Authoring new assignments](#authoring-new-assignments)
     - [Editing starter code](#editing-starter-code)
     - [Editing an MCQ question](#editing-an-MCQ-question)
@@ -23,6 +25,18 @@ It will detail the use of both SourceAcademy and GitHub in order to create a lig
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization.
+
+### Authorizing our application for your classroom organization
+Source Academy might not be able to see your assignments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
+
+1. Log in with GitHub through our website. By approving SourceAcademy, you add it to your list of personally approved apps.
+2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
+3. Click on the Source Academy app, then grant permission for your classroom application.
+
+### Adding students to your classroom organization
+1. Navigate to the GitHub page of your organization. Take note - this is not the GitHub classroom page for the same organization.
+2. Navigate to People > Invite Member and invite your student to the organization (your student will have to provide you with their username, and then accept your invitation to the organization).
+3. Thereafter, your students will be able to use view their course through the SourceAcademy website.
 
 ### Authoring new assignments
 
@@ -84,7 +98,7 @@ If you do not want to provide the solution with the question (since students hav
 Take note that this information is not reflected in the course information. For example, when creating a course, the link to the cover-image will not be recovered from the assignment repository, but rather from the course-information file. However, you can use this section to record these details.
 
 The following information can be saved:
-| property | description |
+| Property | Description |
 | --- | --- |
 | Title | The display title of the Assignment. This is typically different from the repository name.
 | Cover Image Link | A link to the Assignment's display image.
