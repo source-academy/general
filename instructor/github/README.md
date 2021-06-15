@@ -2,7 +2,6 @@
 
 ## Content
 -  [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
--  [Adding students to the GitHub classroom](#adding-student-to-the-github-classroom)
 -  [Authoring new assignments](#authoring-new-assignments)
     - [Editing starter code](#editing-starter-code)
     - [Editing an MCQ question](#editing-an-MCQ-question)
@@ -17,8 +16,10 @@
     - [Editing the Course Information](#editing-the-course-information)
 
 ### Creating a GitHub classroom organization
-
-### Adding students to the GitHub classroom
+1. Navigate to the (GitHub classroom website)[https://classroom.github.com/].
+2. Sign in to GitHub.
+3. Click on "New Classroom" and select "Create a New Organization".
+4. Fill in the details of your classroom and confirm the creation of the Organization.
 
 ### Authoring new assignments
 
@@ -104,5 +105,13 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 ### Publishing new assignments
 
 #### Creating template repositories
+1. Navigate to the GitHub page of the repository you would like to use as a template for your assignment.
+2. Navigate to settings and tick the box for "Template repository".
+
+#### Creating an GitHub classroom assignment
+1. In the GitHub classroom page, navigate to your organization.
+2. Click on "New assignment".
+3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assignment under the Starter Code section.
+4. After your assignment has been created, a link to accept the assignment will be created.
 
 #### Editing the Course Information
