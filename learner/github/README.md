@@ -11,6 +11,13 @@ This guide will detail to students how to make use of the SourceAcademy interfac
 2. Once they have sent you an invite, check your email and accept the invite to join the organization.
 
 ### Viewing and accepting assignments
+1. Open up Source Academy webpage and navigate to Classrooms.
+2. Log into your GitHub account (this must be the same one that is a member of the classroom/organization).
+3. Browse the "Select Course" dropdown menu and select the course that has the assignment.
+4. Navigate to the correct assignment category.
+5. The assignment should show up near the top of the list of cards in the page with an "accept" button. If the button is "open" you have accepted the assignment already and can attempt it right away.
+6. Click on the accept button to be redirected to GitHub Classroom.
+7. Follow instructions to clone the assessment and it should now be available to attempt on Source Academy Classrooms.
 
 ### Attempting and submitting assignments
 1. For programming questions, you can write your answers in the code editor on the left. For multiple-choice questions, you can click on the answer.

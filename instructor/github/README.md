@@ -132,3 +132,86 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 4. After your assignment has been created, a link to accept the assignment will be created.
 
 #### Editing the Course Information
+In order for Source Academy to recognise the course information, the organsation has to own a repository named 'course-info', with a file named 'course-info.json' placed in the root folder of that repository. The repository and file can be created using any tool and pushed to GitHub as long as ownership belongs to the organisation.
+
+The format for course-info.json will be given below:
+```json
+{
+  "CourseName": "CS1101S",
+  "assessmentCategories":
+  [
+    {
+      "categoryDisplayName": "Mission",
+      "assessments":
+      [
+        {
+          "id": "M6A_v07",
+          "title": "Curve Introduction",
+          "openAt": "2020-01-01T-00:00+00",
+          "closeAt": "2021-12-31T-23:59+00",
+          "published": "yes",
+          "coverImage": "https://imgur.com/r/cats/MHXp1kt",
+          "shortSummary": "In this mission, you get introduced to visible functions, called Curves!",
+          "acceptLink": "https://classroom.github.com/a/PyAUhdfe",
+          "repoPrefix": "sa-mission-curves"
+        },
+        {
+          "id": "M6B",
+          "title": "Sorting Things Out",
+          "openAt": "2020-01-01T-00:00+00",
+          "closeAt": "2021-12-31T-23:59+00",
+          "published": "yes",
+          "coverImage": "",
+          "shortSummary": "Quicksort assignment description!",
+          "acceptLink": "",
+          "repoPrefix": "sa-mission-quicksort"
+        }
+      ]
+    },
+    {
+      "categoryDisplayName": "Quest",
+      "assessments":
+      [
+        {
+          "id": "P6_v03",
+          "title": "Curves",
+          "openAt": "2020-01-01T-00:00+00",
+          "closeAt": "2021-12-31T-23:59+00",
+          "published": "yes",
+          "coverImage": "",
+          "shortSummary": "The Path P6 covers Lecture L6 of SICP1101 Unit 1.",
+          "acceptLink": "",
+          "repoPrefix": "sa-quest-curves"
+        }
+      ]
+    },
+    {
+      "categoryDisplayName":"Paths",
+      "assessments":[]
+    },
+    {
+      "categoryDisplayName":"Contests",
+      "assessments":[]
+    },
+    {
+      "categoryDisplayName":"Others",
+      "assessments":[]
+    }
+  ]
+}
+```
+The above example will display 2 Missions and 1 Quest on the student's Source Academy frontend.
+
+| Property | Description |
+| --- | --- |
+| id | A string value with the unique identifier of the assessment.
+| title | A string value with the display name of the assessment.
+| openAt and closeAt | start and due dates of the assessment in ISO 8601 standard for Date and Time.
+| published | "yes" or "no" value determines if the assessment is visible on Source Academy (not yet implemented).
+| coverImage | A string value with URL leading to cover image address for the assessment.
+| shortSummary | A string value that summarises the assessment.
+| acceptLink | A string value of the URL to accept the assessment on GitHub Classroom.
+| repoPrefix | A string value given to all repositories generated from the assessment on GitHub Classroom.
+
+In addition, the value to the right of "categoryDisplayName" can be changed to rename the headers for each of the assessments.
+e.g. instead of "Missions", instructors may choose "Assignment" or any other suitable names.
