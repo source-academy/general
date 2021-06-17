@@ -23,6 +23,7 @@ This guide will detail to learners how to make use of the Source Academy interfa
 
 If your acceptance is successful, the following page will appear:\
 ![After Accepting Assignment](https://user-images.githubusercontent.com/47176493/122346036-1d092e00-cf7b-11eb-8fce-b92b2a77fe89.png)
+
 7. After you haved already accepted the assessment, the text on the cards will be "Open" instead. You may click on this button to begin or continue attempting the assessment.\
 ![Click on Open Button](https://user-images.githubusercontent.com/47176493/122347450-9ead8b80-cf7c-11eb-8108-bca0b2532ab9.png)
 
