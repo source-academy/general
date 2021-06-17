@@ -9,7 +9,7 @@ Currently, instructors have the following options to work with SICP JS:
 
 Starting in August 2021, instructors will have two additional options:
 - **Source Academy @ NUS**: use the NUS deployment
-- **Source Academy + GitHub Classroom**: use GitHub Classroom to author and manage weekly assessments
+- **Source Academy with GitHub Classroom**: use GitHub Classroom to author and manage weekly assessments
 
 ## Student resources
 
@@ -26,7 +26,7 @@ This option will be available from August 2021 onwards.
 - [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of specific assessments 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
-## Resources for instructors who use Source Academy + GitHub Classroom
+## Resources for instructors who use Source Academy with GitHub Classroom
 
 This option will be available from August 2021 onwards. Contest voting and Source Academy game will not be available in the Github Classroom option.
 
