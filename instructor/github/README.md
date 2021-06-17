@@ -29,14 +29,16 @@ It will detail the use of both SourceAcademy and GitHub in order to create a lig
 ### Authorizing our application for your classroom organization
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
 
-1. Log in with GitHub through our website. By approving SourceAcademy, you add it to your list of personally approved apps.
+1. Go to https://source-academy.github.io/ and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving SourceAcademy, you add it to your list of personally approved apps.
 2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
 ### Adding students to your classroom organization
-1. Navigate to the GitHub page of your organization. Take note - this is not the GitHub classroom page for the same organization.
-2. Navigate to People > Invite Member and invite your student to the organization (your student will have to provide you with their username, and then accept your invitation to the organization).
-3. Thereafter, your students will be able to use view their course through the SourceAcademy website.
+1. Ask your students for their GitHub usernames. 
+2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub classroom page for the same organization.
+3. Navigate to People > Invite Member and invite your student to the organization.
+4. Your student will receive an invitation to join the organization in their email, which they should accept.
+5. Your students will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
 
 ### Authoring new assessments
 
