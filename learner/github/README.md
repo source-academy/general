@@ -15,7 +15,7 @@ This guide will detail to students how to make use of the Source Academy interfa
 2. Log into your GitHub account (this must be the same one that is a member of the classroom/organization).
 3. Browse the "Select Course" dropdown menu and select the course that has the assessment.
 4. The assessments are displayed after the previous step. Navigate to the assessment that you want to attempt.
-5. You need to "accept" an assessment before you can attempt it. The "Accept" button on the card lets you do that, by taking you to a page on GitHub.
+5. You need to "accept" an assessment before you can attempt it. The "Accept" button on the card lets you do that, by taking you to a page on GitHub.&nbsp;
 ![Click on Accept Button](https://user-images.githubusercontent.com/47176493/122347381-8ccbe880-cf7c-11eb-8d26-a333e4630827.png)
 
 6. Once on the page, click on "Accept this assignment" and GitHub will create a new repository for you.
