@@ -21,7 +21,7 @@ It will detail the use of both SourceAcademy and GitHub in order to create a lig
     - [Editing the Course Information](#editing-the-course-information)
 
 ### Creating a GitHub classroom organization
-1. Navigate to the (GitHub classroom website)[https://classroom.github.com/].
+1. Navigate to the [GitHub classroom website](https://classroom.github.com/).
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization.
