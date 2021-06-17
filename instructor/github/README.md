@@ -9,11 +9,11 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
 - [Authoring new assessments](#authoring-new-assessments)
     - [Editing starter code](#editing-starter-code)
-    - [Editing an MCQ question](#editing-an-MCQ-question)
-    - [Editing the assessment briefing and question descriptions](#Editing-the-assessment-briefing-and-question-descriptions)
-    - [Adding and deleting questions](#Adding-and-deleting-questions)
+    - [Editing a multiple choice question](#editing-a-multiple-choice-question)
+    - [Editing the assessment briefing and task descriptions](#editing-the-assessment-briefing-and-task-descriptions)
+    - [Adding and deleting tasks](#adding-and-deleting-tasks)
     - [Writing testcases](#writing-testcases)
-    - [Editing the Assessment Metadata](#editing-the-assessment-metadatas)
+    - [Editing the Assessment Metadata](#editing-the-assessment-metadata)
     - [Saving your changes](#saving-your-changes)
     - [Using old XMLs](#using-old-xmls)
 -  [Publishing new assessments](#publishing-new-assessments)
@@ -57,7 +57,7 @@ This includes all test cases and solutions to multiple-choice questions. If it i
 1. The code editor on the left panel displays the starter code. This is the code that learners will see when they first accept the assessment. 
 2. Any changes you make as a teacher will be reflected in the starter code.
 
-#### Editing an MCQ question
+#### Editing a multiple choice question
 Take note that the solution will be available to the learner through their GitHub repository.
 
 1. The website is only able to recognize multiple-choice questions if the starter code is written in a specific format. This format should include the prefix "MCQ", followed by a JSON object. An example is given below:
@@ -90,15 +90,15 @@ If you do not want to provide the solution with the question (since learners hav
 ![Text and Learner View](https://user-images.githubusercontent.com/47176493/122369178-8c3d4d00-cf90-11eb-9022-efcdcc1d4b1c.png)
 
 
-#### Editing the assessment briefing and question descriptions
+#### Editing the assessment briefing and task descriptions
 1. Click on the text to open a markdown editor
 2. Edit the text as necessary.
 3. Clicking away from the editor will cause the text to render.
 
-#### Adding and deleting questions
-1. Click on the add button to add another question. This will add a question numbered greater than the current question by 1. 
-2. You can navigate between questions with the Next and Previous buttons.
-3. You can click on the delete button to get rid of a question.
+#### Adding and deleting tasks
+1. Click on the add button to add another task. This will add a task numbered greater than the current task by 1. 
+2. You can navigate between tasks with the Next and Previous buttons.
+3. You can click on the delete button to get rid of a task.
 
 #### Writing test cases
 Take note that any test cases will also appear in the learner's side of the website.
