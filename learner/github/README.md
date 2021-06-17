@@ -18,21 +18,21 @@ This guide will detail to students how to make use of the Source Academy interfa
 5. You need to "accept" an assessment before you can attempt it. The "Accept" button on the card lets you do that, by taking you to a page on GitHub.&nbsp;
 ![Click on Accept Button](https://user-images.githubusercontent.com/47176493/122347381-8ccbe880-cf7c-11eb-8d26-a333e4630827.png)
 
-6. Once on the page, click on "Accept this assignment" and GitHub will create a new repository for you.
+6. Once on the page, click on "Accept this assignment" and GitHub will create a new repository for you.&nbsp;
 ![Accept Assignment](https://user-images.githubusercontent.com/47176493/122345872-eb906280-cf7a-11eb-8291-da408058156c.png)
 
-If your acceptance is successful, the following page will appear:
+If your acceptance is successful, the following page will appear:&nbsp;
 ![After Accepting Assignment](https://user-images.githubusercontent.com/47176493/122346036-1d092e00-cf7b-11eb-8fce-b92b2a77fe89.png)
-7. After you haved already accepted the assessment, the text on the cards will be "Open" instead. You may click on this button to begin or continue attempting the assessment.
+7. After you haved already accepted the assessment, the text on the cards will be "Open" instead. You may click on this button to begin or continue attempting the assessment.&nbsp;
 ![Click on Open Button](https://user-images.githubusercontent.com/47176493/122347450-9ead8b80-cf7c-11eb-8108-bca0b2532ab9.png)
 
 8. Follow instructions to clone the assessment and it should now be available to attempt on Source Academy Classrooms.
 
 ### Attempting and submitting assessments
-1. For programming questions, you can write your answers in the code editor on the left.
+1. For programming questions, you can write your answers in the code editor on the left.&nbsp;
 ![Programming Question](https://user-images.githubusercontent.com/47176493/122347797-019f2280-cf7d-11eb-864f-b37bef2569c1.png)
 
-For multiple-choice questions, you can click on the answer. Take note that depending on the question's settings, the correct answer might still be highlighted in red.
+For multiple-choice questions, you can click on the answer. Take note that depending on the question's settings, the correct answer might still be highlighted in red.&nbsp;
 ![MCQ](https://user-images.githubusercontent.com/47176493/122347847-0ebc1180-cf7d-11eb-91dd-8b0fc1157bb6.png)
 
 2. Some questions have test cases that you can view through the test case tab on the right. To run individual test cases, you may click on them. Otherwise to run all the test cases, you can run the program while the test case tab is selected.
