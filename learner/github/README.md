@@ -2,11 +2,11 @@
 This guide will detail to students how to make use of the Source Academy interface to complete their homework.
 
 ## Content
-- [Entering into a GitHub classroom organization](#entering-into-a-github-classroom-organization)
+- [Entering into a GitHub Classroom organization](#entering-into-a-github-classroom-organization)
 - [Viewing and accepting assessments](#viewing-and-accepting-assessments)
 - [Attempting and submitting assessments](#attempting-and-submitting-assessments)
 
-### Entering into a GitHub classroom organization
+### Entering into a GitHub Classroom organization
 1. Provide your instructor with your GitHub username. They must invite you to join the organization.
 2. Once they have sent you an invite, check your email and accept the invite to join the organization.
 

@@ -4,7 +4,7 @@ This guide will detail the intended usage of the Source Academy website for GitH
 It will detail the use of both Source Academy and GitHub in order to create a lightweight deployment of a Source Academy course.
 
 ## Content
-- [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
+- [Creating a GitHub Classroom organization](#creating-a-github-classroom-organization)
 - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
 - [Adding students to your classroom organization](#adding-students-to-your-classroom-organization)
 - [Authoring new assessments](#authoring-new-assessments)
@@ -20,8 +20,8 @@ It will detail the use of both Source Academy and GitHub in order to create a li
     - [Creating template repositories](#creating-template-repositories)
     - [Editing the Course Information](#editing-the-course-information)
 
-### Creating a GitHub classroom organization
-1. Navigate to the GitHub classroom website at https://classroom.github.com/.
+### Creating a GitHub Classroom organization
+1. Navigate to the GitHub Classroom website at https://classroom.github.com/.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization.
@@ -35,7 +35,7 @@ Source Academy might not be able to see your assessments if it is not given perm
 
 ### Adding students to your classroom organization
 1. Ask your students for their GitHub usernames.
-2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub classroom page for the same organization.
+2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub Classroom page for the same organization.
 3. Navigate to People > Invite Member and invite your student to the organization.
 4. Your student will receive an invitation to join the organization in their email, which they should accept.
 5. Your students will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
@@ -129,8 +129,8 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
 2. Navigate to settings and tick the box for "Template repository".
 
-#### Creating an GitHub classroom assessment
-1. In the GitHub classroom page, navigate to your organization.
+#### Creating an GitHub Classroom assessment
+1. In the GitHub Classroom page, navigate to your organization.
 2. Click on "New assessment".
 3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
 4. After your assessment has been created, a link to accept the assessment will be created.
