@@ -1,7 +1,7 @@
 ## Overview
-This guide will detail the intended usage of the SourceAcademy website for GitHub-hosted courses.
+This guide will detail the intended usage of the Source Academy website for GitHub-hosted courses.
 
-It will detail the use of both SourceAcademy and GitHub in order to create a lightweight deployment of a SourceAcademy course.
+It will detail the use of both Source Academy and GitHub in order to create a lightweight deployment of a Source Academy course.
 
 ## Content
 - [Creating a GitHub classroom organization](#creating-a-github-classroom-organization)
@@ -21,7 +21,7 @@ It will detail the use of both SourceAcademy and GitHub in order to create a lig
     - [Editing the Course Information](#editing-the-course-information)
 
 ### Creating a GitHub classroom organization
-1. Navigate to the [GitHub classroom website](https://classroom.github.com/).
+1. Navigate to the GitHub classroom website at https://classroom.github.com/.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization.
@@ -29,7 +29,7 @@ It will detail the use of both SourceAcademy and GitHub in order to create a lig
 ### Authorizing our application for your classroom organization
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
 
-1. Go to https://source-academy.github.io/ and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving SourceAcademy, you add it to your list of personally approved apps.
+1. Go to https://source-academy.github.io/ and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving Source Academy, you add it to your list of personally approved apps.
 2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
