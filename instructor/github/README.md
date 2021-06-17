@@ -38,7 +38,9 @@ Source Academy might not be able to see your assessments if it is not given perm
 ### Adding learners to your classroom organization
 1. Ask your learners for their GitHub usernames.
 2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub Classroom page for the same organization.
-3. Navigate to People > Invite Member and invite your learner to the organization.
+3. Navigate to People > Invite Member and invite your learner to the organization. Make sure to invite them as members:\
+![Invite As Member](https://user-images.githubusercontent.com/47176493/122375134-8ac25380-cf95-11eb-9f0f-3ce067b981b1.png)
+You can control member permissions by navigation to Settings > Member privileges.
 4. Your learner will receive an invitation to join the organization in their email, which they should accept.
 5. Your learners will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
 
