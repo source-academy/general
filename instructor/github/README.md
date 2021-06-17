@@ -34,7 +34,7 @@ Source Academy might not be able to see your assessments if it is not given perm
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
 ### Adding students to your classroom organization
-1. Ask your students for their GitHub usernames. 
+1. Ask your students for their GitHub usernames.
 2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub classroom page for the same organization.
 3. Navigate to People > Invite Member and invite your student to the organization.
 4. Your student will receive an invitation to join the organization in their email, which they should accept.
