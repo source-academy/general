@@ -49,7 +49,7 @@ This includes all test cases and solutions to multiple-choice questions. If it i
 
 #### Opening the Assessment Creator
 1. After logging in on the classrooms page, click on the "Create A New Assessment!" button.
-2. This will bring you to the editor workspace. The following sections will detail how the functionality of this page.
+2. This will bring you to the editor workspace. The following sections will explain how to edit assessments on this page.
 
 #### Editing starter code
 1. The code editor on the left panel displays the starter code. This is the code that learners will see when they first accept the assessment. 
