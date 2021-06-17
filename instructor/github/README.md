@@ -19,6 +19,8 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 -  [Publishing new assessments](#publishing-new-assessments)
     - [Creating template repositories](#creating-template-repositories)
     - [Editing the Course Information](#editing-the-course-information)
+-  [Grading assessments](#grading-assessments)
+    - [Downloading submissions](#downloading-submissions)
 
 ### Creating a GitHub Classroom organization
 1. Navigate to the GitHub Classroom website at https://classroom.github.com/.
@@ -133,7 +135,8 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 1. In the GitHub Classroom page, navigate to your organization.
 2. Click on "New assessment".
 3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
-4. After your assessment has been created, a link to accept the assessment will be created.
+4. After your assessment has been created, an invitation link to accept the assessment will be created. This link can be found on the GitHub Classroom page of the assessment.\
+![Invitation Link](https://user-images.githubusercontent.com/47176493/122371718-a7a95780-cf92-11eb-93c9-fd73f37b52cb.png)
 
 #### Editing the Course Information
 In order for Source Academy to recognise the course information, the organsation has to own a repository named 'course-info', with a file named 'course-info.json' placed in the root folder of that repository. The repository and file can be created using any tool and pushed to GitHub as long as ownership belongs to the organisation.
@@ -219,3 +222,12 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 
 In addition, the value to the right of "categoryDisplayName" can be changed to rename the headers for each of the assessments.
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
+
+### Grading assessments
+We currrently do not have specific support for auto-testing assessments. Instructors will have to develop their own test scripts, download student submissions using GitHub Classroom, and communicate the results to learners.
+
+#### Downloading submissions
+Downloading submissions requires the use of GitHub Classroom Assistant, which can be downloaded at https://classroom.github.com/assistant.
+
+A link to download repositories can be accessed from an assignment's page on GitHub Classroom:\
+![Download Repositories](https://user-images.githubusercontent.com/47176493/122371252-500aec00-cf92-11eb-8cd0-af32c379f22e.png)
