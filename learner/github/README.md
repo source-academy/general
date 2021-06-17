@@ -1,5 +1,5 @@
 ## Overview
-This guide will detail to students how to make use of the Source Academy interface to complete their homework.
+This guide will detail to learners how to make use of the Source Academy interface to complete their homework.
 
 ## Content
 - [Entering into a GitHub Classroom organization](#entering-into-a-github-classroom-organization)
