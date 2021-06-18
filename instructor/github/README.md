@@ -6,8 +6,8 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 # Content
 - [Setting up course](#setting-up-course)
     - [Creating GitHub Classroom organization](#creating-github-classroom-organization)
-    - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
-    - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
+    - [Authorizing our application for classroom organization](#authorizing-our-application-for-classroom-organization)
+    - [Adding learners to classroom organization](#adding-learners-to-classroom-organization)
     - **Creating the course repository**
 - [Creating assessment](#creating-assessment)
     - [Authoring new assessments](#authoring-new-assessments)
@@ -28,20 +28,20 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 
 # Setting up course
 
-## Creating GitHub Classroom organization of course
+## Creating GitHub Classroom organization
 1. Navigate to the GitHub Classroom website at https://classroom.github.com/.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization.
 
-## Authorizing Source Academy to access GitHub Classroom organization of course
+## Authorizing Source Academy to access GitHub Classroom organization
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
 
 1. Go to https://source-academy.github.io/ and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving Source Academy, you add it to your list of personally approved apps.
 2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
-## Adding learner to GitHub Classroom organization of course
+## Adding learner to GitHub Classroom organization
 Learners can currently be added only one at a time.
 1. Ask your learner for their GitHub username.
 2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub Classroom page for the same organization.
