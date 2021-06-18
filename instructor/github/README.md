@@ -209,22 +209,36 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 
 ## Publishing assessment
 
-### Turning assessment repository into template repository
+### Turning repository into template repository
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
 2. Navigate to settings and tick the box for "Template repository".
 
 ### Creating GitHub Classroom assessment
 1. In the GitHub Classroom page, navigate to your organization.
-2. Click on "New assessment".
-3. 
-4. ![Setting repository prefix](https://user-images.githubusercontent.com/42378805/122538591-4bf5d180-d059-11eb-9050-77419e83e10f.png)
-
+2. Click on "New assignment".
+3. In the new page, copy down the repository prefix for use in the next section. This will be used to locate student repositories for this assessment.
+![Setting repository prefix](https://user-images.githubusercontent.com/42378805/122539209-ed7d2300-d059-11eb-9dd1-8c417f8d3736.png)
 4. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
-5. After your assessment has been created, an invitation link to accept the assessment will be created. This link can be found on the GitHub Classroom page of the assessment.\
+5. After your assessment has been created, an invitation link to accept the assessment will be created. Copy down this link for use in the next section. This link can be found on the GitHub Classroom page of the assessment.\
 ![Invitation Link](https://user-images.githubusercontent.com/47176493/122371718-a7a95780-cf92-11eb-93c9-fd73f37b52cb.png)
 
-### Adding assessment to Source Academy Course
-1. In the GitHub Classroom assignment page, take note of the repository prefix (see previous section).
+### Adding assessment to the Source Academy Course
+1. Navigate to the course-info repository in your organization on GitHub.
+2. Add an entry for the new assessment into the relevant category in the course-info.json file.  
+For example, if this assessment belongs under "Missions", add it to the end of the "assessments:" array for that category.
+The entry should look something like this:
+```
+{
+  "title": "insert-title-here",
+  "openAt": "2020-12-01T00:00:00+08:00",
+  "closeAt": "2021-12-31T23:59:59+08:00",
+  "published": "yes",
+  "coverImage": "insert-image-URL-here",
+  "shortSummary": "insert-summary-here",
+  "acceptLink": "paste-accept-link-here",
+  "repoPrefix": "paste-repository-prefix-here"
+}
+```
 
 # Grading assessment
 
