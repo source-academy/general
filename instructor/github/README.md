@@ -244,7 +244,7 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 In addition, the value to the right of "categoryDisplayName" can be changed to rename the headers for each of the assessments.
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
 
-# Grading assessments
+# Grading an assessment
 
 We currrently do not have specific support for auto-testing assessments. Instructors will have to develop their own test scripts, download student submissions using GitHub Classroom, and communicate the results to learners.
 
