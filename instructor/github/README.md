@@ -20,7 +20,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Saving your changes](#saving-your-changes)
         - [Using old XMLs](#using-old-xmls)
     -  [Publishing new assessments](#publishing-new-assessments)
-        - [Creating template repository](#creating-template-repository)
+        - [Turning assessment repository into template repository](#creating-template-repository)
         - [**Adding assessment information to the course repository**](#editing-the-course-information)
 - Grading an assessment
     -  [Grading assessments](#grading-assessments)
