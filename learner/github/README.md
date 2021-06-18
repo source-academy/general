@@ -5,6 +5,7 @@ This guide will detail to learners how to make use of the Source Academy interfa
 - [Entering into a GitHub Classroom organization](#entering-into-a-github-classroom-organization)
 - [Viewing and accepting assessments](#viewing-and-accepting-assessments)
 - [Attempting and submitting assessments](#attempting-and-submitting-assessments)
+- [Finishing a course](#finishing-a-course)
 
 ### Entering into a GitHub Classroom organization
 1. Provide your instructor with your GitHub username. They must invite you to join the organization.
@@ -39,3 +40,11 @@ For multiple-choice questions, you can click on the answer. Take note that depen
 2. Some questions have test cases that you can view through the test case tab on the right. To run individual test cases, you may click on them. Otherwise to run all the test cases, you can run the program while the test case tab is selected.
 3. When you are satisfied with your answers, remember to click on "Save" to save your changes. 
 4. You can check the repository on GitHub to ensure that your changes are carried over. **Note that after the submission date, any new commits will not be reflected in the Classroom assessment.**
+
+### Finishing a course
+After a course has ended, you might want to save a copy of your work if you intend to refer back to it in the future. As the work repositories belong to the classroom organization, you may lose access to them if the organization is deleted, or if you are removed from the organization (whether by choice or by your instructor).
+
+In order to do this, you could fork any of your homework repositories, or download a copy of the code.
+![How to save work](https://user-images.githubusercontent.com/47176493/122519182-bfd9af00-d044-11eb-9942-b2c39f208dea.png)
+
+You may also choose to leave the organization (so that the course will no longer show up while using the Source Academy website). In order to do so, navigate to "Your organizations" on GitHub and leave the organization.

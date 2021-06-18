@@ -17,7 +17,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Editing assessment briefing and task description](#editing-assessment-briefing-and-task-description)
         - [Adding and deleting task](#adding-and-deleting-task)
         - [Writing test case](#writing-test-case)
-        - [**Editing assessment metadata**](#editing-assessment-metadata)
+        - [Editing assessment metadata](#editing-assessment-metadata)
         - [Saving changes](#saving-changes)
         - [Using old XMLs](#using-old-xmls)
     -  [Publishing assessment](#publishing-assessment)
@@ -25,7 +25,8 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Creating GitHub Classroom assessment](#creating-github-classroom-assessment)
         - [Adding assessment to Source Academy course](#adding-assessment-to-source-academy-course)
 - [Grading assessment](#grading-assessment)
-- [**Closing course**](#closing-course)
+- [Closing course](#closing-course)
+    - [Removing learners and repositories](#removing-learners-and-repositories)
 
 # Setting up course
 
@@ -122,19 +123,9 @@ Take note that any test cases will also appear in the learner's side of the webs
 4. You may also edit the Test Prepend and Test Postpend. The Test Prepend will be appended in front of the learner's program, while the Test Postpend will be appended to end of the learner's program. You can use this to set up variables or define helper functions for your tests.
 
 ### Editing assessment metadata
-Take note that this information is not reflected in the course information. For example, when creating a course, the link to the cover-image will not be recovered from the assessment repository, but rather from the course-information file. However, you can use this section to record these details.
+Currently, the Assessment Metadata only contains a single variable - the Source Version.
 
-The following information can be saved:
-| Property | Description |
-| --- | --- |
-| Title | The display title of the Assessment. This is typically different from the repository name.
-| Cover Image Link | A link to the Assessment's display image.
-| Summary | A one-line summary of the Assessment.
-| Type | The classification of the Assessment. For example, an assigment could be "Homework" or "Extra Credit".
-| ID | An ID number for the Assessment.
-| Source Version | The Source Version that the program should be ran with.
-| Reading | The pages of the textbook the assessment is in reference to.
-| Due Date | The date by which the assessment should be completed to be accepted for marking.
+The Source Version will dictate which capabilities and libraries the programs will have access to. Please follow this link for more details: https://source-academy.github.io/source/
 
 ### Saving changes
 1. Click on the "Save" button.
@@ -250,4 +241,19 @@ A link to download repositories can be accessed from an assignment's page on Git
 ![Download Repositories](https://user-images.githubusercontent.com/47176493/122371252-500aec00-cf92-11eb-8cd0-af32c379f22e.png)
 
 # Closing course
+After a course has ended, and you intend to teach it again, you may intend to reuse the same classroom. This would confer some benefits - such as being able to reuse the same course-info repository, as well as the same assignments (albeit after changing the due date).
 
+You may also leave the classroom as it is and create a new classroom organization, so that your learners would have access to their work.
+
+## Removing learners and repositories
+If you intend to reuse the same classroom, it would be wise to remove all currently enrolled learners and their repositories. As this would cause them to lose access to their work, you should advise them to save their work - either by forking or downloading their repositories - before a deadline.
+
+After the deadline is reached, you can remove all members by navigating to People, selecting all members and removing them from the organization. **Please take care to uncheck yourself so that you are not also removed.**
+
+![Removing all members](https://user-images.githubusercontent.com/47176493/122524160-63798e00-d04a-11eb-821e-42f8c2e63076.png)
+
+After all learners are removed, you would also have to remove all repositories (other than the course-info repository).
+
+While you could manually delete each repository through the GitHub interface, it is recommended that you delete them with a script. While we do not currently have any such scripts, we would like to direct you to this thread: https://gist.github.com/mrkpatchaa/63720cbf744a2bf59a3e9cfe73fc33b0
+
+Be careful not to delete the course-info repository, or to save a copy of its contents if you do delete it.
