@@ -117,8 +117,8 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 | published | "yes" or "no" value determines if the assessment is visible for learners.
 | coverImage | A string value of image URL for cover image of the assessment.
 | shortSummary | A string value that summarises the assessment.
-| acceptLink | A string value of the URL to accept the assessment on GitHub Classroom.
-| repoPrefix | A string value given to all repositories generated from the assessment on GitHub Classroom.
+| acceptLink | A string value of the assignment accept link on GitHub Classroom.
+| repoPrefix | A string value given to all repositories generated from GitHub Classroom.
 
 The value of "categoryDisplayName" can be changed to replace the assessment headers in the navbar.  
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
