@@ -16,7 +16,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Editing multiple choice question](#editing-multiple-choice-question)
         - [Editing assessment briefing and task description](#editing-assessment-briefing-and-task-description)
         - [Adding and deleting task](#adding-and-deleting-task)
-        - [Writing testcase](#writing-testcase)
+        - [Writing test case](#writing-test-case)
         - [Editing assessment metadata](#editing-assessment-metadata)
         - [Saving changes](#saving-changes)
         - [Using old XMLs](#using-old-xmls)
