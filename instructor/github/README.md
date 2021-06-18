@@ -33,8 +33,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 1. Navigate to the GitHub Classroom website at https://classroom.github.com/.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
-4. Fill in the details* of your classroom and confirm the creation of the Organization.
-*Note that the organization name has to be prefixed with 'source-academy-course' for Source Academy to identify it.
+4. Fill in the details of your classroom and confirm the creation of the Organization. Note that the organization name has to be prefixed with 'source-academy-course' for Source Academy to identify it.
 
 ## Authorizing Source Academy to access GitHub Classroom organization
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
