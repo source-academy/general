@@ -4,8 +4,8 @@ This guide will detail the intended usage of the Source Academy website for GitH
 It will detail the use of both Source Academy and GitHub in order to create a lightweight deployment of a Source Academy course.
 
 # Content
-- [Setting up a course](#setting-up-a-course)
-    - [Creating a GitHub Classroom organization](#creating-a-github-classroom-organization)
+- [Setting up course](#setting-up-course)
+    - [Creating GitHub Classroom organization](#creating-github-classroom-organization)
     - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
     - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
     - **Creating the course repository**
@@ -28,22 +28,22 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Downloading submissions](#downloading-submissions)
 - Closing a course
 
-# Setting up a course
+# Setting up course
 
-## Creating a GitHub Classroom organization
+## Creating GitHub Classroom organization of course
 1. Navigate to the GitHub Classroom website at https://classroom.github.com/.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization.
 
-## Authorizing our application for your classroom organization
+## Authorizing Source Academy to access GitHub Classroom organization of course
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
 
 1. Go to https://source-academy.github.io/ and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving Source Academy, you add it to your list of personally approved apps.
 2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
-## Adding learners to your classroom organization
+## Adding learners to GitHub Classroom organization of course
 1. Ask your learners for their GitHub usernames.
 2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub Classroom page for the same organization.
 3. Navigate to People > Invite Member and invite your learner to the organization. Make sure to invite them as members:\
@@ -52,16 +52,16 @@ You can control member permissions by navigation to Settings > Member privileges
 4. Your learner will receive an invitation to join the organization in their email, which they should accept.
 5. Your learners will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
 
-## Creating the course repository
+## Creating course repository
 
-# Creating an assessment
+# Creating assessment
 
-## Authoring new assessments
+## Authoring assessment
 Take note that any changes made in the Assessment Creator will be accessible for learners to view after they have accepted the assessment. They will be present in the repository created for the learners.
 
 This includes all test cases and solutions to multiple-choice questions. If it is important that this information is not exposed, it is highly advised that they are not input into the Assessment Creator.
 
-### Opening the Assessment Creator
+### Opening Assessment Creator
 1. After logging in on the classrooms page, click on the "Create A New Assessment!" button.
 2. This will bring you to the editor workspace. The following sections will explain how to edit assessments on this page.
 
@@ -69,7 +69,7 @@ This includes all test cases and solutions to multiple-choice questions. If it i
 1. The code editor on the left panel displays the starter code. This is the code that learners will see when they first accept the assessment. 
 2. Any changes you make as a teacher will be reflected in the starter code.
 
-### Editing a multiple choice question
+### Editing multiple choice question
 Take note that the solution will be available to the learner through their GitHub repository.
 
 1. The website is only able to recognize multiple-choice questions if the starter code is written in a specific format. This format should include the prefix "MCQ", followed by a JSON object. An example is given below:
@@ -102,7 +102,7 @@ If you do not want to provide the solution with the question (since learners hav
 ![Text and Learner View](https://user-images.githubusercontent.com/47176493/122369178-8c3d4d00-cf90-11eb-9022-efcdcc1d4b1c.png)
 
 
-### Editing the assessment briefing and task descriptions
+### Editing assessment briefing and task descriptions
 1. Click on the text to open a markdown editor
 2. Edit the text as necessary.
 3. Clicking away from the editor will cause the text to render.
@@ -121,7 +121,7 @@ Take note that any test cases will also appear in the learner's side of the webs
 3. You may delete a test case by clicking the the X button on the right.
 4. You may also edit the Test Prepend and Test Postpend. The Test Prepend will be appended in front of the learner's program, while the Test Postpend will be appended to end of the learner's program. You can use this to set up variables or define helper functions for your tests.
 
-### Editing the Assessment Metadata
+### Editing assessment metadata
 Take note that this information is not reflected in the course information. For example, when creating a course, the link to the cover-image will not be recovered from the assessment repository, but rather from the course-information file. However, you can use this section to record these details.
 
 The following information can be saved:
@@ -136,7 +136,7 @@ The following information can be saved:
 | Reading | The pages of the textbook the assessment is in reference to.
 | Due Date | The date by which the assessment should be completed to be accepted for marking.
 
-### Saving your changes
+### Saving changes
 1. Click on the "Save" button.
 2. If you are creating a new assessment, you will be prompted to name the new repository.
 3. Click "Confirm" to continue. You can check corresponding GitHub repository to ascertain that the changes were saved.
@@ -146,7 +146,7 @@ There is currently no automated conversion from an XML-file to an assessment rep
 
 In order to accomplish this, you may copy-and-paste the relevant sections of the XML (such as the briefings and task descriptions) into the workspace, and save to GitHub.
 
-## Publishing new assessments
+## Publishing assessment
 
 ### Turning assessment repository into template repository
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
@@ -244,7 +244,7 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 In addition, the value to the right of "categoryDisplayName" can be changed to rename the headers for each of the assessments.
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
 
-# Grading an assessment
+# Grading assessment
 
 We currrently do not have specific support for auto-testing assessments. Instructors will have to develop their own test scripts, download student submissions using GitHub Classroom, and communicate the results to learners.
 
@@ -254,5 +254,5 @@ Downloading submissions requires the use of GitHub Classroom Assistant, which ca
 A link to download repositories can be accessed from an assignment's page on GitHub Classroom:\
 ![Download Repositories](https://user-images.githubusercontent.com/47176493/122371252-500aec00-cf92-11eb-8cd0-af32c379f22e.png)
 
-# Closing a course
+# Closing course
 
