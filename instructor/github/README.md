@@ -8,7 +8,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
     - [Creating GitHub Classroom organization](#creating-github-classroom-organization)
     - [Authorizing Source Academy to access GitHub Classroom organization](https://github.com/source-academy/general/blob/master/instructor/github/README.md#authorizing-source-academy-to-access-github-classroom-organization)
     - [Adding learner to GitHub Classroom organization](#adding-learner-to-github-classroom-organization)
-    - [**Creating course repository**](#creating-course-repository)
+    - [Creating course repository](#creating-course-repository)
 - [Creating assessment](#creating-assessment)
     - [Authoring assessment](#authoring-assessment)
         - [Opening Assessment Creator](#opening-assessment-creator)
@@ -54,6 +54,76 @@ You can control member permissions by navigation to Settings > Member privileges
 5. The learner will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
 
 ## Creating course repository
+1. Navigate to the Organization's GitHub page.
+2. Create a new repository named 'course-info'.
+3. In this repository, create a new file 'course-info.json'.
+
+A sample format for this file is detailed below:
+```json
+course-info
+{
+  "CourseName": "ReplaceWithCourseName",
+  "types":
+  [
+    {
+      "typeName": "Missions",
+      "assessments":
+      [
+        {
+          "title": "Mission1",
+          "openAt": "2020-12-01T00:00:00+08:00",
+          "closeAt": "2021-12-31T23:59:59+08:00",
+          "published": "yes",
+          "coverImage": "https://i.imgur.com/q2O4iwa.png",
+          "shortSummary": "In this mission, you get introduced to visible functions, called Curves!",
+          "acceptLink": "https://classroom.github.com/a/PyAUhdfe",
+          "repoPrefix": "somePrefix"
+        },
+        {
+          "title": "Mission2",
+          "openAt": "2020-12-01T00:00:00+08:00",
+          "closeAt": "2021-05-30T23:59:59+08:00",
+          "published": "yes",
+          "coverImage": "https://avatars.githubusercontent.com/u/35620705?s=400&u=32f72fd1d65a0d6877ad1d5870ffa327dda754f1&v=4",
+          "shortSummary": "This is a demo mission!",
+          "acceptLink": "https://classroom.github.com/a/CxlqjLaP",
+          "repoPrefix": "somePrefix2"
+        }
+      ]
+    },
+    {
+      "typeName": "Quests",
+      "assessments":
+      [
+        {
+          "title": "Quest1",
+          "openAt": "2020-12-01T00:00:00+08:00",
+          "closeAt": "2021-12-31T23:59:59+08:00",
+          "published": "yes",
+          "coverImage": "URL_TO_IMAGE",
+          "shortSummary": "A sample assessment that should show up.",
+          "acceptLink": "URL_TO_GITHUB_CLASSROOM",
+          "repoPrefix": "somePrefix3"
+        }
+      ]
+    }
+  ]
+}
+```
+The above example will display 2 Missions and 1 Quest on the learner's Source Academy frontend.
+
+| Property | Description |
+| --- | --- |
+| title | A string value with the display name of the assessment.
+| openAt and closeAt | start and due dates of the assessment in ISO 8601 standard for Date and Time.
+| published | "yes" or "no" value determines if the assessment is visible for learners.
+| coverImage | A string value of image URL for cover image of the assessment.
+| shortSummary | A string value that summarises the assessment.
+| acceptLink | A string value of the assignment accept link on GitHub Classroom.
+| repoPrefix | A string value given to all repositories generated from GitHub Classroom.
+
+The value of "categoryDisplayName" can be changed to replace the assessment headers in the navbar.  
+e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
 
 # Creating assessment
 
@@ -139,97 +209,38 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 
 ## Publishing assessment
 
-### Turning assessment repository into template repository
+### Turning repository into template repository
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
 2. Navigate to settings and tick the box for "Template repository".
 
 ### Creating GitHub Classroom assessment
 1. In the GitHub Classroom page, navigate to your organization.
-2. Click on "New assessment".
-3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
-4. After your assessment has been created, an invitation link to accept the assessment will be created. This link can be found on the GitHub Classroom page of the assessment.\
+2. Click on "New assignment".
+3. In the new page, copy down the repository prefix for use in the next section. This will be used to locate student repositories for this assessment.
+![Setting repository prefix](https://user-images.githubusercontent.com/42378805/122539209-ed7d2300-d059-11eb-9dd1-8c417f8d3736.png)
+4. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
+5. After your assessment has been created, an invitation link to accept the assessment will be created. Copy down this link for use in the next section. This link can be found on the GitHub Classroom page of the assessment.\
 ![Invitation Link](https://user-images.githubusercontent.com/47176493/122371718-a7a95780-cf92-11eb-93c9-fd73f37b52cb.png)
 
-### Adding assessment to Source Academy Course
-In order for Source Academy to recognise the course information, the organsation has to own a repository named 'course-info', with a file named 'course-info.json' placed in the root folder of that repository. The repository and file can be created using any tool and pushed to GitHub as long as ownership belongs to the organisation.
+### Adding assessment to the Source Academy Course
+1. Navigate to the course-info repository in your organization on GitHub.
+2. Add an entry for the new assessment into the relevant category in the course-info.json file.  
+For example, if this assessment belongs under "Missions", add it to the end of the "assessments:" array for that category.
+![Add Entry](https://user-images.githubusercontent.com/42378805/122541401-2ddda080-d05c-11eb-9e19-072708acbe15.png)
 
-The format for course-info.json will be given below:
+The entry should look something like this:
 ```json
 {
-  "CourseName": "CS1101S",
-  "assessmentCategories":
-  [
-    {
-      "categoryDisplayName": "Mission",
-      "assessments":
-      [
-        {
-          "title": "Curve Introduction",
-          "openAt": "2020-01-01T-00:00+00",
-          "closeAt": "2021-12-31T-23:59+00",
-          "published": "yes",
-          "coverImage": "https://imgur.com/r/cats/MHXp1kt",
-          "shortSummary": "In this mission, you get introduced to visible functions, called Curves!",
-          "acceptLink": "https://classroom.github.com/a/PyAUhdfe",
-          "repoPrefix": "sa-mission-curves"
-        },
-        {
-          "title": "Sorting Things Out",
-          "openAt": "2020-01-01T-00:00+00",
-          "closeAt": "2021-12-31T-23:59+00",
-          "published": "yes",
-          "coverImage": "",
-          "shortSummary": "Quicksort assessment description!",
-          "acceptLink": "",
-          "repoPrefix": "sa-mission-quicksort"
-        }
-      ]
-    },
-    {
-      "categoryDisplayName": "Quest",
-      "assessments":
-      [
-        {
-          "title": "Curves",
-          "openAt": "2020-01-01T-00:00+00",
-          "closeAt": "2021-12-31T-23:59+00",
-          "published": "yes",
-          "coverImage": "",
-          "shortSummary": "The Path P6 covers Lecture L6 of SICP1101 Unit 1.",
-          "acceptLink": "",
-          "repoPrefix": "sa-quest-curves"
-        }
-      ]
-    },
-    {
-      "categoryDisplayName":"Paths",
-      "assessments":[]
-    },
-    {
-      "categoryDisplayName":"Contests",
-      "assessments":[]
-    },
-    {
-      "categoryDisplayName":"Others",
-      "assessments":[]
-    }
-  ]
+  "title": "insert-title-here",
+  "openAt": "2020-12-01T00:00:00+08:00",
+  "closeAt": "2021-12-31T23:59:59+08:00",
+  "published": "yes",
+  "coverImage": "insert-image-URL-here",
+  "shortSummary": "insert-summary-here",
+  "acceptLink": "paste-accept-link-here",
+  "repoPrefix": "paste-repository-prefix-here"
 }
 ```
-The above example will display 2 Missions and 1 Quest on the learner's Source Academy frontend.
-
-| Property | Description |
-| --- | --- |
-| title | A string value with the display name of the assessment.
-| openAt and closeAt | start and due dates of the assessment in ISO 8601 standard for Date and Time.
-| published | "yes" or "no" value determines if the assessment is visible for learners.
-| coverImage | A string value of image URL for cover image of the assessment.
-| shortSummary | A string value that summarises the assessment.
-| acceptLink | A string value of the URL to accept the assessment on GitHub Classroom.
-| repoPrefix | A string value given to all repositories generated from the assessment on GitHub Classroom.
-
-In addition, the value to the right of "categoryDisplayName" can be changed to rename the headers for each of the assessments.
-e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
 
 # Grading assessment
 
