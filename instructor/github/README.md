@@ -4,7 +4,7 @@ This guide will detail the intended usage of the Source Academy website for GitH
 It will detail the use of both Source Academy and GitHub in order to create a lightweight deployment of a Source Academy course.
 
 # Content
-- Setting up a course
+- [Setting up a course](https://github.com/source-academy/general/blob/master/instructor/github/README.md#setting-up-a-course)
     - [Creating a GitHub Classroom organization](#creating-a-github-classroom-organization)
     - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
     - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
