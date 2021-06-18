@@ -57,6 +57,7 @@ You can control member permissions by navigation to Settings > Member privileges
 1. Navigate to the Organization's GitHub page.
 2. Create a new repository named 'course-info'.
 3. In this repository, create a new file 'course-info.json'.
+
 A sample format for this file is detailed below:
 ```json
 course-info
