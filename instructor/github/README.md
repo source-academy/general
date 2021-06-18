@@ -17,7 +17,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Editing assessment briefing and task description](#editing-assessment-briefing-and-task-description)
         - [Adding and deleting task](#adding-and-deleting-task)
         - [Writing test case](#writing-test-case)
-        - [**Editing assessment metadata**](#editing-assessment-metadata)
+        - [Editing assessment metadata](#editing-assessment-metadata)
         - [Saving changes](#saving-changes)
         - [Using old XMLs](#using-old-xmls)
     -  [Publishing assessment](#publishing-assessment)
@@ -25,7 +25,8 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Creating GitHub Classroom assessment](#creating-github-classroom-assessment)
         - [Adding assessment to Source Academy course](#adding-assessment-to-source-academy-course)
 - [Grading assessment](#grading-assessment)
-- [**Closing course**](#closing-course)
+- [Closing course](#closing-course)
+    - [Removing learners and repositories](#removing-learners-and-repositories)
 
 # Setting up course
 
@@ -240,4 +241,19 @@ A link to download repositories can be accessed from an assignment's page on Git
 ![Download Repositories](https://user-images.githubusercontent.com/47176493/122371252-500aec00-cf92-11eb-8cd0-af32c379f22e.png)
 
 # Closing course
+After a course has ended, and you intend to teach it again, you may intend to reuse the same classroom. This would confer some benefits - such as being able to reuse the same course-info repository, as well as the same assignments (albeit after changing the due date).
 
+You may also leave the classroom as it is and create a new classroom organization, so that your learners would have access to their work.
+
+## Removing learners and repositories
+If you intend to reuse the same classroom, it would be wise to remove all currently enrolled learners and their repositories. As this would mean that they would lose access to their work, you should advise them to save their work - either by forking or downloading their repositories before a deadline.
+
+After the deadline is reached, you can remove all members by navigating to People, selecting all members and removing them from the organization. **Please take care to uncheck yourself so that you are not also removed.**
+
+![Removing all members](https://user-images.githubusercontent.com/47176493/122524160-63798e00-d04a-11eb-821e-42f8c2e63076.png)
+
+After all learners are removed, you would also have to remove all repositories (other than the course-info repository).
+
+While you could manually delete each repository through the GitHub interface, it is recommended that you delete them with a script. While we do not currently have any such scripts, we would like to direct you to this thread: https://gist.github.com/mrkpatchaa/63720cbf744a2bf59a3e9cfe73fc33b0
+
+Be careful not to delete the course-info repository, or to save a copy of its contents if you do delete it.
