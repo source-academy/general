@@ -4,29 +4,29 @@ This guide will detail the intended usage of the Source Academy website for GitH
 It will detail the use of both Source Academy and GitHub in order to create a lightweight deployment of a Source Academy course.
 
 # Content
-Setting up a course
-- [Creating a GitHub Classroom organization](#creating-a-github-classroom-organization)
-- [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
-- [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
-- **Creating the course repository**
+- Setting up a course
+    - [Creating a GitHub Classroom organization](#creating-a-github-classroom-organization)
+    - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
+    - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
+    - **Creating the course repository**
 
-Creating an assessment
-- [Authoring new assessments](#authoring-new-assessments)
-    - [Editing starter code](#editing-starter-code)
-    - [Editing a multiple choice question](#editing-a-multiple-choice-question)
-    - [Editing the assessment briefing and task descriptions](#editing-the-assessment-briefing-and-task-descriptions)
-    - [Adding and deleting tasks](#adding-and-deleting-tasks)
-    - [Writing testcases](#writing-testcases)
-    - [Editing the Assessment Metadata](#editing-the-assessment-metadata)
-    - [Saving your changes](#saving-your-changes)
-    - [Using old XMLs](#using-old-xmls)
--  [Publishing new assessments](#publishing-new-assessments)
-    - [Creating template repositories](#creating-template-repositories)
-    - [**Adding assessment information to the course repository**](#editing-the-course-information)
+- Creating an assessment
+    - [Authoring new assessments](#authoring-new-assessments)
+        - [Editing starter code](#editing-starter-code)
+        - [Editing a multiple choice question](#editing-a-multiple-choice-question)
+        - [Editing the assessment briefing and task descriptions](#editing-the-assessment-briefing-and-task-descriptions)
+        - [Adding and deleting tasks](#adding-and-deleting-tasks)
+        - [Writing testcases](#writing-testcases)
+        - [Editing the Assessment Metadata](#editing-the-assessment-metadata)
+        - [Saving your changes](#saving-your-changes)
+        - [Using old XMLs](#using-old-xmls)
+    -  [Publishing new assessments](#publishing-new-assessments)
+        - [Creating template repositories](#creating-template-repositories)
+        - [**Adding assessment information to the course repository**](#editing-the-course-information)
 
-Grading an assessment
--  [Grading assessments](#grading-assessments)
-    - [Downloading submissions](#downloading-submissions)
+- Grading an assessment
+    -  [Grading assessments](#grading-assessments)
+        - [Downloading submissions](#downloading-submissions)
 
 # Setting up a course
 
