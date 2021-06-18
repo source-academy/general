@@ -33,7 +33,8 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 1. Navigate to the GitHub Classroom website at https://classroom.github.com/.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
-4. Fill in the details of your classroom and confirm the creation of the Organization.
+4. Fill in the details* of your classroom and confirm the creation of the Organization.
+*Note that the organization name has to be prefixed with 'source-academy-course' for Source Academy to identify it.
 
 ## Authorizing Source Academy to access GitHub Classroom organization
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
@@ -173,7 +174,6 @@ The format for course-info.json will be given below:
       "assessments":
       [
         {
-          "id": "M6A_v07",
           "title": "Curve Introduction",
           "openAt": "2020-01-01T-00:00+00",
           "closeAt": "2021-12-31T-23:59+00",
@@ -184,7 +184,6 @@ The format for course-info.json will be given below:
           "repoPrefix": "sa-mission-curves"
         },
         {
-          "id": "M6B",
           "title": "Sorting Things Out",
           "openAt": "2020-01-01T-00:00+00",
           "closeAt": "2021-12-31T-23:59+00",
@@ -201,7 +200,6 @@ The format for course-info.json will be given below:
       "assessments":
       [
         {
-          "id": "P6_v03",
           "title": "Curves",
           "openAt": "2020-01-01T-00:00+00",
           "closeAt": "2021-12-31T-23:59+00",
@@ -232,11 +230,10 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 
 | Property | Description |
 | --- | --- |
-| id | A string value with the unique identifier of the assessment.
 | title | A string value with the display name of the assessment.
 | openAt and closeAt | start and due dates of the assessment in ISO 8601 standard for Date and Time.
-| published | "yes" or "no" value determines if the assessment is visible on Source Academy (not yet implemented).
-| coverImage | A string value with URL leading to cover image address for the assessment.
+| published | "yes" or "no" value determines if the assessment is visible for learners.
+| coverImage | A string value of image URL for cover image of the assessment.
 | shortSummary | A string value that summarises the assessment.
 | acceptLink | A string value of the URL to accept the assessment on GitHub Classroom.
 | repoPrefix | A string value given to all repositories generated from the assessment on GitHub Classroom.
