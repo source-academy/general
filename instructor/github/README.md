@@ -216,11 +216,15 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 ### Creating GitHub Classroom assessment
 1. In the GitHub Classroom page, navigate to your organization.
 2. Click on "New assessment".
-3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
-4. After your assessment has been created, an invitation link to accept the assessment will be created. This link can be found on the GitHub Classroom page of the assessment.\
+3. 
+4. ![Setting repository prefix](https://user-images.githubusercontent.com/42378805/122538591-4bf5d180-d059-11eb-9050-77419e83e10f.png)
+
+4. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
+5. After your assessment has been created, an invitation link to accept the assessment will be created. This link can be found on the GitHub Classroom page of the assessment.\
 ![Invitation Link](https://user-images.githubusercontent.com/47176493/122371718-a7a95780-cf92-11eb-93c9-fd73f37b52cb.png)
 
 ### Adding assessment to Source Academy Course
+1. In the GitHub Classroom assignment page, take note of the repository prefix (see previous section).
 
 # Grading assessment
 
