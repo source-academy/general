@@ -56,7 +56,7 @@ You can control member permissions by navigation to Settings > Member privileges
 1. Navigate to the Organization's GitHub page.
 2. Create a new repository named 'course-info'.
 3. In this repository, create a new file 'course-info.json'.
-The format of this file is detailed below:
+A sample format for this file is detailed below:
 ```json
 course-info
 {
@@ -64,44 +64,44 @@ course-info
   "types":
   [
     {
-      "typeName": "ReplaceWithCategoryName",
+      "typeName": "Missions",
       "assessments":
       [
         {
-          "title": "SampleTitle",
+          "title": "Mission1",
           "openAt": "2020-12-01T00:00:00+08:00",
           "closeAt": "2021-12-31T23:59:59+08:00",
           "published": "yes",
           "coverImage": "https://i.imgur.com/q2O4iwa.png",
           "shortSummary": "In this mission, you get introduced to visible functions, called Curves!",
           "acceptLink": "https://classroom.github.com/a/PyAUhdfe",
-          "repoPrefix": "prefix_goes_here"
+          "repoPrefix": "somePrefix"
         },
         {
-          "title": "SampleTitle2",
+          "title": "Mission2",
           "openAt": "2020-12-01T00:00:00+08:00",
           "closeAt": "2021-05-30T23:59:59+08:00",
           "published": "yes",
           "coverImage": "https://avatars.githubusercontent.com/u/35620705?s=400&u=32f72fd1d65a0d6877ad1d5870ffa327dda754f1&v=4",
           "shortSummary": "This is a demo mission!",
           "acceptLink": "https://classroom.github.com/a/CxlqjLaP",
-          "repoPrefix": "prefix_goes_here2"
+          "repoPrefix": "somePrefix2"
         }
       ]
     },
     {
-      "typeName": "ReplaceWithCategoryName2",
+      "typeName": "Quests",
       "assessments":
       [
         {
-          "title": "SampleTitle3",
+          "title": "Quest1",
           "openAt": "2020-12-01T00:00:00+08:00",
           "closeAt": "2021-12-31T23:59:59+08:00",
           "published": "yes",
           "coverImage": "URL_TO_IMAGE",
           "shortSummary": "A sample assessment that should show up.",
           "acceptLink": "URL_TO_GITHUB_CLASSROOM",
-          "repoPrefix": "prefix_goes_here3"
+          "repoPrefix": "somePrefix3"
         }
       ]
     }
