@@ -246,7 +246,7 @@ After a course has ended, and you intend to teach it again, you may intend to re
 You may also leave the classroom as it is and create a new classroom organization, so that your learners would have access to their work.
 
 ## Removing learners and repositories
-If you intend to reuse the same classroom, it would be wise to remove all currently enrolled learners and their repositories. As this would mean that they would lose access to their work, you should advise them to save their work - either by forking or downloading their repositories before a deadline.
+If you intend to reuse the same classroom, it would be wise to remove all currently enrolled learners and their repositories. As this would cause them to lose access to their work, you should advise them to save their work - either by forking or downloading their repositories - before a deadline.
 
 After the deadline is reached, you can remove all members by navigating to People, selecting all members and removing them from the organization. **Please take care to uncheck yourself so that you are not also removed.**
 
