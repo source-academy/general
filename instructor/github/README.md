@@ -226,7 +226,7 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 1. Navigate to the course-info repository in your organization on GitHub.
 2. Add an entry for the new assessment into the relevant category in the course-info.json file.  
 For example, if this assessment belongs under "Missions", add it to the end of the "assessments:" array for that category.
-![Add Entry](https://user-images.githubusercontent.com/42378805/122541401-2ddda080-d05c-11eb-9e19-072708acbe15.png)
+![Add Entry](https://user-images.githubusercontent.com/42378805/122541401-2ddda080-d05c-11eb-9e19-072708acbe15.png)  
 The entry should look something like this:
 ```
 {
