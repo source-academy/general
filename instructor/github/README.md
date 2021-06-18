@@ -119,8 +119,10 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 | shortSummary | A string value that summarises the assessment.
 | acceptLink | A string value of the URL to accept the assessment on GitHub Classroom.
 | repoPrefix | A string value given to all repositories generated from the assessment on GitHub Classroom.
-In addition, the value for "categoryDisplayName" can be changed to rename the headers for each of the assessments.
+
+The value of "categoryDisplayName" can be changed to replace the assessment headers in the navbar.
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
+
 4. The course repository is now ready for use.
 
 # Creating assessment
