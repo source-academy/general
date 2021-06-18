@@ -19,14 +19,12 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Editing the Assessment Metadata](#editing-the-assessment-metadata)
         - [Saving your changes](#saving-your-changes)
         - [Using old XMLs](#using-old-xmls)
-    -  [Publishing new assessments](#publishing-new-assessments)
+    -  [Publishing assessment](#publishing-assessment)
         - [Turning assessment repository into template repository](#turning-assessment-repository-into-template-repository)
         - [Creating GitHub Classroom assessment](#creating-github-classroom-assessment)
         - [Adding assessment to Source Academy course](#adding-assessment-to-source-academy-course)
-- Grading an assessment
-    -  [Grading assessments](#grading-assessments)
-        - [Downloading submissions](#downloading-submissions)
-- Closing a course
+- [Grading assessment](#grading-assessment)
+- [Closing course](#closing-course)
 
 # Setting up course
 
