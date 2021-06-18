@@ -12,12 +12,12 @@ It will detail the use of both Source Academy and GitHub in order to create a li
 - [Creating assessment](#creating-assessment)
     - [Authoring new assessments](#authoring-new-assessments)
         - [Editing starter code](#editing-starter-code)
-        - [Editing a multiple choice question](#editing-a-multiple-choice-question)
-        - [Editing the assessment briefing and task descriptions](#editing-the-assessment-briefing-and-task-descriptions)
-        - [Adding and deleting tasks](#adding-and-deleting-tasks)
-        - [Writing testcases](#writing-testcases)
-        - [Editing the Assessment Metadata](#editing-the-assessment-metadata)
-        - [Saving your changes](#saving-your-changes)
+        - [Editing multiple choice question](#editing-multiple-choice-question)
+        - [Editing assessment briefing and task descriptions](#editing-assessment-briefing-and-task-descriptions)
+        - [Adding and deleting task](#adding-and-deleting-task)
+        - [Writing testcase](#writing-testcase)
+        - [Editing assessment metadata](#editing-assessment-metadata)
+        - [Saving changes](#saving-changes)
         - [Using old XMLs](#using-old-xmls)
     -  [Publishing assessment](#publishing-assessment)
         - [Turning assessment repository into template repository](#turning-assessment-repository-into-template-repository)
@@ -41,14 +41,15 @@ Source Academy might not be able to see your assessments if it is not given perm
 2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
-## Adding learners to GitHub Classroom organization of course
-1. Ask your learners for their GitHub usernames.
+## Adding learner to GitHub Classroom organization of course
+Learners can currently be added only one at a time.
+1. Ask your learner for their GitHub username.
 2. Navigate to the GitHub page of your organization. Take note - this is not the GitHub Classroom page for the same organization.
-3. Navigate to People > Invite Member and invite your learner to the organization. Make sure to invite them as members:\
+3. Navigate to People > Invite Member and invite the learner to the organization. Make sure to invite them as member:\
 ![Invite As Member](https://user-images.githubusercontent.com/47176493/122375134-8ac25380-cf95-11eb-9f0f-3ce067b981b1.png)
 You can control member permissions by navigation to Settings > Member privileges.
-4. Your learner will receive an invitation to join the organization in their email, which they should accept.
-5. Your learners will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
+4. The learner will receive an invitation to join the organization in their email, which they should accept.
+5. The learner will then be able to go to https://source-academy.github.io/, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
 
 ## Creating course repository
 
@@ -105,12 +106,12 @@ If you do not want to provide the solution with the question (since learners hav
 2. Edit the text as necessary.
 3. Clicking away from the editor will cause the text to render.
 
-### Adding and deleting tasks
+### Adding and deleting task
 1. Click on the add button to add another task. This will add a task numbered greater than the current task by 1. 
 2. You can navigate between tasks with the Next and Previous buttons.
 3. You can click on the delete button to get rid of a task.
 
-### Writing test cases
+### Writing test case
 Take note that any test cases will also appear in the learner's side of the website.
 
 ![Testcase example](https://user-images.githubusercontent.com/47176493/122352810-087c6400-cf82-11eb-8058-222d671229a6.png)
@@ -246,7 +247,6 @@ e.g. instead of "Missions", instructors may choose "Assessment" or any other sui
 
 We currrently do not have specific support for auto-testing assessments. Instructors will have to develop their own test scripts, download student submissions using GitHub Classroom, and communicate the results to learners.
 
-## Downloading submissions
 Downloading submissions requires the use of GitHub Classroom Assistant, which can be downloaded at https://classroom.github.com/assistant.
 
 A link to download repositories can be accessed from an assignment's page on GitHub Classroom:\
