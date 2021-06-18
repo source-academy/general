@@ -17,7 +17,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Editing assessment briefing and task description](#editing-assessment-briefing-and-task-description)
         - [Adding and deleting task](#adding-and-deleting-task)
         - [Writing test case](#writing-test-case)
-        - [Editing assessment metadata](#editing-assessment-metadata)
+        - [**Editing assessment metadata**](#editing-assessment-metadata)
         - [Saving changes](#saving-changes)
         - [Using old XMLs](#using-old-xmls)
     -  [Publishing assessment](#publishing-assessment)
@@ -25,7 +25,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Creating GitHub Classroom assessment](#creating-github-classroom-assessment)
         - [Adding assessment to Source Academy course](#adding-assessment-to-source-academy-course)
 - [Grading assessment](#grading-assessment)
-- [Closing course](#closing-course)
+- [**Closing course**](#closing-course)
 
 # Setting up course
 
