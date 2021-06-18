@@ -125,8 +125,6 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 The value of "categoryDisplayName" can be changed to replace the assessment headers in the navbar.  
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
 
-4. The course repository is now ready for use.
-
 # Creating assessment
 
 ## Authoring assessment
