@@ -42,7 +42,9 @@ For multiple-choice questions, you can click on the answer. Take note that depen
 4. You can check the repository on GitHub to ensure that your changes are carried over. **Note that after the submission date, any new commits will not be reflected in the Classroom assessment.**
 
 ### Finishing a course
-After a course has ended, you might want to save a copy of your work if you intend to refer back to it in the future. The work repositories belong to the classroom organization, and may be lost if the organization is deleted, or if you are removed from the organization.
+After a course has ended, you might want to save a copy of your work if you intend to refer back to it in the future. As the work repositories belong to the classroom organization, you may lose access to them if the organization is deleted, or if you are removed from the organization (whether by choice or by your instructor).
 
 In order to do this, you could fork any of your homework repositories, or download a copy of the code.
 ![How to save work](https://user-images.githubusercontent.com/47176493/122519182-bfd9af00-d044-11eb-9942-b2c39f208dea.png)
+
+You may also choose to leave the organization (so that the course will no longer show up while using the Source Academy website). In order to do so, navigate to "Your organizations" on GitHub and leave the organization.
