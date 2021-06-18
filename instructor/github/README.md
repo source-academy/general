@@ -147,18 +147,18 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 
 ## Publishing new assessments
 
-### Creating template repositories
+### Make assessment repository a template repository
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
 2. Navigate to settings and tick the box for "Template repository".
 
-### Creating an GitHub Classroom assessment
+### Creating a GitHub Classroom assessment
 1. In the GitHub Classroom page, navigate to your organization.
 2. Click on "New assessment".
 3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
 4. After your assessment has been created, an invitation link to accept the assessment will be created. This link can be found on the GitHub Classroom page of the assessment.\
 ![Invitation Link](https://user-images.githubusercontent.com/47176493/122371718-a7a95780-cf92-11eb-93c9-fd73f37b52cb.png)
 
-### Editing the Course Information
+### Adding assessment to Source Academy Course
 In order for Source Academy to recognise the course information, the organsation has to own a repository named 'course-info', with a file named 'course-info.json' placed in the root folder of that repository. The repository and file can be created using any tool and pushed to GitHub as long as ownership belongs to the organisation.
 
 The format for course-info.json will be given below:
