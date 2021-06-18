@@ -147,7 +147,7 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 
 ## Publishing new assessments
 
-### Make assessment repository a template repository
+### Turning assessment repository into template repository
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
 2. Navigate to settings and tick the box for "Template repository".
 
