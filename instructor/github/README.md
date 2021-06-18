@@ -9,7 +9,6 @@ It will detail the use of both Source Academy and GitHub in order to create a li
     - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
     - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
     - **Creating the course repository**
-
 - Creating an assessment
     - [Authoring new assessments](#authoring-new-assessments)
         - [Editing starter code](#editing-starter-code)
@@ -23,10 +22,10 @@ It will detail the use of both Source Academy and GitHub in order to create a li
     -  [Publishing new assessments](#publishing-new-assessments)
         - [Creating template repositories](#creating-template-repositories)
         - [**Adding assessment information to the course repository**](#editing-the-course-information)
-
 - Grading an assessment
     -  [Grading assessments](#grading-assessments)
         - [Downloading submissions](#downloading-submissions)
+- Closing a course
 
 # Setting up a course
 
