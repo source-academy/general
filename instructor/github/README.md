@@ -8,6 +8,7 @@ Setting up a course
 - [Creating a GitHub Classroom organization](#creating-a-github-classroom-organization)
 - [Authorizing our application for your classroom organization](#authorizing-our-application-for-your-classroom-organization)
 - [Adding learners to your classroom organization](#adding-learners-to-your-classroom-organization)
+
 Creating an assessment
 - [Authoring new assessments](#authoring-new-assessments)
     - [Editing starter code](#editing-starter-code)
@@ -21,6 +22,7 @@ Creating an assessment
 -  [Publishing new assessments](#publishing-new-assessments)
     - [Creating template repositories](#creating-template-repositories)
     - [Editing the Course Information](#editing-the-course-information)
+
 Grading an assessment
 -  [Grading assessments](#grading-assessments)
     - [Downloading submissions](#downloading-submissions)
