@@ -54,8 +54,9 @@ You can control member permissions by navigation to Settings > Member privileges
 
 ## Creating course repository
 1. Navigate to the Organization's GitHub page.
-2. Create a new repository named 'course-info'. Ensure that members of the organization have read access (should be set by default).
-3. In this repository, create a new file 'course-info.json'. The format of this file is detailed below:
+2. Create a new repository named 'course-info'.
+3. In this repository, create a new file 'course-info.json'.
+The format of this file is detailed below:
 ```json
 course-info
 {
@@ -108,6 +109,7 @@ course-info
 }
 ```
 The above example will display 2 Missions and 1 Quest on the learner's Source Academy frontend.
+
 | Property | Description |
 | --- | --- |
 | title | A string value with the display name of the assessment.
@@ -117,9 +119,8 @@ The above example will display 2 Missions and 1 Quest on the learner's Source Ac
 | shortSummary | A string value that summarises the assessment.
 | acceptLink | A string value of the URL to accept the assessment on GitHub Classroom.
 | repoPrefix | A string value given to all repositories generated from the assessment on GitHub Classroom.
-In addition, the value to the right of "categoryDisplayName" can be changed to rename the headers for each of the assessments.
+In addition, the value for "categoryDisplayName" can be changed to rename the headers for each of the assessments.
 e.g. instead of "Missions", instructors may choose "Assessment" or any other suitable names.
-
 4. The course repository is now ready for use.
 
 # Creating assessment
