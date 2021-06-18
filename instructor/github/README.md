@@ -10,7 +10,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
     - [Adding learner to GitHub Classroom organization](#adding-learner-to-github-classroom-organization)
     - [**Creating course repository**](#creating-course-repository)
 - [Creating assessment](#creating-assessment)
-    - [Authoring new assessments](#authoring-new-assessments)
+    - [Authoring assessment](#authoring-assessment)
         - [Editing starter code](#editing-starter-code)
         - [Editing multiple choice question](#editing-multiple-choice-question)
         - [Editing assessment briefing and task descriptions](#editing-assessment-briefing-and-task-descriptions)
