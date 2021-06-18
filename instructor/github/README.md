@@ -14,7 +14,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
         - [Opening Assessment Creator](#opening-assessment-creator)
         - [Editing starter code](#editing-starter-code)
         - [Editing multiple choice question](#editing-multiple-choice-question)
-        - [Editing assessment briefing and task descriptions](#editing-assessment-briefing-and-task-descriptions)
+        - [Editing assessment briefing and task description](#editing-assessment-briefing-and-task-description)
         - [Adding and deleting task](#adding-and-deleting-task)
         - [Writing testcase](#writing-testcase)
         - [Editing assessment metadata](#editing-assessment-metadata)
@@ -102,7 +102,7 @@ If you do not want to provide the solution with the question (since learners hav
 ![Text and Learner View](https://user-images.githubusercontent.com/47176493/122369178-8c3d4d00-cf90-11eb-9022-efcdcc1d4b1c.png)
 
 
-### Editing assessment briefing and task descriptions
+### Editing assessment briefing and task description
 1. Click on the text to open a markdown editor
 2. Edit the text as necessary.
 3. Clicking away from the editor will cause the text to render.
