@@ -151,7 +151,7 @@ In order to accomplish this, you may copy-and-paste the relevant sections of the
 1. Navigate to the GitHub page of the repository you would like to use as a template for your assessment.
 2. Navigate to settings and tick the box for "Template repository".
 
-### Creating a GitHub Classroom assessment
+### Creating GitHub Classroom assessment
 1. In the GitHub Classroom page, navigate to your organization.
 2. Click on "New assessment".
 3. Fill in the details for your organization. Make sure to use the [template repository](#creating-template-repositories) as the template repository for the new assessment under the Starter Code section.
