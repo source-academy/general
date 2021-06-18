@@ -122,19 +122,9 @@ Take note that any test cases will also appear in the learner's side of the webs
 4. You may also edit the Test Prepend and Test Postpend. The Test Prepend will be appended in front of the learner's program, while the Test Postpend will be appended to end of the learner's program. You can use this to set up variables or define helper functions for your tests.
 
 ### Editing assessment metadata
-Take note that this information is not reflected in the course information. For example, when creating a course, the link to the cover-image will not be recovered from the assessment repository, but rather from the course-information file. However, you can use this section to record these details.
+Currently, the Assessment Metadata only contains a single variable - the Source Version.
 
-The following information can be saved:
-| Property | Description |
-| --- | --- |
-| Title | The display title of the Assessment. This is typically different from the repository name.
-| Cover Image Link | A link to the Assessment's display image.
-| Summary | A one-line summary of the Assessment.
-| Type | The classification of the Assessment. For example, an assigment could be "Homework" or "Extra Credit".
-| ID | An ID number for the Assessment.
-| Source Version | The Source Version that the program should be ran with.
-| Reading | The pages of the textbook the assessment is in reference to.
-| Due Date | The date by which the assessment should be completed to be accepted for marking.
+The Source Version will dictate which capabilities and libraries the programs will have access to. Please follow this link for more details: https://source-academy.github.io/source/
 
 ### Saving changes
 1. Click on the "Save" button.
