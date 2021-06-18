@@ -37,4 +37,5 @@ For multiple-choice questions, you can click on the answer. Take note that depen
 ![MCQ](https://user-images.githubusercontent.com/47176493/122347847-0ebc1180-cf7d-11eb-91dd-8b0fc1157bb6.png)
 
 2. Some questions have test cases that you can view through the test case tab on the right. To run individual test cases, you may click on them. Otherwise to run all the test cases, you can run the program while the test case tab is selected.
-3. When you are satisfied with your answers, remember to click on "Save" to save your changes. You can check the repository on GitHub to ensure that your changes are carried over.
+3. When you are satisfied with your answers, remember to click on "Save" to save your changes. 
+4. You can check the repository on GitHub to ensure that your changes are carried over. **Note that after the submission date, any new commits will not be reflected in the Classroom assessment.**
