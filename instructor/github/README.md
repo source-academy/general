@@ -8,7 +8,7 @@ It will detail the use of both Source Academy and GitHub in order to create a li
     - [Creating GitHub Classroom organization](#creating-github-classroom-organization)
     - [Authorizing Source Academy to access GitHub Classroom organization](https://github.com/source-academy/general/blob/master/instructor/github/README.md#authorizing-source-academy-to-access-github-classroom-organization)
     - [Adding learner to GitHub Classroom organization](#adding-learner-to-github-classroom-organization)
-    - **Creating the course repository**
+    - [**Creating course repository**](#creating-course-repository)
 - [Creating assessment](#creating-assessment)
     - [Authoring new assessments](#authoring-new-assessments)
         - [Editing starter code](#editing-starter-code)
