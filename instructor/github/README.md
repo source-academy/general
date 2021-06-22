@@ -1,7 +1,5 @@
 # Overview
-This guide will detail the intended usage of the Source Academy website for GitHub-hosted courses.
-
-It will detail the use of both Source Academy and GitHub in order to create a lightweight deployment of a Source Academy course.
+This guide tells you how to use Source Academy with GitHub Classroom for your course.
 
 # Content
 - [Setting up course](#setting-up-course)
