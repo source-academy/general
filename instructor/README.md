@@ -13,9 +13,9 @@ Starting in August 2021, instructors will have two additional options:
 
 ## Student resources
 
-- [Structure and Interpretation of Computer Programs, JavaScript Adaptation (SICP JS)](https://source-academy.github.io/sicp/): online edition of the textbook
-- [Source Academy Playground](https://source-academy.github.io/): online programming environment custom-built for learners who use SICP JS
-- [Source](https://source-academy.github.io/source/): Source languages used in the book (sublanguages of JavaScript)
+- [Structure and Interpretation of Computer Programs, JavaScript Adaptation (SICP JS)](https://sourceacademy.org/sicpjs/): online edition of the textbook
+- [Source Academy Playground](https://sourceacademy.org/playground): online programming environment custom-built for learners who use SICP JS
+- [Source](https://docs.sourceacademy.org/): Source languages used in the book (sublanguages of JavaScript)
 - [sicp repository](https://github.com/source-academy/sicp): textbook github repository, for reporting errors and for typesetting our own copy
 
 ## Resources for instructors who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
@@ -28,6 +28,7 @@ This option will be available from August 2021 onwards.
 
 ## Resources for instructors who use Source Academy with GitHub Classroom
 
-This option will be available from August 2021 onwards. Contest voting and Source Academy game will not be available in the Github Classroom option.
-
 - [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
+
+Note that contest voting and Source Academy game are not available in the Github Classroom option.
+
