@@ -6,4 +6,4 @@ The Source Academy is a community of learners who use the book [*Structure and I
 - [For educators](educator/README.md)
 - [For researchers](research/README.md)
 
-Our mission: bring out the beauty and fun in communicating computational processes, and make them universally accessible.
+Our missio is to bring out the beauty and fun in communicating computational processes, and make them universally accessible.
