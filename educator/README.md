@@ -1,6 +1,6 @@
 ---
 layout: page
-label: Educator
+label: Educators
 ---
 
 # Resources for educators
