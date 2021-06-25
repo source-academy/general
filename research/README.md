@@ -1,3 +1,8 @@
+---
+layout: page
+label: Researchers
+---
+
 # Resources for researchers
 
 The Source Academy and SICP JS are used for educational research. Below you find some resources.

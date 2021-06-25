@@ -1,3 +1,8 @@
+---
+layout: page
+label: Learners
+---
+
 # Resources for learners
 
 The learners in the Source Academy community might find the following resources useful.
