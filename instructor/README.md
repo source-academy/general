@@ -1,15 +1,15 @@
-# Resources for instructors
+# Resources for educators
 
-The instructors in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides instructor material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 
+The educators in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides educator material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 
 
-Currently, instructors have the following options to work with SICP JS:
+Educators have the following options to work with SICP JS:
 - Not use Source Academy: You can use SICP JS with the IDE of your choice; [see here](../package/README.md) for more information
-- Use the public version of the Source Academy; [see here](../vanilla/README.md) how [Source Academy](https://source-academy.github.io/) supports your course
+- Use the public version of the Source Academy; [see here](../vanilla/README.md) how [Source Academy](https://sourceacademy.org/) supports your course
+- Source Academy with GitHub Classroom: use GitHub Classroom to author and manage weekly assessments; [see below](#resources-for-educators-who-use-source-academy-with-github-classroom)
 - Deploy your own clone of Source Academy; [see here](../deployment/README.md) how to do that
 
 Starting in August 2021, instructors will have two additional options:
 - **Source Academy @ NUS**: use the NUS deployment
-- **Source Academy with GitHub Classroom**: use GitHub Classroom to author and manage weekly assessments
 
 ## Student resources
 
