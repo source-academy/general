@@ -2,7 +2,7 @@
 
 The Source Academy is designed for learners who use the textbook [Structure and Interpretation of Computer Programs, JavaScript Adaptation](https://sourceacademy.org/sicpjs/). [This link](https://sourceacademy.org/) provides access to the Source Academy.
 
-## Language selection
+#### Language selection
 
 The Playground allows you to choose one of four [Source languages](https://source-academy.github.io/source/). The Source languages are sublanguages of JavaScript, designed for the chapters of SICP JS. The  language Source §1 has just enough features for the content of Chapter 1 of SICP JS, Source §2 has jsut enough features for the first two chapters, and so on.
 
