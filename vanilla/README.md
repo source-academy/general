@@ -8,23 +8,23 @@ The Playground allows you to choose one of four [Source languages](https://sourc
 
 <img width="415" alt="Screenshot 2021-05-20 at 9 51 16 AM" src="https://user-images.githubusercontent.com/30220768/118906769-f9899e00-b950-11eb-9ba4-849898be9dbe.png">
 
-## Language Tools
+#### Language Tools
 
-### Stepper
+##### Stepper
 
-### Data Visualizer
+##### Data Visualizer
 
-### Environment Model Visualizer
+##### Environment Model Visualizer
 
-### Scope tools
+##### Scope tools
 
-## Programming environment
+#### Programming environment
 
-### Modules
+##### Modules
 
-### Share links
+##### Share links
 
-### Sessions
+##### Sessions
 
 
 
