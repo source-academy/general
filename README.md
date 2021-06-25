@@ -4,5 +4,5 @@ The Source Academy is a community of learners who use the book [*Structure and I
 
 - [For learners](learner/README.md)
 - [For instructors](instructor/README.md)
-- [For system administrators](deployment/README.md)
+- [For researchers](research/README.md)
 
