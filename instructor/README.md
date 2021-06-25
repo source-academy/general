@@ -18,7 +18,7 @@ Starting in August 2021, instructors will have two additional options:
 - [Source](https://docs.sourceacademy.org/): Source languages used in the book (sublanguages of JavaScript)
 - [sicp repository](https://github.com/source-academy/sicp): textbook github repository, for reporting errors and for typesetting our own copy
 
-## Resources for instructors who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
+## Resources for educators who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
 This option will be available from August 2021 onwards. 
 
@@ -26,7 +26,7 @@ This option will be available from August 2021 onwards.
 - [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of specific assessments 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
-## Resources for instructors who use Source Academy with GitHub Classroom
+## Resources for educators who use Source Academy with GitHub Classroom
 
 - [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
 
