@@ -1,3 +1,8 @@
+---
+layout: page
+label: Educators
+---
+
 # Resources for educators
 
 The educators in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides educator material including homework assessments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 

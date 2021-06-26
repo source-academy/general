@@ -1,6 +1,6 @@
-# Using Source Academy (public version) in an SICP-JS-based Course
+# Using Source Academy in an SICP-JS-based Course
 
-The Source Academy is designed for learners who use the textbook [Structure and Interpretation of Computer Programs, JavaScript Adaptation](https://source-academy.github.io/sicp/). [This link](https://source-academy.github.io/) provides access to the public version of the Source Academy, which is deployed using GitHub Pages.
+The Source Academy is designed for learners who use the textbook [Structure and Interpretation of Computer Programs, JavaScript Adaptation](https://sourceacademy.org/sicpjs/). [This link](https://sourceacademy.org/) provides access to the Source Academy.
 
 ## Language selection
 

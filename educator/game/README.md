@@ -65,7 +65,7 @@ Important keywords to know as a story writer
 
 If you're looking to write your own checkpoint txt:
 
-* Refer to the following [Sample Checkpoint](https://github.com/source-academy/cadet-frontend/wiki/Game-:-Sample-Checkpoint) or download this [sample txt](https://source-academy-assets.s3-ap-southeast-1.amazonaws.com/stories/settling-in.txt) for reference as you read the [txt guide](#txt-guide).
+* Refer to the following [Sample Checkpoint](https://github.com/source-academy/frontend/wiki/Game-:-Sample-Checkpoint) or download this [sample txt](https://source-academy-assets.s3-ap-southeast-1.amazonaws.com/stories/settling-in.txt) for reference as you read the [txt guide](#txt-guide).
 
 * You may download the following [Source Academy Game Txt Syntax highlighter](https://github.com/source-academy/sa-game-syntax-highlighter) vs code extension to highlight your txt under the **Sa** language
 
