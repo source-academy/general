@@ -34,5 +34,5 @@ This option will be available from August 2021 onwards.
 
 - [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
 
-Note that contest voting and Source Academy game are not available in the Github Classroom option.
+Note that grading support, Source Academy game, and contest voting are not available in the Github Classroom option.
 
