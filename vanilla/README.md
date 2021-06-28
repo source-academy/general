@@ -4,7 +4,7 @@ The Source Academy is designed for learners who use the textbook [Structure and 
 
 ## Language selection
 
-The Playground allows you to choose one of four [Source languages](https://source-academy.github.io/source/). The Source languages are sublanguages of JavaScript, designed for the chapters of SICP JS. The  language Source §1 has just enough features for the content of Chapter 1 of SICP JS, Source §2 has jsut enough features for the first two chapters, and so on.
+The Playground allows you to choose one of four [Source languages](https://docs.sourceacademy.org). The Source languages are sublanguages of JavaScript, designed for the chapters of SICP JS. The language Source §1 has just enough features for the content of Chapter 1 of SICP JS, Source §2 has jsut enough features for the first two chapters, and so on.
 
 <img width="415" alt="Screenshot 2021-05-20 at 9 51 16 AM" src="https://user-images.githubusercontent.com/30220768/118906769-f9899e00-b950-11eb-9ba4-849898be9dbe.png">
 
@@ -25,6 +25,3 @@ The Playground allows you to choose one of four [Source languages](https://sourc
 ### Share links
 
 ### Sessions
-
-
-

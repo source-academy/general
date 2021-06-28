@@ -22,7 +22,7 @@ The frontend can be deployed on any static site hosting service that supports SP
    configuration; you may wish to check out the [authentication guide](../auth/index.md).
 
    Additionally set (in the `.env` file) `PUBLIC_URL` to be the URL of your deployment. For example,
-   `https://source-academy.github.io`. If you are not deploying to the root of the domain, you must specify the full
+   `https://sourceacademy.org`. If you are not deploying to the root of the domain, you must specify the full
    path as well. (Note that deploying to a subdirectory is untested and may not work.)
 
 4. Run the build: `yarn run build`
@@ -59,14 +59,14 @@ Most of these services are able to integrate with a GitHub repository and deploy
    [production-specific configuration](https://github.com/source-academy/frontend#build-and-deployment), for the
    environment variables to configure.
 
-   Additionally set `PUBLIC_URL` to be the URL of your deployment. For example, `https://source-academy.github.io`.
+   Additionally set `PUBLIC_URL` to be the URL of your deployment. For example, `https://sourceacademy.org`.
 
 5. Trigger a build using the service.
 
-7. Ensure that your web host is configured to route all non-existent paths to the root (i.e. `/` or `/index.html`).
+6. Ensure that your web host is configured to route all non-existent paths to the root (i.e. `/` or `/index.html`).
    Consult your service's documentation on deploying single-page apps (SPAs) for more information. (Note: GitHub Pages
    does not support this.)
 
-8. Done!
+7. Done!
 
 To update the site, you should be able to push directly to your fork.
