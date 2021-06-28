@@ -16,7 +16,7 @@ This guide will detail to learners how to make use of the Source Academy interfa
 
 ### Viewing and accepting assessments
 
-1. Navigate to the Source Academy website at [https://sourceacademy.org/](https://sourceacademy.org/) and navigate to Classrooms.
+1. Navigate to the Source Academy website at <https://sourceacademy.org/> and navigate to Classrooms.
 2. Log into your GitHub account (this must be the same one that is a member of the classroom/organization).
 3. Browse the "Select Course" dropdown menu and select the course that has the assessment.
 4. The assessments are displayed after the previous step. Navigate to the assessment that you want to attempt.

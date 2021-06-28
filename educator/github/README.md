@@ -32,7 +32,7 @@ This guide tells you how to use Source Academy with GitHub Classroom for your co
 
 ## Creating GitHub Classroom organization
 
-1. Navigate to the GitHub Classroom website at [https://classroom.github.com/](https://classroom.github.com/).
+1. Navigate to the GitHub Classroom website at <https://classroom.github.com/>.
 2. Sign in to GitHub.
 3. Click on "New Classroom" and select "Create a New Organization".
 4. Fill in the details of your classroom and confirm the creation of the Organization. Note that the organization name has to be prefixed with 'source-academy-course' for Source Academy to identify it.
@@ -41,7 +41,7 @@ This guide tells you how to use Source Academy with GitHub Classroom for your co
 
 Source Academy might not be able to see your assessments if it is not given permission to access your organization's repositories. Please follow the steps below to set the permissions.
 
-1. Go to [https://sourceacademy.org/](https://sourceacademy.org/) and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving Source Academy, you add it to your list of personally approved apps.
+1. Go to <https://sourceacademy.org/> and click on "Classrooms" at the top of the control bar. Click on "Log In" to login with GitHub through our website. By approving Source Academy, you add it to your list of personally approved apps.
 2. On your account, navigate to Settings > Applications > Authorized OAuth Apps.
 3. Click on the Source Academy app, then grant permission for your classroom application.
 
@@ -55,7 +55,7 @@ Learners can currently be added only one at a time.
    ![Invite As Member](https://user-images.githubusercontent.com/47176493/122375134-8ac25380-cf95-11eb-9f0f-3ce067b981b1.png)
    You can control member permissions by navigation to Settings > Member privileges.
 4. The learner will receive an invitation to join the organization in their email, which they should accept.
-5. The learner will then be able to go to [https://sourceacademy.org/](https://sourceacademy.org/), click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
+5. The learner will then be able to go to <https://sourceacademy.org/>, click on "Classroom" and "Log In" with their GitHub account. They will be able to select your course and see the assessments you have created. Note that the assessment area will be empty before you have created any assessments.
 
 ## Creating course repository
 
@@ -211,7 +211,7 @@ Take note that any test cases will also appear in the learner's side of the webs
 
 Currently, the Assessment Metadata only contains a single variable - the Source Version.
 
-The Source Version will dictate which capabilities and libraries the programs will have access to. Please follow this link for more details: [https://docs.sourceacademy.org](https://docs.sourceacademy.org)
+The Source Version will dictate which capabilities and libraries the programs will have access to. Please follow this link for more details: <https://docs.sourceacademy.org>.
 
 ### Saving changes
 
