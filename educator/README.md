@@ -15,7 +15,7 @@ Educators have the following options to work with [SICP JS](https://sourceacadem
 Starting in August 2021, instructors will have an additional option:
 - **Source Academy @ NUS**: use the NUS deployment
 
-Educators who have used the original Scheme-based SICP book may appreciate our [Comparison edition of SICP/SICP JS](https://sicp.sourceacademy.org), where SICP and SICP JS can be viewed side-by-side.
+Educators who have used the original Scheme-based SICP book may appreciate our [Scheme-JavaScript Comparison Edition](https://sicp.sourceacademy.org), where SICP and SICP JS can be viewed side-by-side.
 
 ## Student resources
 
