@@ -9,7 +9,7 @@ The educators in the Source Academy community might find the following resources
 Educators have the following options to work with [SICP JS](https://sourceacademy.org/sicpjs/):
 - Not use Source Academy: You can use SICP JS with the IDE of your choice; [see here](../package/README.md) for more information
 - Use the public version of the Source Academy; [see here](../vanilla/README.md) how [Source Academy](https://sourceacademy.org/) supports your course
-- Source Academy with GitHub Classroom: use GitHub Classroom to author and manage weekly assessments; [see below](#resources-for-educators-who-use-source-academy-with-github-classroom)
+- Source Academy with GitHub Classroom: use GitHub Classroom to author and manage weekly assessments; [see here](github/README.md) how to do that
 - Deploy your own clone of Source Academy; [see here](../deployment/README.md) how to do that
 
 Starting in August 2021, instructors will have an additional option:
@@ -32,9 +32,4 @@ This option will be available from August 2021 onwards.
 - [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of specific assessments 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
-## Resources for educators who use Source Academy with GitHub Classroom
-
-- [Guide for authoring and managing assessments using GitHub Classroom](github/README.md)
-
-Note that grading support, Source Academy game, and contest voting are not available in the Github Classroom option.
 
