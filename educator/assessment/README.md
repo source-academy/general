@@ -1,4 +1,4 @@
-## Overview
+## Guide for authoring and uploading assessments
 
 Pieces of work that are to be submitted by students and the can be graded are called *assessments* in the Source Academy.
 
