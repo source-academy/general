@@ -1,5 +1,7 @@
 ## Overview
 
+Pieces of work that are to be submitted by students and the can be graded are called *assessments* here.
+
 Instructors can specify assessments in an XML format that is documented in this page. They upload assessment files using the "Ground Control" feature of the Source Academy frontend.
 
 Your Source Academy deployment comes with an authoring tool for assessments. Visit
