@@ -28,7 +28,7 @@ Educators who have used the original Scheme-based SICP book may appreciate our [
 
 This option will be available from August 2021 onwards. 
 
-- [Guide for authoring and uploading assessments](assessment/README.md): homework submissions stored on the **Source Academy @ NUS** server, graded by yourself and your assistants or auto-graded
+- [Guide for authoring and uploading assessments](assessment/README.md): homework submissions stored on the **Source Academy @ NUS** server, graded by you and your assistants or auto-graded
 - [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular solutions of specific assessments 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assessments
 
