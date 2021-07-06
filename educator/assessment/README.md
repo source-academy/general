@@ -52,7 +52,6 @@ Represents an assessment. **Required**.
 | attribute | details |
 | --- | --- |
 | coverimage | The thumbnail to show for this assessment. Must be a URL, i.e. not a file path. e.g. "https://http.cat/200". Optional.
-| kind | The kind of assessment. Can be "mission", "contest", "quest", or "path".
 | number | The string identifier the relative position of this assessment. Must be unique among assessments.
 | title | The title of this assessment.
 | story | The story XML to load. Must correspond to the filename of a story XML file, e.g. "mission-2", "sidequest-2.1". Optional.|
@@ -72,7 +71,6 @@ Example
 <TASK
   access="public"
   coverimage="http://via.placeholder.com/350x150"
-  kind="mission"
   number="M2A"
   title="Beyond the Second Dimension"
   story="mission-2"
@@ -155,9 +153,9 @@ Represents a set of PROBLEM elements. Required.
 ### Example
 ```xml
 <PROBLEMS>
-  <PROBLEM maxgrade="..." type="...">...</PROBLEM>
-  <PROBLEM maxgrade="..." type="...">...</PROBLEM>
-  <PROBLEM maxgrade="..." type="...">...</PROBLEM>
+  <PROBLEM type="...">...</PROBLEM>
+  <PROBLEM type="...">...</PROBLEM>
+  <PROBLEM type="..." showsolution="true">...</PROBLEM>
 </PROBLEMS>
 ```
 
@@ -169,9 +167,11 @@ Required: at least one PROBLEM in the PROBLEMS element.
 ### Attributes
 | attribute | details |
 | --- | --- |
-| maxgrade | The maximum grade achievable for this PROBLEM. Should be equal the maximum sum of return values of grader programs in this PROBLEM's GRADER elements. Optional.
 | maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder.
 | type | The type of this question. Can be "programming" or "mcq".
+| showsolution | default false; if value is string "true", solution string is shipped to web client for display to grader
+| buildhiddentestcases | default false; if value is string "true", ...
+| blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question
 
 ### Children
 [TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
@@ -527,7 +527,6 @@ Text representing a valid JavaScript program to be eval'd. The return value of t
 ************************************************************************ -->
 <TASK
   coverimage="http://via.placeholder.com/350x150"
-  kind="mission"
   number="M99"
   title="Simple Stuff"
   story="mission-99"
