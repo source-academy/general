@@ -169,7 +169,7 @@ Required: at least one PROBLEM in the PROBLEMS element.
 | --- | --- |
 | maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder.
 | type | The type of this question. Can be "programming" or "mcq".
-| showsolution | default false; if value is string "true", solution string is shipped to web client for display to grader
+| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student
 | buildhiddentestcases | default false; if value is string "true", ...
 | blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question
 
@@ -178,11 +178,11 @@ Required: at least one PROBLEM in the PROBLEMS element.
 
 ### Example
 ```xml
-<PROBLEM maxgrade="5" type="programming">
+<PROBLEM maxxp="100" type="programming">
   <TEXT>Your first task shall be to practise writing comments.</TEXT>
   <SNIPPET>...</SNIPPET>
 </PROBLEM>
-<PROBLEM maxgrade="1" type="mcq">
+<PROBLEM maxxp="20" type="mcq">
   <CHOICE correct="..."></CHOICE>
   <CHOICE correct="..."></CHOICE>
   <CHOICE correct="..."></CHOICE>
