@@ -1,3 +1,9 @@
+## Guide for Assessment Configuration
+### Bonus XP calculation
+The follwing diagram explains the two configurable numbers(`max bonus xp` and `early hours before xp decay`) in our system for calculating the bonus xp for assessments.
+
+![bonus_xp](https://user-images.githubusercontent.com/39845424/125188426-537a5600-e266-11eb-972f-7113a2d31201.png)
+
 ## Guide for authoring and uploading assessments
 
 Pieces of work that are to be submitted by students and the can be graded are called *assessments* in the Source Academy.
