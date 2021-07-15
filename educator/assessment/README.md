@@ -560,7 +560,7 @@ This mission consists of **four tasks**.
   </TEXT>
 
   <PROBLEMS>
-    <PROBLEM maxgrade="6" type="programming">
+    <PROBLEM maxxp="200" type="programming">
       <TEXT>
 Your first task is to define a function `sum` that adds two numbers together.
       </TEXT>
@@ -588,7 +588,7 @@ sum(3, 5); // returns 8
         </SNIPPET>
       </PROBLEM>
 
-      <PROBLEM maxgrade="5" type="programming">
+      <PROBLEM maxxp="100" type="programming">
         <TEXT>
 Now, sort a list by any means. You are provided a list of numbers to test
 your sort function out with.
@@ -625,7 +625,7 @@ sort(numbers); // should be [1, 3, 5, 7]
         </GRADERDEPLOYMENT>
       </PROBLEM>
 
-      <PROBLEM maxgrade="1" type="mcq">
+      <PROBLEM maxxp="20" type="mcq">
         <TEXT>
 What is the air-speed velocity of an unladen swallow?
         </TEXT>
@@ -635,7 +635,7 @@ What is the air-speed velocity of an unladen swallow?
         <CHOICE correct="false"><TEXT>24 meters per second</TEXT></CHOICE>
       </PROBLEM>
 
-      <PROBLEM maxgrade="0" type="programming">
+      <PROBLEM maxxp="0" type="programming">
         <TEXT>
 You'll use runes in your next mission. Why don't you give it a try?
 
