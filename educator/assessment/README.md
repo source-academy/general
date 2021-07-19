@@ -174,10 +174,10 @@ Required: at least one PROBLEM in the PROBLEMS element.
 ### Attributes
 | attribute | details |
 | --- | --- |
-| maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder.
-| type | The type of this question. Can be "programming" or "mcq".
-| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student
-| blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question
+| maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder. |
+| type | The type of this question. Can be "programming" or "mcq". |
+| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student |
+| blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question |
 
 ### Children
 [TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
