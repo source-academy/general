@@ -38,7 +38,8 @@ You may assume that each element must be unique (i.e. only one exists per parent
                 - [POSTPEND](#postpend)
                 - [TESTCASES](#testcases)
                     - [PUBLIC](#public)
-                    - [PRIVATE](#private)
+                    - [OPAQUE](#opaque)
+                    - [SECRET](#secret)
                 - [SOLUTION](#solution)    
             - [CHOICE](#choice)  
     - [DEPLOYMENT](#deployment) / [GRADERDEPLOYMENT](#graderdeployment)
@@ -176,7 +177,6 @@ Required: at least one PROBLEM in the PROBLEMS element.
 | maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder.
 | type | The type of this question. Can be "programming" or "mcq".
 | showsolution | default false; if value is string "true", solution string is shipped to web client for display to student
-| buildhiddentestcases | default false; if value is string "true", ...
 | blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question
 
 ### Children
@@ -283,7 +283,7 @@ function postdeclared_function() {
 Represents the test cases that are used to judge a student's code. Optional.
 
 ### CHILDREN
-[PUBLIC](#public), [PRIVATE](#private)
+[PUBLIC](#public), [OPAQUE](#opaque), [SECRET](#secret)
 
 ### EXAMPLE
 ```xml
@@ -291,9 +291,9 @@ Represents the test cases that are used to judge a student's code. Optional.
     <PUBLIC answer="1" score="1">...</PUBLIC>
     <PUBLIC answer="1" score="1">...</PUBLIC>
     <PUBLIC answer="1" score="1">...</PUBLIC>
-    <PRIVATE answer="1" score="1">...</PRIVATE>
-    <PRIVATE answer="1" score="1">...</PRIVATE>
-    <PRIVATE answer="1" score="1">...</PRIVATE>
+    <OPAQUE answer="1" score="1">...</OPAQUE>
+    <OPAQUE answer="1" score="1">...</OPAQUE>
+    <SECRET answer="1" score="1">...</SECRET>
 </TESTCASES>
 ```
 
@@ -314,8 +314,8 @@ The program string that calls the student-declared function.
 <PUBLIC answer="3" score="1">sum(1,2);</PUBLIC>
 ```
 
-## PRIVATE
-Represents a private test case. Private test cases will not be exposed to students. Optional. Can have many.
+## OPAQUE
+Represents an opaque test case. Opaque test cases will be sent to the client and can be ran by student but will be shown as hidden test case. Optional. Can have many.
 
 ### Attributes
 | attribute | details |
@@ -328,7 +328,24 @@ The program string that calls the student-declared function.
 
 ### EXAMPLE
 ```xml
-<PRIVATE answer="0" score="1">sum(-2,2);</PRIVATE>
+<OPAQUE answer="0" score="1">sum(-2,2);</OPAQUE>
+```
+
+## SECRET
+Represents an secret test case. Secret test cases will not be sent to students. Optional. Can have many.
+
+### Attributes
+| attribute | details |
+| --- | --- |
+| answer | The answer to the particular test case. String format. Required.
+| score | The weighted score to the particular test case. String format. Required.
+
+### VALUE
+The program string that calls the student-declared function.
+
+### EXAMPLE
+```xml
+<SECRET answer="0" score="1">sum(-2,2);</SECRET>
 ```
 
 ## SOLUTION
