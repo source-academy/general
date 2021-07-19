@@ -1,12 +1,14 @@
 ## Guide for Assessment Configuration
+
 ### Bonus XP calculation
+
 The follwing diagram explains the two configurable numbers(`max bonus xp` and `early hours before xp decay`) in our system for calculating the bonus xp for assessments.
 
 ![bonus_xp](https://user-images.githubusercontent.com/39845424/125188426-537a5600-e266-11eb-972f-7113a2d31201.png)
 
 ## Guide for authoring and uploading assessments
 
-Pieces of work that are to be submitted by students and the can be graded are called *assessments* in the Source Academy.
+Pieces of work that are to be submitted by students and the can be graded are called _assessments_ in the Source Academy.
 
 Instructors can specify assessments in an XML format that is documented in this page. They upload assessment files using the "Ground Control" feature of the Source Academy frontend.
 
@@ -25,44 +27,47 @@ Each element is marked as `required` or `optional`. A `required` element is comp
 You may assume that each element must be unique (i.e. only one exists per parent), unless specified as "can have many".
 
 ## XML details
+
 - [TASK](#task)
-    - [PASSWORD](#password)
-    - [READING](#reading)
-    - [WEBSUMMARY](#websummary)
-    - [TEXT](#text)
-    - [PROBLEMS](#problems)
-        - [PROBLEM](#problem)
-            - [SNIPPET](#snippet)    
-                - [PREPEND](#prepend)
-                - [TEMPLATE](#template)
-                - [POSTPEND](#postpend)
-                - [TESTCASES](#testcases)
-                    - [PUBLIC](#public)
-                    - [OPAQUE](#opaque)
-                    - [SECRET](#secret)
-                - [SOLUTION](#solution)    
-            - [CHOICE](#choice)  
-    - [DEPLOYMENT](#deployment) / [GRADERDEPLOYMENT](#graderdeployment)
-        - [IMPORT](#import) 
-          - [SYMBOL](#symbol)
-        - [EXTERNAL](#external)
-          - [SYMBOL](#symbol)
-        - [GLOBAL](#global)
-            - [IDENTIFIER](#identifier)
-            - [VALUE](#value)
+  - [PASSWORD](#password)
+  - [READING](#reading)
+  - [WEBSUMMARY](#websummary)
+  - [TEXT](#text)
+  - [PROBLEMS](#problems)
+    - [PROBLEM](#problem)
+      - [SNIPPET](#snippet)
+        - [PREPEND](#prepend)
+        - [TEMPLATE](#template)
+        - [POSTPEND](#postpend)
+        - [TESTCASES](#testcases)
+          - [PUBLIC](#public)
+          - [OPAQUE](#opaque)
+          - [SECRET](#secret)
+        - [SOLUTION](#solution)
+      - [CHOICE](#choice)
+  - [DEPLOYMENT](#deployment) / [GRADERDEPLOYMENT](#graderdeployment)
+    - [IMPORT](#import)
+      - [SYMBOL](#symbol)
+    - [EXTERNAL](#external)
+      - [SYMBOL](#symbol)
+    - [GLOBAL](#global)
+      - [IDENTIFIER](#identifier)
+      - [VALUE](#value)
 - [EXAMPLE XML FILE](#example-xml-file)
 
 ## TASK
+
 Represents an assessment. **Required**.
 
 ### Attributes
-| attribute | details |
-| --- | --- |
-| coverimage | The thumbnail to show for this assessment. Must be a URL, i.e. not a file path. e.g. "https://http.cat/200". Optional.
-| number | The string identifier the relative position of this assessment. Must be unique among assessments.
-| title | The title of this assessment.
-| story | The story XML to load. Must correspond to the filename of a story XML file, e.g. "mission-2", "sidequest-2.1". Optional.|
-| access | Access control for the assessment. Can eitherbe set to "public" or "private". Defaults to "public".
+
+| attribute  | details                                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------ |
+| coverimage | The thumbnail to show for this assessment. Must be a URL, i.e. not a file path. e.g. "https://http.cat/200". Optional.   |
+| number     | The string identifier the relative position of this assessment. Must be unique among assessments.                        |
+| title      | The title of this assessment.                                                                                            |
+| story      | The story XML to load. Must correspond to the filename of a story XML file, e.g. "mission-2", "sidequest-2.1". Optional. |
+| access     | Access control for the assessment. Can eitherbe set to "public" or "private". Defaults to "public".                      |
 
 With AY2018/19, there is a change in the way that assessments are named and ordered. E.g. from "mission-2", "mission-19", "sidequest-10.3" to "M2A", "Q10A". This change is reflected in the number attribute.
 
@@ -71,9 +76,11 @@ The story XML to load in the game used to refer to this number attribute However
 This is not necessarily a bad change, since a module staff may now explicitly refer to a story XML file to be loaded for the assessment, rather than have it be implicitly inferred from the number attribute. Additionally, module staff writing story XML files will now have greater flexibility in how to name their files.
 
 ### Children
+
 [READING](#reading), [WEBSUMMARY](#websummary), [TEXT](#text), [PROBLEMS](#problems), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment), [PASSWORD](#password)
 
 Example
+
 ```xml
 <TASK
   access="public"
@@ -85,59 +92,73 @@ Example
   ...
 </TASK>
 ```
+
 ## PASSWORD
+
 Only appiles to "private" assessments. Please choose a strong a complex password. If no password is given, an empty string (`""`) will be used.
 
 ### Value
+
 A String that represents the assessment password.
 
 ### Example
+
 ```xml
 <PASSWORD>MySuperSecretPassword1!23%$#@%</PASSWORD>
 ```
+
 ## READING
+
 Represents a recommended reading from the textbook. Optional.
 
 ### Value
+
 Text to be shown to the student, representing a recommended reading from the textbook.
 
 ### Example
+
 ```xml
 <READING>Textbook Sections 1.1.1 to 1.1.4</READING>
 ```
 
 ## WEBSUMMARY
+
 Represents a summary of the assessment to be shown in the list of assessments. Relevant only for the cadet website. Optional.
 
 WEBSUMMARY is a new element defined for the cadet website. It is currently optional in order to minimise the amount of work required to migrate to this new API specification, but it is highly recommended that every [TASK](#task) have a WEBSUMMARY.
 
 ### Value
+
 Text to be shown to the student, representing a summary of the assessment.
 
 ### Example
+
 ```xml
 <WEBSUMMARY>A small scare broke out in the server room of the spaceship...</WEBSUMMARY>
 ```
 
 ## TEXT
+
 Represents text to be shown to the student. Uses github-flavoured markdown. Can have many.
 
 Required: at least one TEXT element as a direct child of each TASK, PROBLEM, and CHOICE.
 
 ### Value
+
 Text to be shown to the student. The TEXT element may render differently based on its position and order in the XML tree.
 
 - As a child of [TASK](#task), the first TEXT element is taken to be the assessment briefing. This provides a general overview of the assessment.
 - As a child of [PROBLEM](#problem), the first TEXT element is taken to be the task description for "programming" questions, otherwise the MCQ question for "mcq" questions.
 - As a child of [CHOICE](#choice), the first TEXT element is taken to be the content of said choice in the PROBLEM.
-Other TASK elements may be rendered in the assessment pdf, but are otherwise ignored by cadet.
+  Other TASK elements may be rendered in the assessment pdf, but are otherwise ignored by cadet.
 
 Note that XML preserves whitespaces, so the indentations of the string in this value property will be exactly what is passed to the markdown parser; i.e. the text you write here should start with an absolute indentation level of 0. In addition, you must escape predefined XML entities quot ("), amp (&), apos ('), lt (<), and gt (>).
 
 Note that the current backend implementation supports only absolute URLs for embedded images, i.e. not file paths. You can consider using an online image hosting service, e.g. Imgur.
 
 ### Example
-`````xml
+
+````xml
 <TEXT>
 Write a function `steps` that takes four runes as arguments and arranges
 them in a *2 x 2* square, starting with the top-right corner, going
@@ -149,15 +170,18 @@ steps(rcross_bb, sail_bb, corner_bb, nova_bb);
 
 ![](http://via.placeholder.com/350x150)
 </TEXT>
-`````
+````
 
 ## PROBLEMS
+
 Represents a set of PROBLEM elements. Required.
 
 ### Children
+
 [PROBLEM](#problem)
 
 ### Example
+
 ```xml
 <PROBLEMS>
   <PROBLEM type="...">...</PROBLEM>
@@ -167,22 +191,26 @@ Represents a set of PROBLEM elements. Required.
 ```
 
 ## PROBLEM
+
 Represents a task within an assessment. Can have many.
 
 Required: at least one PROBLEM in the PROBLEMS element.
 
 ### Attributes
-| attribute | details |
-| --- | --- |
-| maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder. |
-| type | The type of this question. Can be "programming", "mcq" or "voting". |
-| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student |
-| blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question |
+
+| attribute    | details                                                                                                                          |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| maxxp        | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder. |
+| type         | The type of this question. Can be "programming", "mcq" or "voting".                                                              |
+| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student                        |
+| blocking     | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question       |
 
 ### Children
+
 [TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
 
 ### Example
+
 ```xml
 <PROBLEM maxxp="100" type="programming">
   <TEXT>Your first task shall be to practise writing comments.</TEXT>
@@ -194,18 +222,21 @@ Required: at least one PROBLEM in the PROBLEMS element.
   <CHOICE correct="..."></CHOICE>
   <CHOICE correct="..."></CHOICE>
 </PROBLEM>
-``` 
+```
 
 ## CHOICE
+
 Represents an option in a [PROBLEM](#problem) of type "mcq". Required for PROBLEM elements of type "mcq". Can have many.
 
 ### Attributes
-| attribute | details |
-| --- | --- |
-| correct | If this is the correct option for the PROBLEM. Can be "true" or "false".
-| hint | The hint to show to the student should they select this CHOICE, and this CHOICE is not correct. Optional.
+
+| attribute | details                                                                                                   |
+| --------- | --------------------------------------------------------------------------------------------------------- |
+| correct   | If this is the correct option for the PROBLEM. Can be "true" or "false".                                  |
+| hint      | The hint to show to the student should they select this CHOICE, and this CHOICE is not correct. Optional. |
 
 ### Example
+
 ```xml
 <CHOICE correct="false"><TEXT>...</TEXT></CHOICE>
 <CHOICE correct="true"><TEXT>...</TEXT></CHOICE>
@@ -214,12 +245,15 @@ Represents an option in a [PROBLEM](#problem) of type "mcq". Required for PROBLE
 ```
 
 ## SNIPPET
+
 Represents snippets of source programs in a PROBLEM of type "programming". Required for PROBLEM elements of type "programming".
 
 ### Children
+
 [PREPEND](#prepend), [TEMPLATE](#template), [POSTPEND](#postpend), [TESTCASES](#testcases), [SOLUTION](#solution)
 
 ### Example
+
 ```xml
 <SNIPPET>
   <PREPEND>...</PREPEND>
@@ -231,15 +265,17 @@ Represents snippets of source programs in a PROBLEM of type "programming". Requi
 ```
 
 ## PREPEND
+
 Represents a program string to be prepended to student's code. Optional.
 
 ### VALUE
+
 A program string to be prepended to the student's code.
 
 Note that XML preserves whitespaces, so the indentations of the string in this value property will be exactly what is shown to the student; i.e. the programs you write here should start with an absolute indentation level of 0. In addition, you must escape predefined XML entities quot ("), amp (&), apos ('), li (<), and gt (>).
 
-
 ### EXAMPLE
+
 ```xml
 <PREPEND>
 function predeclared_function() {
@@ -249,12 +285,15 @@ function predeclared_function() {
 ```
 
 ## TEMPLATE
+
 Represents an answer template that will be provided to the student when they first load up an assessment. Required.
 
 ### Value
+
 Text to be shown to the student, representing an answer template that will be shown when they first load up an assessment.
 
 ### Example
+
 ```xml
  <TEMPLATE>
 function sum(a,b) {
@@ -268,9 +307,11 @@ function sum(a,b) {
 Represents a program string that is appended to the student code. Note that the postpend program string is only appended to student code during grading. Optional.
 
 ### VALUE
+
 A program string that is appended to the student code.
 
 ### EXAMPLE
+
 ```xml
 <POSTPEND>
 function postdeclared_function() {
@@ -280,12 +321,15 @@ function postdeclared_function() {
 ```
 
 ## TESTCASES
+
 Represents the test cases that are used to judge a student's code. Optional.
 
 ### CHILDREN
+
 [PUBLIC](#public), [OPAQUE](#opaque), [SECRET](#secret)
 
 ### EXAMPLE
+
 ```xml
 <TESTCASES>
     <PUBLIC answer="1" score="1">...</PUBLIC>
@@ -298,60 +342,74 @@ Represents the test cases that are used to judge a student's code. Optional.
 ```
 
 ## PUBLIC
+
 Represents a public test case. Optional. Can have many.
 
 ### Attributes
-| attribute | details |
-| --- | --- |
-| answer | The answer to the particular test case. String format. Required.
-| score | The weighted score to the particular test case. String format. Required.
+
+| attribute | details                                                                  |
+| --------- | ------------------------------------------------------------------------ |
+| answer    | The answer to the particular test case. String format. Required.         |
+| score     | The weighted score to the particular test case. String format. Required. |
 
 ### VALUE
+
 The program string that calls the student-declared function.
 
 ### EXAMPLE
+
 ```xml
 <PUBLIC answer="3" score="1">sum(1,2);</PUBLIC>
 ```
 
 ## OPAQUE
+
 Represents an opaque test case. Opaque test cases will be sent to the client and can be ran by student but will be shown as hidden test case. Optional. Can have many.
 
 ### Attributes
-| attribute | details |
-| --- | --- |
-| answer | The answer to the particular test case. String format. Required.
-| score | The weighted score to the particular test case. String format. Required.
+
+| attribute | details                                                                  |
+| --------- | ------------------------------------------------------------------------ |
+| answer    | The answer to the particular test case. String format. Required.         |
+| score     | The weighted score to the particular test case. String format. Required. |
 
 ### VALUE
+
 The program string that calls the student-declared function.
 
 ### EXAMPLE
+
 ```xml
 <OPAQUE answer="0" score="1">sum(-2,2);</OPAQUE>
 ```
 
 ## SECRET
+
 Represents an secret test case. Secret test cases will not be sent to students. Optional. Can have many.
 
 ### Attributes
-| attribute | details |
-| --- | --- |
-| answer | The answer to the particular test case. String format. Required.
-| score | The weighted score to the particular test case. String format. Required.
+
+| attribute | details                                                                  |
+| --------- | ------------------------------------------------------------------------ |
+| answer    | The answer to the particular test case. String format. Required.         |
+| score     | The weighted score to the particular test case. String format. Required. |
 
 ### VALUE
+
 The program string that calls the student-declared function.
 
 ### EXAMPLE
+
 ```xml
 <SECRET answer="0" score="1">sum(-2,2);</SECRET>
 ```
 
 ## SOLUTION
+
 Represents a solution to the PROBLEM that may be provided to the module staff during manual grading, in the grading interface. Required.
 
 ### Value
+
 Working solution to be shown to the grading staff.
 
 This is also a good place to insert any messages (as comments) that you may wish to convey to module staff viewing this assessment.
@@ -359,6 +417,7 @@ This is also a good place to insert any messages (as comments) that you may wish
 Note that XML preserves whitespaces, so the indentations of the string in this value property will be exactly what is shown to the student; i.e. the programs you write here should start with an absolute indentation level of 0. In addition, you must escape predefined XML entities quot ("), amp (&), apos ('), li (<), and gt (>).
 
 ### Example
+
 ```xml
 <SOLUTION>
 // [Marking Scheme]
@@ -378,6 +437,7 @@ show(flipvert(sail_bb));
 ```
 
 ## DEPLOYMENT
+
 Represents interpreter settings for the source interpreter of cadet.
 
 **Required** for each [TASK](#task), optional for each [PROBLEM](#problem).
@@ -389,14 +449,17 @@ Otherwise, use the DEPLOYMENT which is a child of the TASK
 The missionType attribute was previously used by source-academy2, but is unused by cadet.
 
 ### Attributes
-| attributes | details |
-| --- | --- |
-| interpreter | The source chapter to use.
+
+| attributes  | details                    |
+| ----------- | -------------------------- |
+| interpreter | The source chapter to use. |
 
 ### Children
+
 [IMPORT](#import), [EXTERNAL](#external), [GLOBAL](#global)
 
 ### Example
+
 ```xml
 <DEPLOYMENT interpreter="2">
   <IMPORT module="cs1101s_1920/two_dim_runes">
@@ -415,6 +478,7 @@ The missionType attribute was previously used by source-academy2, but is unused 
 ```
 
 ## GRADERDEPLOYMENT
+
 Represents interpreter settings which override that of DEPLOYMENT, for the grader. Optional for both TASK and PROBLEM.
 
 For a given PROBLEM, the following checks are performed to determine what interpreter settings should be used for the grader:
@@ -428,14 +492,17 @@ This element is useful for assessments that utilise imported modules which use b
 Examples include `show` from the runes module, `draw_connected` from the curves module, or `play` from the sound module.
 
 ### Attributes
-| attributes | details |
-| --- | --- |
-| interpreter | The source chapter to use.
+
+| attributes  | details                    |
+| ----------- | -------------------------- |
+| interpreter | The source chapter to use. |
 
 ### Children
+
 [IMPORT](#import), [EXTERNAL](#external), [GLOBAL](#global)
 
 ### Example
+
 ```xml
 <GRADERDEPLOYMENT interpreter="2">
   <IMPORT module="cs1101s_1920/two_dim_runes">
@@ -449,17 +516,21 @@ Examples include `show` from the runes module, `draw_connected` from the curves 
 ```
 
 ## IMPORT
+
 Represents a module to be exposed to the student. Optional. Can have many. The IMPORT mechanism is slated to replace the EXTERNAL mechanism in AY 20/21.
 
 ### Attributes
-| attributes | details |
-| --- | --- |
-| module | Path of the library, relative to `https://github.com/source-academy/assessments/tree/master/lib/`.
+
+| attributes | details                                                                                            |
+| ---------- | -------------------------------------------------------------------------------------------------- |
+| module     | Path of the library, relative to `https://github.com/source-academy/assessments/tree/master/lib/`. |
 
 ### Children
+
 [SYMBOL](#symbol)
 
 ### Example
+
 ```xml
 <IMPORT module="cs1101s_1920/two_dim_runes">
   <SYMBOL>beside</SYMBOL>
@@ -467,18 +538,22 @@ Represents a module to be exposed to the student. Optional. Can have many. The I
 </IMPORT>
 ```
 
-## EXTERNAL 
+## EXTERNAL
+
 Represents an "external" library to be exposed to the student. Optional.
 
 ### Attributes
-| attributes | details |
-| --- | --- |
-| name | Name of the "external" library. Can be "NONE", "TWO_DIM_RUNES", "THREE_DIM_RUNES", "CURVES", or "SOUND".
+
+| attributes | details                                                                                                  |
+| ---------- | -------------------------------------------------------------------------------------------------------- |
+| name       | Name of the "external" library. Can be "NONE", "TWO_DIM_RUNES", "THREE_DIM_RUNES", "CURVES", or "SOUND". |
 
 ### Children
+
 [SYMBOL](#symbol)
 
 ### Example
+
 ```xml
 <EXTERNAL name="TWO_DIM_RUNES">
   <SYMBOL>beside</SYMBOL>
@@ -487,20 +562,24 @@ Represents an "external" library to be exposed to the student. Optional.
 ```
 
 ## SYMBOL
+
 Represents an identifier from the [IMPORT](#import)ed module, or [EXTERNAL](#external) library or [GLOBAL](#global) variables to be exposed through the Source implementation. Put simply, this declares a variable in the source context that points to an identically named variable in the window namespace. Optional. Can have many.
 
 The identifier exposed by the source interpreter will take the same name as the identifier it points to in the IMPORTed module. For example, the function `show` in Source will execute the function `show` in the specified IMPORTed module.
 
 ### Value
+
 Text representing a valid JavaScript identifier name for the symbol.
 
 ### Example
+
 ```xml
 <SYMBOL>beside</SYMBOL>
 <SYMBOL>make_cross</SYMBOL>
 ```
 
 ## GLOBAL
+
 Represents a variable to be dumped into the window namespace. Optional. Can have many.
 
 This is useful to define functions or constants for the student's use, which are not provided by imported modules. For example, you may wish to expose a variable containing a list of names for the student to sort through in sorting missions.
@@ -508,9 +587,11 @@ This is useful to define functions or constants for the student's use, which are
 You may also use this to override some property of the window, perhaps originating from an IMPORTed module.
 
 ### Children
+
 [IDENTIFIER](#identifier), [VALUE](#value)
 
 ### Example
+
 ```xml
 <GLOBAL>
   <IDENTIFIER>student_names</IDENTIFIER>
@@ -519,28 +600,35 @@ You may also use this to override some property of the window, perhaps originati
 ```
 
 ## IDENTIFIER
+
 Represents the identifier name of a GLOBAL variable. Required.
 
 ### Value
+
 Text representing a valid javascript identifier name for the GLOBAL variable.
 
 ### Example
+
 ```xml
 <IDENTIFIER>student_names</IDENTIFIER>
 ```
 
 ## VALUE
+
 Represents the javascript value of a GLOBAL variable. Required.
 
 ### Value
+
 Text representing a valid JavaScript program to be eval'd. The return value of this evaluation is then taking to be the value of the GLOBAL variable.
 
 ### Example
+
 ```xml
 <VALUE>list("Alpha Centauri", "007", "Gilgamesh");</VALUE>
 ```
 
 ## Example Assessments XML
+
 ```xml
 <?xml version="1.0"?>
 <CONTENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://128.199.210.247">
