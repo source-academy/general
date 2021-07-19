@@ -175,7 +175,7 @@ Required: at least one PROBLEM in the PROBLEMS element.
 | attribute | details |
 | --- | --- |
 | maxxp | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder. |
-| type | The type of this question. Can be "programming" or "mcq". |
+| type | The type of this question. Can be "programming", "mcq" or "voting". |
 | showsolution | default false; if value is string "true", solution string is shipped to web client for display to student |
 | blocking | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question |
 
