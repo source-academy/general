@@ -35,7 +35,7 @@ You may assume that each element must be unique (i.e. only one exists per parent
   - [TEXT](#text)
   - [PROBLEMS](#problems)
     - [PROBLEM](#problem)
-      - programming
+      - [programming](#programming)
       	- [TEXT](#text)
        	- [SNIPPET](#snippet)
           - [PREPEND](#prepend)
@@ -46,10 +46,10 @@ You may assume that each element must be unique (i.e. only one exists per parent
             - [OPAQUE](#opaque)
             - [SECRET](#secret)
         - [SOLUTION](#solution)
-      - mcq
+      - [mcq](#mcq)
       	- [TEXT](#text)
       	- [CHOICE](#choice)
-      - voting
+      - [voting](#voting)
       	- [TEXT](#text)
       	- [VOTING](#voting)
       	- [SNIPPET](#snippet)
@@ -218,7 +218,14 @@ Required: at least one PROBLEM in the PROBLEMS element.
 
 ### Children
 
-[TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
+[TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [VOTING](#voting), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
+
+#### programming
+[TEXT](#text), [SNIPPET](#snippet), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
+#### mcq
+[TEXT](#text), [CHOICE](#choice)
+#### voting
+[TEXT](#text), [SNIPPET](#snippet), [VOTING](#voting), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
 
 ### Example
 
