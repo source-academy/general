@@ -227,11 +227,18 @@ Required: at least one PROBLEM in the PROBLEMS element.
   <TEXT>Your first task shall be to practise writing comments.</TEXT>
   <SNIPPET>...</SNIPPET>
 </PROBLEM>
+
 <PROBLEM maxxp="20" type="mcq">
   <CHOICE correct="..."></CHOICE>
   <CHOICE correct="..."></CHOICE>
   <CHOICE correct="..."></CHOICE>
   <CHOICE correct="..."></CHOICE>
+</PROBLEM>
+
+<PROBLEM maxxp="100" type="voting">
+  <TEXT> You can now vote on the most beautiful runes made by your fellow students! </TEXT>
+  <VOTING assessment_number="C5"/>
+  <SNIPPET>...</SNIPPET>
 </PROBLEM>
 ```
 
@@ -273,8 +280,9 @@ Represents the configuration in a [PROBLEM](#problem) of type "voting". Required
 
 ## SNIPPET
 
-Represents snippets of source programs in a PROBLEM of type "programming". Required for PROBLEM elements of type "programming".
-In a PROBLEM of type "voting", valid children are [PREPEND](#prepend) and [TEMPLATE](#template). Required for PROBLEM elements of type "voting".
+Represents snippets of source programs in a [PROBLEM](#problem) of type "programming". Required for PROBLEM elements of type "programming".
+
+In a [PROBLEM](#problem) of type "voting", valid children are [PREPEND](#prepend) and [TEMPLATE](#template). Optional for PROBLEM elements of type "voting". 
 
 ### Children
 
@@ -314,7 +322,7 @@ function predeclared_function() {
 
 ## TEMPLATE
 
-Represents an answer template that will be provided to the student when they first load up an assessment. Required.
+Represents an answer template that will be provided to the student when they first load up an assessment or when they reset an assessment. Required.
 
 ### Value
 
