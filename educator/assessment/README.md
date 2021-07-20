@@ -35,16 +35,27 @@ You may assume that each element must be unique (i.e. only one exists per parent
   - [TEXT](#text)
   - [PROBLEMS](#problems)
     - [PROBLEM](#problem)
-      - [SNIPPET](#snippet)
-        - [PREPEND](#prepend)
-        - [TEMPLATE](#template)
-        - [POSTPEND](#postpend)
-        - [TESTCASES](#testcases)
-          - [PUBLIC](#public)
-          - [OPAQUE](#opaque)
-          - [SECRET](#secret)
+      - programming
+      	- [TEXT](#text)
+       	- [SNIPPET](#snippet)
+          - [PREPEND](#prepend)
+          - [TEMPLATE](#template)
+          - [POSTPEND](#postpend)
+          - [TESTCASES](#testcases)
+            - [PUBLIC](#public)
+            - [OPAQUE](#opaque)
+            - [SECRET](#secret)
         - [SOLUTION](#solution)
-      - [CHOICE](#choice)
+      - mcq
+      	- [TEXT](#text)
+      	- [CHOICE](#choice)
+      - voting
+      	- [TEXT](#text)
+      	- [VOTING](#voting)
+      	- [SNIPPET](#snippet)
+          - [PREPEND](#prepend)
+          - [TEMPLATE](#template)
+      
   - [DEPLOYMENT](#deployment) / [GRADERDEPLOYMENT](#graderdeployment)
     - [IMPORT](#import)
       - [SYMBOL](#symbol)
@@ -244,9 +255,26 @@ Represents an option in a [PROBLEM](#problem) of type "mcq". Required for PROBLE
 <CHOICE correct="false"><TEXT>...</TEXT></CHOICE>
 ```
 
+## VOTING
+
+Represents the configuration in a [PROBLEM](#problem) of type "voting". Required for PROBLEM elements of type "voting". Can only have one.
+
+### Attributes
+
+| attribute | details                                                                                                   |
+| --------- | --------------------------------------------------------------------------------------------------------- |
+| assessment_number | The assessment number that refers to the contest assessment for this voting assessment |
+
+### Example
+
+```xml
+<VOTING assessment_number="C5"/>
+```
+
 ## SNIPPET
 
 Represents snippets of source programs in a PROBLEM of type "programming". Required for PROBLEM elements of type "programming".
+In a PROBLEM of type "voting", valid children are [PREPEND](#prepend) and [TEMPLATE](#template). Required for PROBLEM elements of type "voting".
 
 ### Children
 
