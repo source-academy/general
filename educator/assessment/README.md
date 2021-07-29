@@ -213,7 +213,7 @@ Required: at least one PROBLEM in the PROBLEMS element.
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | maxxp        | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder. |
 | type         | The type of this question. Can be "programming", "mcq" or "voting".                                                              |
-| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student                        |
+| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student. <br><sub> In a PROBLEM of type "mcq', solution is used on the frontend to determine if the student's answer is correct before the student proceed and to style the choices. So, if solution is not given and blocking is "true", the frontend will not know if the student is correct and will let the student proceed as long as the student makes a choice.</sub> |
 | blocking     | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question       |
 
 ### Children
@@ -386,7 +386,7 @@ Represents the test cases that are used to judge a student's code. Optional.
 
 ## PUBLIC
 
-Represents a public test case. Optional. Can have many.
+Represents a public test case. Public test cases will be sent to the client. Students can see the testcase programme and run them to see the result. Optional. Can have many.
 
 ### Attributes
 
@@ -407,7 +407,7 @@ The program string that calls the student-declared function.
 
 ## OPAQUE
 
-Represents an opaque test case. Opaque test cases will be sent to the client and can be ran by student but will be shown as hidden test case. Optional. Can have many.
+Represents an opaque test case. Opaque test cases will be sent to the client. Students can only view them as hidden test cases but they can run them to see if they pass the test. Grader can view the test case programme in the grading workspace. Optional. Can have many.
 
 ### Attributes
 
@@ -428,7 +428,7 @@ The program string that calls the student-declared function.
 
 ## SECRET
 
-Represents an secret test case. Secret test cases will not be sent to students. Optional. Can have many.
+Represents an secret test case. Secret test cases will not be sent to students but will be sent to the grading workspace. Optional. Can have many.
 
 ### Attributes
 
