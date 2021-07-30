@@ -213,8 +213,8 @@ Required: at least one PROBLEM in the PROBLEMS element.
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | maxxp        | The maximum xp achievable for thie PROBLEM. XP earned by students will be proportional to the grade as graded by the autograder. |
 | type         | The type of this question. Can be "programming", "mcq" or "voting".                                                              |
-| showsolution | default false; if value is string "true", solution string is shipped to web client for display to student. <br><sub> In a PROBLEM of type "mcq', solution is used on the frontend to determine if the student's answer is correct before the student proceed and to style the choices. So, if solution is not given and blocking is "true", the frontend will not know if the student is correct and will let the student proceed as long as the student makes a choice.</sub> |
-| blocking     | default false, if value is string "true", the question is blocking; must be answered correctly to proceed to next question       |
+| showsolution | Default false; If value is string "true", the solution string is shipped to web client. <br><sub> In a PROBLEM of type "mcq', the solution is used on the frontend to determine if the student's answer is correct (and to provide immediate visual feedback to the student by highlighting the selection green or red). This can be used together with the attribute `blocking` to ensure students answer MCQ questions correctly before proceeding to the next question. In the event `showsolution` is "false" and `blocking` is "true", the frontend is unable to verify the student's MCQ answer, and will allow him/ her to proceed after making any selection.</sub> <br><sub> In a PROBLEM of type "programming", the solution string, if sent, is currently NOT displayed to the student on the frontend. However, this might be subject to changes in the future, and the documentation will be updated accordingly here. Do note that more astute students might open the browser's network tab to view the solution string directly if it is sent. </sub> |
+| blocking     | Default false; If value is string "true", the question is blocking; must be answered correctly to proceed to next question       |
 
 ### Children
 
@@ -365,7 +365,7 @@ function postdeclared_function() {
 
 ## TESTCASES
 
-Represents the test cases that are used to judge a student's code. Optional.
+Represents the test cases that are used to judge a student's code. Typically used together with serverside autograding (if configured). Optional.
 
 ### CHILDREN
 
@@ -386,7 +386,7 @@ Represents the test cases that are used to judge a student's code. Optional.
 
 ## PUBLIC
 
-Represents a public test case. Public test cases will be sent to the client. Students can see the testcase programme and run them to see the result. Optional. Can have many.
+Represents a public test case. Public test cases will be sent to the client. Students can see the testcase program and run them to see the result. Optional. Can have many.
 
 ### Attributes
 
@@ -407,7 +407,7 @@ The program string that calls the student-declared function.
 
 ## OPAQUE
 
-Represents an opaque test case. Opaque test cases will be sent to the client. Students can only view them as hidden test cases but they can run them to see if they pass the test. Grader can view the test case programme in the grading workspace. Optional. Can have many.
+Represents an opaque test case. Opaque test cases will be sent to the client. The test case programs will be hidden from the students, but they can still run them to see if they pass the test. Grader can view the test case program in the grading workspace. Optional. Can have many.
 
 ### Attributes
 
@@ -428,7 +428,7 @@ The program string that calls the student-declared function.
 
 ## SECRET
 
-Represents an secret test case. Secret test cases will not be sent to students but will be sent to the grading workspace. Optional. Can have many.
+Represents a secret test case. Secret test cases will not be sent to students but will be sent to the grading workspace. Primarily used to add more testcases for serverside autograding. Optional. Can have many.
 
 ### Attributes
 
