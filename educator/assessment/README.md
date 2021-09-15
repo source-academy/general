@@ -64,7 +64,7 @@ You may assume that each element must be unique (i.e. only one exists per parent
     - [GLOBAL](#global)
       - [IDENTIFIER](#identifier)
       - [VALUE](#value)
-- [EXAMPLE XML FILE](#example-xml-file)
+- [EXAMPLE XML FILE](#example-assessment-xml)
 
 ## TASK
 
