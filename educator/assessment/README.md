@@ -278,11 +278,12 @@ Represents the configuration in a [PROBLEM](#problem) of type "voting". Required
 | attribute | details                                                                                                   |
 | --------- | --------------------------------------------------------------------------------------------------------- |
 | assessment_number | The assessment number that refers to the contest assessment for this voting assessment |
+| reveal_hours | The number of hours after the assessment close time before the leaderboard reveals |
 
 ### Example
 
 ```xml
-<VOTING assessment_number="C5"/>
+<VOTING assessment_number="C5" reveal_hours=48/>
 ```
 
 ## SNIPPET
