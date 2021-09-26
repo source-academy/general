@@ -278,7 +278,7 @@ Represents the configuration in a [PROBLEM](#problem) of type "voting". Required
 | attribute | details                                                                                                   |
 | --------- | --------------------------------------------------------------------------------------------------------- |
 | assessment_number | The assessment number that refers to the contest assessment for this voting assessment |
-| reveal_hours | The number of hours after the assessment close time before the leaderboard reveals |
+| reveal_hours | The number of hours after the assessment close time before the leaderboard reveals for students <br><sub>staff and admin can always see the leaderboard.</sub>|
 
 ### Example
 
