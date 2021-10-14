@@ -494,9 +494,11 @@ The missionType attribute was previously used by source-academy2, but is unused 
 
 ### Attributes
 
-| attributes  | details                    |
-| ----------- | -------------------------- |
-| interpreter | The source chapter to use. |
+| attributes  | details                                                                                                                       |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| interpreter | The Source chapter to use.                                                                                                    |
+| variant     | The Source variant to use; one of `wasm`, `lazy`, `non-det`, `concurrent`, `gpu`, `default`. Optional, defaults to `default`. |
+| exectime    | Execution time limit, in milliseconds. Optional, defaults to 1000.                                                            |
 
 ### Children
 
@@ -505,7 +507,7 @@ The missionType attribute was previously used by source-academy2, but is unused 
 ### Example
 
 ```xml
-<DEPLOYMENT interpreter="2">
+<DEPLOYMENT interpreter="2" variant="default" exectime="1000">
   <IMPORT module="cs1101s_1920/two_dim_runes">
       <SYMBOL>beside</SYMBOL>
       <SYMBOL>make_cross</SYMBOL>
