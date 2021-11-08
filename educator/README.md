@@ -4,7 +4,7 @@ label: Educators
 
 # Resources for educators
 
-The educators in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides educator material including homework assignments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@comp.nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 
+The educators in the Source Academy community might find the following resources useful. In addition, the NUS instructor team provides educator material including homework assignments, exams of previous years with solutions, and weekly classroom exercises. Email [sourceacademy@nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg) to get access to these resources. 
 
 Educators have the following options to work with [SICP JS](https://sourceacademy.org/sicpjs/):
 - Not use Source Academy: You can use SICP JS with the IDE of your choice; [see here](../package/README.md) for more information
@@ -17,7 +17,7 @@ Educators who have used the original Scheme-based SICP book may appreciate our [
 
 ## Student resources
 
-- [Structure and Interpretation of Computer Programs, JavaScript Adaptation (SICP JS)](https://sourceacademy.org/sicpjs/): online edition of the textbook
+- [Structure and Interpretation of Computer Programs, JavaScript Edition (SICP JS)](https://sourceacademy.org/sicpjs/): online edition of the textbook
 - [Source Academy Playground](https://sourceacademy.org/playground): online programming environment custom-built for learners who use SICP JS
 - [Source](https://docs.sourceacademy.org/): Source languages used in the book (sublanguages of JavaScript)
 - [sicp repository](https://github.com/source-academy/sicp): textbook github repository, for reporting errors and for typesetting our own copy
