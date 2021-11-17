@@ -15,12 +15,9 @@ Educators have the following options to work with [SICP JS](https://sourceacadem
 
 Educators who have used the original Scheme-based SICP book may appreciate our [Scheme-JavaScript Comparison Edition](https://sicp.sourceacademy.org), where SICP and SICP JS can be viewed side-by-side.
 
-## Student resources
+## Learner resources
 
-- [Structure and Interpretation of Computer Programs, JavaScript Edition (SICP JS)](https://sourceacademy.org/sicpjs/): online edition of the textbook
-- [Source Academy Playground](https://sourceacademy.org/playground): online programming environment custom-built for learners who use SICP JS
-- [Source](https://docs.sourceacademy.org/): Source languages used in the book (sublanguages of JavaScript)
-- [sicp repository](https://github.com/source-academy/sicp): textbook github repository, for reporting errors and for typesetting our own copy
+See [Resources for learners](https://about.sourceacademy.org/learner/README.html)
 
 ## Resources for educators who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
