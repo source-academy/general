@@ -32,6 +32,7 @@ header_pages:
   - learner/README.md
   - educator/README.md
   - research/README.md
+  - accolade/README.md
 
 # Build settings
 theme: jekyll-theme-minimal
