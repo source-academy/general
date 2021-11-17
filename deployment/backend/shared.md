@@ -5,13 +5,13 @@ Compiling on a different Linux distribution should work as long as the Elixir yo
 too-new a glibc. (Of course, you can just do this on the server you will be running the backend on.)
 
 1. Install Elixir on your system. Make sure the versions are at least those listed
-   [here](https://github.com/source-academy/cadet#system-requirements). Following the instructions
+   [here](https://github.com/source-academy/backend#system-requirements). Following the instructions
    [here](https://elixir-lang.org/install.html) is fine. If you want to use a version manager like
    [asdf](https://github.com/asdf-vm/asdf), that should be fine too. (But we do the former.)
 
    After installing Elixir, set up the dependency manager: `mix local.hex --force && mix local.rebar --force`
 
-2. Clone the cadet repository: `git clone https://github.com/source-academy/cadet.git`
+2. Clone the cadet repository: `git clone https://github.com/source-academy/backend.git`
 
 3. Enter the directory and install dependencies: `MIX_ENV=prod mix deps.get`
 
@@ -26,7 +26,7 @@ too-new a glibc. (Of course, you can just do this on the server you will be runn
 The backend in production mode loads its configuration from `/etc/cadet.exs` by default. You can specify a path in the
 environment variable `CONFIG` to override this.
 
-Copy the [example configuration](https://github.com/source-academy/cadet/blob/master/config/cadet.exs.example) to
+Copy the [example configuration](https://github.com/source-academy/backend/blob/master/config/cadet.exs.example) to
 `/etc/cadet.exs` (or some other location, if you are overriding the default), and edit the values. If you are following
 the Terraform deployment, you will upload the file to your configuration bucket instead.
 

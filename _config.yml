@@ -24,6 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "about.sourceacademy.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  source-academy
+github_repo_name: general
+github_repo_link: https://github.com/source-academy/general
 
 # Header Pages
 header_pages:

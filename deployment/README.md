@@ -29,7 +29,7 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
 
 ### Components developed in-house
 
-- [cadet-frontend](https://github.com/source-academy/cadet-frontend)*: the frontend. This is the part that users
+- [frontend](https://github.com/source-academy/frontend)*: the frontend. This is the part that users
   (students and staff) interact with. It is a standard React SPA written in TypeScript. One major dependency of the
   frontend is [js-slang](https://github.com/source-academy/js-slang), the implementation of our JavaScript subset
   language called Source. (It does not affect deployment, but it is good to know.)
@@ -39,7 +39,7 @@ The full Source Academy deployment as used for the CS1101S module in NUS SoC com
   Pages, etc. GitHub Pages is not suitable as it does not allow you to rewrite non-existent paths. The CS1101S
   deployment uses Amazon CloudFront with Amazon S3.
 
-- [cadet](https://github.com/source-academy/cadet)*: the main backend, sometimes referred to as the Elixir backend. This
+- [backend](https://github.com/source-academy/backend)*: the main backend, sometimes referred to as the Elixir backend. This
   stores most of the dynamic data: the users, assessments, students' work, grading, etc. It is built on the Phoenix
   framework, written in Elixir.
 

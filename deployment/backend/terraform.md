@@ -89,7 +89,7 @@
 7. [Configure the backend](shared.md#configuring-the-backend). Then upload the file to the configuration bucket created
    in the last step. (You can name the file anything; you might use `cadet.exs`, for example.)
 
-8. Enter the `deployment/terraform` directory of your copy of the `cadet` repository.
+8. Enter the `deployment/terraform` directory of your copy of the backend repository.
 
    Create a file `terraform.tfvars` in the directory, with these contents:
 
@@ -114,7 +114,7 @@
 
    Modify the details under the "provider" key as needed. (Mainly the AWS region.)
 
-10. Initialise Terraform by running `terraform init` (in the current directory i.e. `cadet/deployment/terraform`).
+10. Initialise Terraform by running `terraform init` (in the current directory i.e. `backend/deployment/terraform`).
 
 11. Provision the resources by running `terraform apply`.
 

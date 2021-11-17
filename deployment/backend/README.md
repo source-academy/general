@@ -6,7 +6,7 @@ we do not test that the backend works those platforms.)
 
 ## Deployment methods
 
-- Local development: see the [cadet README](https://github.com/source-academy/cadet#developer-setup)
+- Local development: see the [backend README](https://github.com/source-academy/backend#developer-setup)
 - [Install on Linux server](#install-on-linux-server)
 - [Full Terraform deployment](terraform.md) (This is what is used by CS1101S.)
 
@@ -17,7 +17,7 @@ we do not test that the backend works those platforms.)
 2. If you are running on Ubuntu 20.04, you can run the automated installation script:
 
    ```bash
-   curl -LO https://raw.githubusercontent.com/source-academy/cadet/stable/deployment/init.sh
+   curl -LO https://raw.githubusercontent.com/source-academy/backend/stable/deployment/init.sh
    # inspect init.sh
    sudo bash init.sh
    ```
