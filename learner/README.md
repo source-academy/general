@@ -6,9 +6,10 @@ label: Learners
 
 The learners in the Source Academy community might find the following resources useful.
 
-- [Structure and Interpretation of Computer Programs, JavaScript Edition (SICP JS)](https://sourceacademy.org/sicpjs): online edition of the textbook (see also the [textbook github repository](https://github.com/source-academy/sicp), for reporting errors and for typesetting our own copy)
+- [Interactive SICP JS](https://sourceacademy.org/sicpjs): online version of the textbook *Structure and Interpretation of Computer Programs, JavaScript Edition* (see also the [textbook github repository](https://github.com/source-academy/sicp), for reporting errors and for typesetting our own copy)
+- [SICP JS in print](https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs-1): print version of *Structure and Interpretation of Computer Programs, JavaScript Edition*
+- [Programs of SICP JS](https://sicp.sourceacademy.org/sicpjs.zip): all programs of the book, in a zip file
 - [Source](https://docs.sourceacademy.org): Source languages used in the book (sublanguages of JavaScript)
-- [Email to sourceacademy@nus.edu.sg](mailto:sourceacademy@comp.nus.edu.sg?subject=Source%20Academy%20Course%20Inquiry) if you are looking to join a Source Academy course (subject: Source Academy Course Inquiry, mention desired time frame and your background)
 
 Currently, learners have the following options. If you take a course based on SICP JS, check with your instructor which option applies to the course:
 
