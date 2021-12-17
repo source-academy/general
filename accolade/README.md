@@ -24,4 +24,4 @@ TEE Hao Wei,
 Jet KAN Yip Keng,
 Sean LOW Jun Kai, 
 Sigmund CHIANASTA) won the Annual Digital Eduation Award 2021 (Team category) at the National University of Singapore
-- [People's Choice Award, geNiUSbook 2021](): [Samuel Fang](https://github.com/samuelfangjw) and [Martin Henz](https://github.com/martin-henz) won the People's Choice Award, genNiUSbook 2021, for [Interactive SICP JS](https://sourceacademy.org/sicpjs) (most popular e-book) at the National University of Singapore
+- [People's Choice Award, geNiUSbook 2021](https://credentials.nus.edu.sg/7db4ddae-a789-434f-91d9-d48bab9bb50f): [Samuel Fang](https://github.com/samuelfangjw) and [Martin Henz](https://github.com/martin-henz) won the People's Choice Award, genNiUSbook 2021, for [Interactive SICP JS](https://sourceacademy.org/sicpjs) (most popular e-book) at the National University of Singapore
