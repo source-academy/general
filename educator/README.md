@@ -17,7 +17,7 @@ Educators who have used the original Scheme-based SICP book may appreciate our [
 
 ## Learner resources
 
-See [Resources for learners](../learner/README.html)
+See [Resources for learners](../learner/README.md)
 
 ## Resources for educators who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
