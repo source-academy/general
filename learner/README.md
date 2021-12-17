@@ -17,4 +17,4 @@ Currently, learners have the following options. If you take a course based on SI
 - [Learn with SICP JS without Source Academy](../package/README.md) 
 - [Learn with Source Academy](../vanilla/README.md) without GitHub Classroom
 - [Learn with Source Academy and GitHub Classroom](github/README.md) 
-- [Learn with Source Academy @ NUS](nus/README.md)
+- [Learn with Source Academy @ NUS](nus/README.md) 
