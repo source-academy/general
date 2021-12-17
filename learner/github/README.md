@@ -1,6 +1,6 @@
 ## Overview
 
-This guide will detail to learners how to make use of the Source Academy interface to complete their homework.
+This guide instructs learners how to make use of the Source Academy interface to complete their homework.
 
 ## Content
 
