@@ -21,8 +21,8 @@ See [Resources for learners](https://about.sourceacademy.org/learner/README.html
 
 ## Resources for educators who use [Source Academy @ NUS](https://sourceacademy.nus.edu.sg/)
 
-- [Guide for authoring and uploading assessments](assessment/README.md): homework submissions stored on the **Source Academy @ NUS** server, graded by you and your assistants or auto-graded
-- [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular submissions in a contest 
-- [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assignments
+- [Guide for authoring and uploading assessments](https://about.sourceacademy.org/educator/assessment/README.md): homework submissions stored on the **Source Academy @ NUS** server, graded by you and your assistants or auto-graded
+- [Guide for managing contest voting](https://about.sourceacademy.org/educator/voting/README.md): setup for students to vote for the most popular submissions in a contest 
+- [Guide for setting up a Source Academy game](https://about.sourceacademy.org/educator/game/README.md): game provides context for homework assignments
 
 
