@@ -14,9 +14,7 @@ The Playground allows you to choose one of four [Source languages](https://docs.
 
 ### Data Visualizer
 
-### Environment Model Visualizer
-
-### Scope tools
+### Environment Visualizer
 
 ## Programming environment
 
@@ -25,3 +23,7 @@ The Playground allows you to choose one of four [Source languages](https://docs.
 ### Share links
 
 ### Sessions
+
+### Program editor
+
+### Github and Google Drive integration
