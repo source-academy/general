@@ -1,5 +1,5 @@
 ---
-label: Accolades
+label: Praise
 ---
 
 # Endorsement of Source Academy
