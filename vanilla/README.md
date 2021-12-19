@@ -1,4 +1,4 @@
-# Using Source Academy in an SICP-JS-based Course
+# Using Source Academy in an SICP-JS-based course
 
 The Source Academy is designed for learners who use the textbook [Structure and Interpretation of Computer Programs, JavaScript Adaptation](https://sourceacademy.org/sicpjs/). [This link](https://sourceacademy.org/) provides access to the Source Academy.
 
@@ -8,13 +8,13 @@ The Playground allows you to choose one of four [Source languages](https://docs.
 
 <img width="415" alt="Screenshot 2021-05-20 at 9 51 16 AM" src="https://user-images.githubusercontent.com/30220768/118906769-f9899e00-b950-11eb-9ba4-849898be9dbe.png">
 
-## Language Tools
+## Language tools
 
 ### Stepper
 
-### Data Visualizer
+### Data visualizer
 
-### Environment Visualizer
+### Environment visualizer
 
 ## Programming environment
 
@@ -22,7 +22,7 @@ The Playground allows you to choose one of four [Source languages](https://docs.
 
 ### Share links
 
-### Sessions
+### Collaborative sessions
 
 ### Program editor
 
