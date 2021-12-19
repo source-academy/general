@@ -2,7 +2,28 @@
 label: Accolades
 ---
 
-# Accolades
+# Endorsement of Source Academy
+
+"I had previously had vague notions of trying to teach a course based on "Structure and Interpretation of Computer Programs", but using JavaScript rather than Scheme for a while, but it always seemed too daunting.  Then, one day, I discovered the "SICP JavaScipt Adaptation", Source Academy and Martin Henz's course.  I'm sure I would never have taught my course if not for the existence of those resources.  Moreover, I could not have been effective in teaching the course if not for the extraordinary level of support and advice from Martin Henz personally, as well as from his Source Academy staff. They helped me set up my own servers running the software, gave advice on how to use the software and run an effective course. They were also extremely responsive to bug reports and feature requests during the entire course of my teaching."
+
+Mark Friedman, University of San Francisco
+
+# Endorsement of SICP JS
+
+“A classic, meticulously revisited and modernized with talent, pedagogy, and substance. Thank you, Martin and Tobias!”
+
+Olivier Danvy, Yale-NUS College
+
+“When I am asked 'How can I become a better programmer?,' I recommend this book.”
+
+Douglas Crockford, author of How JavaScript Works
+
+“How much is a programming book influenced by its programming language? SICP in JavaScript is remarkably fluid, an excellent choice for today's programmers.”
+
+Peter Van Roy, Université catholique de Louvain
+
+
+# Awards
 
 - [ADEA 2021](https://nus.edu.sg/cdtl/teaching-and-learning-quality/teaching-awards/teaching-award-winners#ATEA%20Winners): The [Source Academy Team](https://sourceacademy.org/contributors) (Martin HENZ, LOW Kok Lim, Ronald Boyd ANDERSON, LIEW Chun Tze, Eldric, Evan SEBASTIAN,
 NG Tse Pei,
