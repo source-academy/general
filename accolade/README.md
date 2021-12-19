@@ -8,18 +8,13 @@ label: Accolades
 
 Mark Friedman, University of San Francisco
 
-# Endorsement of SICP JS
+# Endorsements of SICP JS
 
-“A classic, meticulously revisited and modernized with talent, pedagogy, and substance. Thank you, Martin and Tobias!”
-
+- “A classic, meticulously revisited and modernized with talent, pedagogy, and substance. Thank you, Martin and Tobias!”
 Olivier Danvy, Yale-NUS College
-
-“When I am asked 'How can I become a better programmer?,' I recommend this book.”
-
+- “When I am asked 'How can I become a better programmer?,' I recommend this book.”
 Douglas Crockford, author of How JavaScript Works
-
-“How much is a programming book influenced by its programming language? SICP in JavaScript is remarkably fluid, an excellent choice for today's programmers.”
-
+- “How much is a programming book influenced by its programming language? SICP in JavaScript is remarkably fluid, an excellent choice for today's programmers.”
 Peter Van Roy, Université catholique de Louvain
 
 
