@@ -2,7 +2,7 @@
 label: Praise
 ---
 
-# Endorsement of Source Academy
+# Endorsements of Source Academy
 
 - "source academy makes learning so fun and engaging"  
 a student of CS1101S at the National University of Singapore in 2020
