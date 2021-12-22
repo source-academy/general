@@ -12,7 +12,7 @@ No prerequisite knowledge. No programming experience is needed. People who alrea
 
 ## Each day
 
-The day will start with a lecture of approximately 1 hour and 45 minutes (online or offline, in the morning or early afternoon, to be decided). There will be a practical Reflection session of 1 to 1 1/2 hours starting at 4pm, and a 2-hour online Studio session in small groups in the evening from 8pm to 10pm.
+Each day will start with a lecture of approximately 1 hour and 45 minutes (online or offline, in the morning or early afternoon, to be decided). There will be a practical Reflection session of 1 to 1 1/2 hours starting at 4pm that will include pair work, and a 2-hour online Studio session in small groups in the evening from 8pm to 10pm.
 
 ## Schedule
 
