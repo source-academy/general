@@ -10,7 +10,11 @@ The Independent Activity covers six days with afternoon lectures, group discussi
 
 No prerequisite knowledge. No programming experience is needed. People who already have programmed are likely to get a new perspective on what programming can be. Students are expected to bring their own computing device: laptop or large tablet, required software: internet browser (Chrome, Firefox, MS Edge, or Safari). Internet connectivity is required.
 
-## Overview
+## Each day
+
+The day will start with a lecture of approximately 1 hour and 45 minutes (online or offline, in the morning or early afternoon, to be decided). There will be a practical Reflection session of 1 to 1 1/2 hours starting at 4pm, and a 2-hour online Studio session in small groups in the evening from 8pm to 10pm.
+
+## Schedule
 
 Design-your-own-course: feel free to come on any of the days, following the stated requirements
 
