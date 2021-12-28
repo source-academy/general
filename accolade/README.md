@@ -4,8 +4,8 @@ label: Praise
 
 # Endorsements of Source Academy
 
-- "source academy makes learning so fun and engaging"  
-a student of CS1101S at the National University of Singapore in 2020
+- "Source Academy was a brilliant and fun platform to use. The format of paths, missions, and quests kept my interest up throughout the course."  
+a student of CS1101S at the National University of Singapore in 2021
 - "The Source Academy was nothing short of a marvel; I cannot imagine the amount of effort and resources that were needed to make it a success..."  
 a student of CS1101S at the National University of Singapore in 2020
 - "I had previously had vague notions of trying to teach a course based on 'Structure and Interpretation of Computer Programs', but using JavaScript rather than Scheme for a while, but it always seemed too daunting.  Then, one day, I discovered the 'SICP JavaScipt Edition', Source Academy and Martin Henz's course.  I'm sure I would never have taught my course if not for the existence of those resources.  Moreover, I could not have been effective in teaching the course if not for the extraordinary level of support and advice from Martin Henz personally, as well as from his Source Academy staff. They helped me set up my own servers running the software, gave advice on how to use the software and run an effective course. They were also extremely responsive to bug reports and feature requests during the entire course of my teaching."  
