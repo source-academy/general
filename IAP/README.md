@@ -4,7 +4,7 @@
 
 We can understand some computer programs in the way we solve math equations: by performing one simple algebraic step after another, until we reach an answer. This Independent Activity introduces programming in this way, inspired by the first chapter of [Structure and Interpretation of Computer Programs, JavaScript edition](https://sourceacademy.org/sicpjs/) (SICP JS). We start from first principles, by looking at functions that you know from mathematics, but before long, you will program interesting graphics and sound patterns using the Source Academy, a website built for SICP JS. The Activity offers entertaining and thought-provoking insights into the essence of computation, and at the same time an introduction to programming using the popular programming language JavaScript.
 
-You can attend one to six days, depending on your preference. Each day has a lecture, a Reflection session, and an optional Studio session.
+You can participate on one to six days, depending on your preference. Each day has a lecture, a Reflection session, and an optional Studio session.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ Each day will start with a lecture of approximately 1 hour and 45 minutes (onlin
 
 ## Schedule
 
-Design-your-own-course: feel free to come on any of the days, consistent with the dependencies shown below.
+Design your own course: feel free to come on any of the days, consistent with the dependencies shown below.
 
 Day 1, Tuesday, January 18: The elements: See the basic ingredients of all computer programs
 
@@ -24,7 +24,7 @@ Day 2, Wednesday, January 19: A picture language: Program graphical patterns by 
 Depends on: Day 1
 
 Day 3, Friday, January 21: Functions: Experience the magic of higher-order programming  
-Depends on: Day 1 and 2
+Depends on: Days 1 and 2
 
 Day 4, Tuesday, January 25: A curve language: Program fractals and three-dimensional curves with functions  
 Depends on: Days 1-3
