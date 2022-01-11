@@ -12,7 +12,7 @@ No prerequisite knowledge. No programming experience is needed. People who alrea
 
 ## Each day
 
-Each day will start with a lecture of about 1 hour and 45 minutes (online or in person, to be decided). There will be an online Reflection session of one hour starting at 4pm that will include group discussion, individual programming exercises, and guided pair programming. For extra fun, an experienced assistant will facilitate optional 2-hour online Studio sessions in small groups each evening from 7pm to 9pm.
+Each day will start with an online lecture of about 1 hour and 45 minutes. There will be an online Reflection session of one hour starting at 4pm that will include group discussion, individual programming exercises, and guided pair programming. For extra fun, an experienced assistant will facilitate optional 2-hour online Studio sessions in small groups each evening from 7pm to 9pm.
 
 ## Schedule
 
