@@ -36,6 +36,8 @@ Day 6, Friday, January 28: Functional sound processing: Make some noise
 Depends on: Days 1-3  
 (equipment: bring a stereo headset that works with your browser)
 
-## Indication of Interest
+## Course links
 
-[State your interest here](https://forms.gle/N6rmHL2qukPpm5tA6)
+The [course calendar](https://calendar.google.com/calendar/embed?src=r778j04ilipi67b03u6dk665es%40group.calendar.google.com&ctz=America%2FNew_York) has all links to zoom sessions, recordings, slides, and other material.
+
+
