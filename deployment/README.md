@@ -1,6 +1,6 @@
 # Deployment manual
 
-This is the deployment manual for the Source Academy, to deploy your own clone of the Source Academy on a server that you control. For other options, see [instructor resources](../instructor/README.md).
+This is the deployment manual for the Source Academy, to deploy your own clone of the Source Academy on a server that you control. For other options, see [educator resources](../educator/README.md).
 
 It is a work-in-progress, and is intended to:
 
