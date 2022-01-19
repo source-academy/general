@@ -32,7 +32,7 @@ the Terraform deployment, you will upload the file to your configuration bucket 
 
 In particular, you should edit the CORS allowed origins (`cors_endpoints`), the database credentials, as well as all the
 AWS resource names and ARNs to match those you have created, if any. Also set up the authentication configuration; you
-may wish to check out the [authentication guide](../auth/index.md).
+may wish to check out the [authentication guide](../auth/README.md).
 
 If you are following the Terraform deployment, you can search and replace `<unique-identifier>` in the example
 configuration which should give you the correct name for all the AWS resources.

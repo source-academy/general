@@ -38,7 +38,7 @@ Students can then execute the program and view the contest entries to vote for.
 
 ## Contest Voting XML
 
-Similar to the creating an [assessment xml](educator/assessment/README.md) for programming and mcq questions, except that except that you need to declare the [PROBLEM](educator/assessment/README.md#problem) type as “voting” and include a VOTING tag `<VOTING assessment_number='??' />`.
+Similar to the creating an [assessment xml](../assessment/README.md) for programming and mcq questions, except that except that you need to declare the [PROBLEM](educator/assessment/README.md#problem) type as “voting” and include a VOTING tag `<VOTING assessment_number='??' />`.
 
 ### VOTING Attributes
 
