@@ -6,7 +6,7 @@ This guide tells you how to use Source Academy with GitHub Classroom for your co
 
 - [Setting up course](#setting-up-course)
   - [Creating GitHub Classroom organization](#creating-github-classroom-organization)
-  - [Authorizing Source Academy to access GitHub Classroom organization](https://github.com/source-academy/general/blob/master/instructor/github/README.md#authorizing-source-academy-to-access-github-classroom-organization)
+  - [Authorizing Source Academy to access GitHub Classroom organization](#authorizing-source-academy-to-access-github-classroom-organization)
   - [Adding learner to GitHub Classroom organization](#adding-learner-to-github-classroom-organization)
   - [Creating course repository](#creating-course-repository)
 - [Creating assessment](#creating-assessment)

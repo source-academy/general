@@ -65,7 +65,7 @@ Important keywords to know as a story writer
 
 If you're looking to write your own checkpoint txt:
 
-* Refer to the following [Sample Checkpoint](https://github.com/source-academy/frontend/wiki/Game-:-Sample-Checkpoint) or download this [sample txt](https://source-academy-assets.s3-ap-southeast-1.amazonaws.com/stories/settling-in.txt) for reference as you read the [txt guide](#txt-guide).
+* Refer to the following [Sample Checkpoint](https://github.com/source-academy/frontend/wiki/Game-:-Sample-Checkpoint) or download this [sample txt](https://source-academy-assets.s3-ap-southeast-1.amazonaws.com/stories/1-settling-in.txt) for reference as you read the [txt guide](#txt-guide).
 
 * You may download the following [Source Academy Game Txt Syntax highlighter](https://github.com/source-academy/sa-game-syntax-highlighter) vs code extension to highlight your txt under the **Sa** language
 
@@ -110,7 +110,7 @@ Runs a checkpoint txt file using actual game engine. You may either load your lo
    2. Choose a checkpoint txt file (from local or S3)
    3. Click on 'Simulate Checkpoint' and play your story that combines these two text files.
 
-Note: Do note that your game state is not saved to backend and txts are not uploaded. You may upload them once you're satisfied using [Asset Upload](asset-upload) (coming soon).
+Note: Do note that your game state is not saved to backend and txts are not uploaded. You may upload them once you're satisfied using the [asset uploader](#asset-uploader).
 
 ### Asset uploader
 
@@ -650,7 +650,7 @@ Note: Although this is a CSV, you can put commas in the title, this is fine.
 
 ### Dialogue Body
 
-Writing dialogue bodies are quite simple, much like writing a script for a play.  
+Writing dialogue bodies are quite simple, much like writing a script for a play.
 
 Example:
 
