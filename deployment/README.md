@@ -118,8 +118,6 @@ institution-provided servers.
 
 ## Get started
 
-Start off by deploying [the backend](backend/README.md), then [the frontend](frontend/README.md), followed by [the
-auxilliary services](auxilliary/README.md).
+Start off by deploying [the backend](backend/README.md), then [the frontend](frontend/README.md), followed by [the auxilliary services](auxilliary/README.md).
 
-If your organisation has no in-house authentication service, you may wish to follow one of the guides on [authentication
-services](auth/README.md) as well.
+If your organisation has no in-house authentication service, you may wish to follow one of the guides on [authentication services](auth/README.md) as well.
