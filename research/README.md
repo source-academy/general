@@ -13,7 +13,7 @@ The Source Academy and SICP JS are used for educational research. Below you find
 - [A Stepper for a Functional JavaScript Sublanguage](https://www.comp.nus.edu.sg/~henz/publications/index.html#splashestepper2021.abstract). Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Yee-Jian Tan, Xinyi Zhang, Jingjing Zhao. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 - [Ruggedizing CS1 Robotics: Tools and Approaches for Online Teaching](https://www.comp.nus.edu.sg/~henz/publications/index.html#splasheruggedizing2021.abstract). Boyd Anderson, Martin Henz, Hao-Wei Tee. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 
-## Talks
+## Invited Talks
 
 - [Shrinking JavaScript for an SICP-based First-Year Course](https://www.csail.mit.edu/event/martin-henz-shrinking-javascript-sicp-based-first-year-course) by Martin Henz. MIT CSAIL Seminar. March 7, 2022. Available: [slides](https://www.comp.nus.edu.sg/~henz/publications/pdf/Shrinking_JavaScript_Slides.pdf), [video](https://youtu.be/NnuQfEekKGg)
 
