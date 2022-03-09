@@ -28,6 +28,6 @@ See [Resources for learners](../learner/README.md)
 
 ## Courses using SICP JS and Source Academy
 
-- [CS1101S at NUS](): CS1 course for Computer Science majors at National University of Singapore, using SICP JS since 2012
+- [CS1101S at NUS](https://www.comp.nus.edu.sg/~cs1101s): CS1 course for Computer Science majors at National University of Singapore, using SICP JS since 2012
 - [A Taste of Programming with SICP JS](https://about.sourceacademy.org/IAP/): MIT course during Independent Activity Period, January 18-28, 2022
 
