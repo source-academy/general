@@ -24,7 +24,7 @@ CloudFront.
 
    Do not upload files yet.
 
-3. Follow steps 1 to 4 of the [manual deployment guide](index.md#manual-deployment) to configure and build the frontend.
+3. Follow steps 1 to 4 of the [manual deployment guide](./README.md#manual-deployment) to configure and build the frontend.
 
    Then, in your shell, enter the `build` directory and run the following commands to upload the files to the bucket.
 

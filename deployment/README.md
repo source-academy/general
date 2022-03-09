@@ -1,6 +1,6 @@
 # Deployment manual
 
-This is the deployment manual for the Source Academy, to deploy your own clone of the Source Academy on a server that you control. For other options, see [instructor resources](../instructor/README.md).
+This is the deployment manual for the Source Academy, to deploy your own clone of the Source Academy on a server that you control. For other options, see [educator resources](../educator/README.md).
 
 It is a work-in-progress, and is intended to:
 
@@ -118,8 +118,6 @@ institution-provided servers.
 
 ## Get started
 
-Start off by deploying [the backend](backend/index.md), then [the frontend](frontend/index.md), followed by [the
-auxilliary services](auxilliary/index.md).
+Start off by deploying [the backend](backend/README.md), then [the frontend](frontend/README.md), followed by [the auxilliary services](auxilliary/README.md).
 
-If your organisation has no in-house authentication service, you may wish to follow one of the guides on [authentication
-services](auth/index.md) as well.
+If your organisation has no in-house authentication service, you may wish to follow one of the guides on [authentication services](auth/README.md) as well.

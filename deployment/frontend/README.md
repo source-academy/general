@@ -19,7 +19,7 @@ The frontend can be deployed on any static site hosting service that supports SP
 3. Configure the frontend for your deployment. [See the frontend
    README](https://github.com/source-academy/frontend#setting-up-your-environment), as well as the [production-specific
    configuration](https://github.com/source-academy/frontend#build-and-deployment). Also set up the authentication
-   configuration; you may wish to check out the [authentication guide](../auth/index.md).
+   configuration; you may wish to check out the [authentication guide](../auth/README.md).
 
    Additionally set (in the `.env` file) `PUBLIC_URL` to be the URL of your deployment. For example,
    `https://sourceacademy.org`. If you are not deploying to the root of the domain, you must specify the full

@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -20,9 +20,9 @@
 
 title: Source Academy
 description: >- # this means to ignore newlines until "baseurl:"
-  about
+  Source Academy documentation for learners, educators, and administrators.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "about.sourceacademy.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://about.sourceacademy.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  source-academy
 github_repo_name: general
 github_repo_link: https://github.com/source-academy/general

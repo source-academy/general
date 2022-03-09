@@ -18,15 +18,17 @@ Instructors can setup a voting question for students to vote for some popular so
 ### Instructor
 
 1. Upload a contest.xml in ground control
-    
+
    Note that the backend **does not anonymize** students' answers, hence students should submit a standardized function header without their names for anonymity.
 2. Once the contest has ended, upload the contest-voting.xml in ground control
 
    The vote assignment will be generated at the point of time of upload of contest-voting.xml (this is a possible future improvement that can be made)
-3. Students can vote once the contest voting assessment is open, and the rolling leaderboard will compute the scores 
+3. Students can vote once the contest voting assessment is open, and the rolling leaderboard will compute the scores
 
    The rolling leaderboard will compute the scores of each student based on votes recieved and number of tokens in the student's answer. More information can be found in [Leaderboard](#leaderboard).
+
 ### Students
+
 1. Students access the side contents to vote for their favorite entries. They can click on the card which will input the entry into the AssessmentEditor.
 Students can then execute the program and view the contest entries to vote for.
 ![image](https://user-images.githubusercontent.com/51410656/120003514-67486080-c008-11eb-9e06-c585985937e9.png)
@@ -35,14 +37,17 @@ Students can then execute the program and view the contest entries to vote for.
 ![image](https://user-images.githubusercontent.com/51410656/120004034-e342a880-c008-11eb-9bf9-d6d3bffde054.png)
 
 ## Contest Voting XML
-Similar to the creating an [assessment xml](https://github.com/source-academy/general/blob/master/instructor/assessment/README.md) for programming and mcq questions, except that except that you need to declare the [PROBLEM](https://github.com/source-academy/general/blob/master/instructor/assessment/README.md#problem) type as “voting” and include a VOTING tag \<VOTING assessment_number
-= ‘??’ \/\>. 
+
+Similar to the creating an [assessment xml](../assessment/README.md) for programming and mcq questions, except that except that you need to declare the [PROBLEM](../assessment/README.md#problem) type as “voting” and include a VOTING tag `<VOTING assessment_number='??' />`.
+
 ### VOTING Attributes
+
 | attribute | details |
-| --- | --- |
+| --------- | ------- |
 | assessment_number | The assessment number of the **contest** (i.e. If a contest was uploaded with the number "C4", the assessment_number will be "C4"). Required. |
 
-### Example of a contest voting xml: 
+### Example of a contest voting xml:
+
 ```xml
 <?xml version="1.0"?>
 <CONTENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://128.199.210.247">
@@ -50,10 +55,10 @@ Similar to the creating an [assessment xml](https://github.com/source-academy/ge
 <!-- ***********************************************************************
 **** Contest Voting #D7
 ************************************************************************ -->
-<TASK 
-  kind="practical" 
+<TASK
+  kind="practical"
   coverimage="http://via.placeholder.com/350x150"
-  number="D7" 
+  number="D7"
   title="Beautiful Runes Contest Voting"
 >
   <READING>Textbook Chapter 1</READING>
@@ -63,7 +68,7 @@ Now is the time to rank the most beautiful runes made by your peers!
 
 You will be randomly assigned 10 runes to rank!
   </TEXT>
-   
+
   <PROBLEMS>
     <PROBLEM type="voting" maxgrade="0" maxxp="100"> <!-- problem type is "voting"-->
       <TEXT>
@@ -73,17 +78,18 @@ You can now vote on the most beautiful runes made by your fellow students!
         <TEMPLATE>
 Rank the beautiful runes!
         </TEMPLATE>
-      </SNIPPET
+      </SNIPPET>
       <VOTING assessment_number="C4"/> <!-- addditional Voting tag -->
     </PROBLEM>
   </PROBLEMS>
-     
+
   <DEPLOYMENT interpreter="1">
   </DEPLOYMENT>
-     
+
 </TASK>
 </CONTENT>
 ```
+
 ## Voting Guide
 
 ### Different Contest Types
