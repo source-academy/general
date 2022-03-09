@@ -32,7 +32,7 @@ Depends on: Days 1-3
 Day 5, Wednesday, January 26: The lambda calculus: Explore the essence of computation  
 Depends on: Days 1-3
 
-Day 6, Friday, January 28: Functional sound processing: Make some noise  
+Day 6, Friday, January 28: Functional audio processing: Make some noise
 Depends on: Days 1-3  
 (equipment: bring a stereo headset that works with your browser)
 

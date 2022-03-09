@@ -26,4 +26,8 @@ See [Resources for learners](../learner/README.md)
 - [Guide for managing contest voting](voting/README.md): setup for students to vote for the most popular submissions in a contest 
 - [Guide for setting up a Source Academy game](game/README.md): game provides context for homework assignments
 
+## Courses using SICP JS and Source Academy
+
+- [CS1101S at NUS](): CS1 course for Computer Science majors at National University of Singapore, using SICP JS since 2012
+- [A Taste of Programming with SICP JS](https://about.sourceacademy.org/IAP/): MIT course during Independent Activity Period, January 18-28, 2022
 
