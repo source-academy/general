@@ -31,8 +31,8 @@ github_repo_link: https://github.com/source-academy/general
 header_pages:
   - learner/README.md
   - educator/README.md
-  - research/README.md
   - developer/README.md
+  - research/README.md
   - accolade/README.md
 
 # Build settings
