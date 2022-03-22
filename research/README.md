@@ -2,9 +2,7 @@
 label: Researchers
 ---
 
-# Resources for researchers
-
-The Source Academy and SICP JS are used for educational research. Below you find some resources.
+# Resources for researchers and developers
 
 ## Publications
 
@@ -40,3 +38,26 @@ The Source Academy and SICP JS are used for educational research. Below you find
 - [Specification of Source §1 Infinite Loop Detection](https://docs.sourceacademy.org/source_1_infinite_loop_detection.pdf)
 - [Specification of Source §2 Stepper](https://docs.sourceacademy.org/source_2_stepper.pdf)
 - [Specification of Source §3 Type Inference](https://docs.sourceacademy.org/source_3_type_inference.pdf)
+
+## Development Activities
+
+Currently (2022-2023) the following intiatives are under way to extend and improve
+Source Academy. All of these are being pursued by Computer Science undergraduate
+students of the National University of Singapore.
+
+- Stories for Source Academy: A notebook for authoring and reading documents that contain
+Source programs.
+- Source Academy as an IDE: Extending the Google Drive and Github interfaces to provide
+commone IDE features.
+- Source Academy for web development: Extending Source Academy to support authoring web
+pages using HTML5.
+- Module for data visualization: Plotly or similar.
+- Constructive Solid Geometry: A module for authoring and visualizing CSG-based scenes.
+- Improvements on tools: Stepper, environment visualizer, achievements, robotics.
+- Improvements and extensions of existing modules: video, sound, graphics processing.
+- Improvements on language implementations: Accessing the browsers' native JavaScript
+execution for performance critical applications.
+
+To get involved, use the Issues feature in the
+[Source Academy repos](https://github.com/source-academy) or email
+(source.academy.nus@gmail.com)[mailto:source.academy.nus@gmail.com].
