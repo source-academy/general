@@ -6,7 +6,7 @@ label: Developers
 
 ## Community
 
-The Source Academy was conceived, designed, and implemented by a community of undergraduate students. See the [https://sourceacademy.org/contributors](contributors page) for the Hall of Fame, current leadership and all Github contributors.
+The Source Academy was conceived, designed, and implemented by a community of undergraduate students. See the [contributors page](https://sourceacademy.org/contributors) for the Hall of Fame, current leadership and all Github contributors.
 
 ## Development Activities
 
