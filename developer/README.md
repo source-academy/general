@@ -17,15 +17,15 @@ students of the National University of Singapore.
 - Stories for Source Academy: A notebook for authoring and reading documents that contain
 Source programs.
 - Source Academy as an IDE: Extending the Google Drive and Github interfaces to provide
-commone IDE features.
+common IDE features.
 - Source Academy for web development: Extending Source Academy to support authoring web
 pages using HTML5.
 - Module for data visualization: Plotly or similar.
 - Constructive Solid Geometry: A module for authoring and visualizing CSG-based scenes.
-- Improvements on tools: Stepper, environment visualizer, achievements, robotics.
+- Improvements of tools: Stepper, environment visualizer, achievements, robotics.
 - Improvements and extensions of existing modules: video, sound, graphics processing.
-- Improvements on language implementations: Accessing the browsers' native JavaScript
-execution for performance critical applications.
+- Improvements of language implementations: Accessing the browsers' native JavaScript
+execution for performance-critical applications.
 
 To get involved, propose fixes, improvements or projects using the Issues feature in the
 [Source Academy repos](https://github.com/source-academy) or email
