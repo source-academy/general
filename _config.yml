@@ -20,7 +20,7 @@
 
 title: Source Academy
 description: >- # this means to ignore newlines until "baseurl:"
-  Source Academy documentation for learners, educators, and administrators.
+  Info on Source Academy for learners, educators, developers, and researchers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://about.sourceacademy.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  source-academy
