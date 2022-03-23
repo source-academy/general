@@ -27,4 +27,4 @@ pages using HTML5.
 - Improvements of language implementations: Accessing the browsers' native JavaScript
 execution for performance-critical applications.
 
-To get involved, feel free to propose fixes, improvements, or projects using the Issues feature in the [Source Academy repos](https://github.com/source-academy) or email [source.academy.nus@gmail.com](mailto:source.academy.nus@gmail.com).
+To get involved, feel free to propose fixes, improvements, or projects using the Issues feature in the [Source Academy repos](https://github.com/source-academy) or send an email to [source.academy.nus@gmail.com](mailto:source.academy.nus@gmail.com).
