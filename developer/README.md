@@ -6,7 +6,7 @@ label: Developers
 
 ## Community
 
-The Source Academy was conceived, designed, and implemented by a community of undergraduate students. See the [contributors page](https://sourceacademy.org/contributors) for the Hall of Fame, current leadership and all Github contributors.
+The Source Academy was conceived, designed, and implemented by a community of undergraduate students. See the [contributors page](https://sourceacademy.org/contributors) for the Hall of Fame, current project leadership, and all Github contributors.
 
 ## Development Activities
 
@@ -27,6 +27,4 @@ pages using HTML5.
 - Improvements of language implementations: Accessing the browsers' native JavaScript
 execution for performance-critical applications.
 
-To get involved, propose fixes, improvements or projects using the Issues feature in the
-[Source Academy repos](https://github.com/source-academy) or email
-[source.academy.nus@gmail.com](mailto:source.academy.nus@gmail.com).
+To get involved, feel free to propose fixes, improvements, or projects using the Issues feature in the [Source Academy repos](https://github.com/source-academy) or email [source.academy.nus@gmail.com](mailto:source.academy.nus@gmail.com).
