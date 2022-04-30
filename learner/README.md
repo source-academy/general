@@ -7,7 +7,7 @@ label: Learners
 The learners in the Source Academy community might find the following resources useful.
 
 - [Interactive SICP JS](https://sourceacademy.org/sicpjs): online version of the textbook *Structure and Interpretation of Computer Programs, JavaScript Edition* 
-- [SICP JS in print](https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs-1): print version of *Structure and Interpretation of Computer Programs, JavaScript Edition*
+- [SICP JS in print](https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs-1): print version of *Structure and Interpretation of Computer Programs, JavaScript Edition*, published by MIT Press
 - [SICP JS in PDF](https://sicp.sourceacademy.org/sicpjs.pdf): latest PDF, subject to a [CC NC-BY-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - [Programs of SICP JS](https://sicp.sourceacademy.org/sicpjs.zip): all programs of the book, in a zip file
 - [Source](https://docs.sourceacademy.org): Source languages used in the book (sublanguages of JavaScript)
