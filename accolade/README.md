@@ -23,7 +23,10 @@ Peter Van Roy, Université catholique de Louvain
 
 # Awards
 
-- [ADEA 2021](https://nus.edu.sg/cdtl/teaching-and-learning-quality/teaching-awards/teaching-award-winners#ATEA%20Winners): The [Source Academy Team](https://sourceacademy.org/contributors)
+- OURP 2021/22: [Source Academy Student Team Rook](https://sourceacademy.org/contributors)
+(Tee Hao Wei, Chow En Rong, Chen Yanyu, Samuel Fang, Gokul Rajiv, Lee Hyung Woon, Shen Yi Hong, Thomas Tan Chee Kun, Bryan Loh, Marcus Tang Xin Kye)
+won the [Outstanding Undergraduate Researcher Prize](https://www.nus.edu.sg/registrar/academic-information-policies/education-at-nus/medals-and-prizes-(university-level)/rules-of-award---o) 2021/22 (Group category) at the National University of Singapore
+- [ADEA 2021](https://nus.edu.sg/cdtl/teaching-and-learning-quality/teaching-awards/teaching-award-winners#ATEA%20Winners): The [Source Academy Teams Cadet and Knight](https://sourceacademy.org/contributors)
 (Martin HENZ,
 LOW Kok Lim,
 Boyd ANDERSON,
@@ -48,5 +51,5 @@ TEE Hao Wei,
 Jet KAN Yip Keng,
 Sean LOW Jun Kai, 
 Sigmund CHIANASTA)
-won the Annual Digital Eduation Award 2021 (Team category) at the National University of Singapore
+won the [Annual Digital Eduation Award](https://www.nus.edu.sg/cdtl/teaching-and-learning-quality/teaching-awards/types-of-awards/nus-annual-digital-education-award) 2021 (Team category) at the National University of Singapore
 - [People's Choice Award, geNiUSbook 2021](https://credentials.nus.edu.sg/7db4ddae-a789-434f-91d9-d48bab9bb50f): [Samuel Fang](https://github.com/samuelfangjw) and [Martin Henz](https://github.com/martin-henz) won the People's Choice Award, genNiUSbook 2021, for [Interactive SICP JS](https://sourceacademy.org/sicpjs) (most popular e-book) at the National University of Singapore
