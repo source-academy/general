@@ -13,7 +13,7 @@ Mark Friedman, University of San Francisco. 2021
 
 # Endorsements of SICP JS
 
-- “A classic, meticulously revisited and modernized with talent, pedagogy, and substance. Thank you, Martin and Tobias!”  
+- “A classic, meticulously revisited and modernized with talent, pedagogy, and substance. Thank you, Martin, Tobias, and Julie!”  
 Olivier Danvy, Yale-NUS College
 - “When I am asked 'How can I become a better programmer?,' I recommend this book.”  
 Douglas Crockford, author of How JavaScript Works
