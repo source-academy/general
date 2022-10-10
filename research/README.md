@@ -8,6 +8,7 @@ The Source Academy and SICP JS are used for educational research. Below you find
 
 ## Publications
 
+- [Community-driven Course and Tool Development for CS1](https://www.comp.nus.edu.sg/~henz/publications/#sigcsets2023.abstract). Boyd Anderson, Martin Henz, Kok-Lim Low. Proceedings of the 2023 ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE TS 2023, ACM, New York, NY, United States. March 2023.
 - [Teachable Moments in Functional Audio Processing](https://www.comp.nus.edu.sg/~henz/publications/index.html#splasheteachable2021.abstract). Martin Henz, Shang-Hui Koh, Samyukta Sounderraman. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 - [Shrinking JavaScript for CS1](https://www.comp.nus.edu.sg/~henz/publications/index.html#splasheshrinking2021.abstract). Boyd Anderson, Martin Henz, Kok-Lim Low, Daryl Tan. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 - [A Stepper for a Functional JavaScript Sublanguage](https://www.comp.nus.edu.sg/~henz/publications/index.html#splashestepper2021.abstract). Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Yee-Jian Tan, Xinyi Zhang, Jingjing Zhao. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
