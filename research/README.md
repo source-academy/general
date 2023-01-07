@@ -16,7 +16,7 @@ The Source Academy and SICP JS are used for educational research. Below you find
 
 ## Invited Talks
 
-- [Xtreme Shrinking of JS for Teaching](https://xtremejs.dev/2022/schedule/) by Martin Henz. XtremeJS 2022. December 13, 2022. Available: [slides with links](https://www.comp.nus.edu.sg/~henz/publications/pdf/Xtreme_Shrinking.pdf), [video](https://www.youtube.com/watch?v=GGnZoB3Bekg)
+- Xtreme Shrinking of JS for Teaching by Martin Henz. [XtremeJS 2022](https://xtremejs.dev/2022/schedule/). December 13, 2022. Available: [slides with links](https://www.comp.nus.edu.sg/~henz/publications/pdf/Xtreme_Shrinking.pdf), [video](https://www.youtube.com/watch?v=GGnZoB3Bekg)
 
 - Meaningful online learning experiences with Source Academy by Martin Henz. [Experiential Learning Seminar Series](https://www.cetl.hku.hk/elseminar22/),  Centre for the Enhancement of Teaching and Learning, University of Hong Kong. June 2, 2022. Available: [slides](https://www.comp.nus.edu.sg/~henz/publications/pdf/meaningful_online_learning.pdf)
 
