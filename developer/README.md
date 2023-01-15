@@ -29,4 +29,4 @@ execution for performance-critical applications.
 
 To get involved, feel free to propose fixes, improvements, or projects using the Issues feature in the [Source Academy repos](https://github.com/source-academy) or send an email to [source.academy.nus@gmail.com](mailto:source.academy.nus@gmail.com).
 
-As a developer, feel free to connect to [Source Academy on LinkedIn](https://www.linkedin.com/company/source-academy).
+You can also follow [Source Academy on LinkedIn](https://www.linkedin.com/company/source-academy).
