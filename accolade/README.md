@@ -19,6 +19,8 @@ Olivier Danvy, Yale-NUS College
 Douglas Crockford, author of How JavaScript Works
 - “How much is a programming book influenced by its programming language? SICP in JavaScript is remarkably fluid, an excellent choice for today's programmers.”  
 Peter Van Roy, Université catholique de Louvain
+- "Henz and Wrigstad have created a small masterpiece: the book reads as if it had always been written for JavaScript. For many young developers, reading SICP should now be much more interesting than before. The easy-to-understand English also invites easy reading."
+c't – Magazin für Computertechnik (Magazine for Computer Technology)
 
 
 # Awards
