@@ -23,6 +23,7 @@ Peter Van Roy, Université catholique de Louvain
 
 # Awards
 
+- geNiUSbook Competition 2022 Consolation Prize: [Samuel Fang](https://github.com/samuelfangjw) and [Martin Henz](https://github.com/martin-henz) won the genNiUSbook Competition 2022 Consolation Prize, for [Interactive SICP JS](https://sourceacademy.org/sicpjs) at the National University of Singapore
 - OURP 2021/22: [Source Academy Student Team Rook](https://sourceacademy.org/contributors)
 (Tee Hao Wei, Chow En Rong, Chen Yanyu, Samuel Fang, Gokul Rajiv, Lee Hyung Woon, Shen Yi Hong, Thomas Tan Chee Kun, Bryan Loh, Marcus Tang Xin Kye)
 won the [Outstanding Undergraduate Researcher Prize](https://www.nus.edu.sg/registrar/academic-information-policies/education-at-nus/medals-and-prizes-(university-level)/rules-of-award---o) 2021/22 (Group category) at the National University of Singapore
