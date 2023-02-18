@@ -12,6 +12,7 @@ The learners in the Source Academy community might find the following resources 
 - [Programs of SICP JS](https://sicp.sourceacademy.org/sicpjs.zip): all programs of the book, in a zip file
 - [Source](https://docs.sourceacademy.org): Source languages used in the book (sublanguages of JavaScript)
 - [SICP JS on github](https://github.com/source-academy/sicp): repository for typesetting our own copy and contributing
+- [Videos](https://www.youtube.com/@sourceacademy1027): Youtube channel on Source Academy and its tools
 
 Currently, learners have the following options. If you take a course based on SICP JS, check with your instructor which option applies to the course:
 
