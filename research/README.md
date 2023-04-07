@@ -9,13 +9,15 @@ The Source Academy and SICP JS are used for educational research. Below you find
 ## Publications
 
 - [Visualizing Environments of Modern Scripting Languages](https://www.comp.nus.edu.sg/~henz/publications/#csedu2023.abstract). Kaian Cai, Martin Henz, Kok-Lim Low, Xing Yu Ng, Jing Ren Soh, Kyn-Han Tang, and Kar Wi Toh. Proceedings of the 2023 Proceedings of the 2023 International Conference on Computer Supported Education (CSEDU 2023), Prague, Czech Republic. April 2023.
-- [Community-driven Course and Tool Development for CS1](https://www.comp.nus.edu.sg/~henz/publications/#sigcsets2023.abstract). Boyd Anderson, Martin Henz, Kok-Lim Low. Proceedings of the 2023 ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE TS 2023), ACM, New York, NY, United States. March 2023.
+- [Community-driven Course and Tool Development for CS1](https://www.comp.nus.edu.sg/~henz/publications/#sigcsets2023.abstract). Boyd Anderson, Martin Henz, Kok-Lim Low. Proceedings of the 2023 ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE TS 2023), ACM, New York, NY, United States. March 2023. 
 - [Teachable Moments in Functional Audio Processing](https://www.comp.nus.edu.sg/~henz/publications/index.html#splasheteachable2021.abstract). Martin Henz, Shang-Hui Koh, Samyukta Sounderraman. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 - [Shrinking JavaScript for CS1](https://www.comp.nus.edu.sg/~henz/publications/index.html#splasheshrinking2021.abstract). Boyd Anderson, Martin Henz, Kok-Lim Low, Daryl Tan. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 - [A Stepper for a Functional JavaScript Sublanguage](https://www.comp.nus.edu.sg/~henz/publications/index.html#splashestepper2021.abstract). Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Yee-Jian Tan, Xinyi Zhang, Jingjing Zhao. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 - [Ruggedizing CS1 Robotics: Tools and Approaches for Online Teaching](https://www.comp.nus.edu.sg/~henz/publications/index.html#splasheruggedizing2021.abstract). Boyd Anderson, Martin Henz, Hao-Wei Tee. Proceedings of the 2021 ACM SIGPLAN International SPLASH-E Symposium (SPLASH-E '21), ACM, New York, NY, United States. 20 Oct 2021.
 
-## Invited Talks
+## Invited talks and demos
+
+-  [Source Academy: A Web-based Environment for Learning Programming with SICP](https://sigcse2023.sigcse.org/details/sigcse-ts-2023-demos/6/Source-Academy-A-Web-based-Environment-for-Learning-Programming-with-SICP) by Martin Henz. [SIGCSE TS 2023](). March 16, 2023. Available: [demo description](https://www.comp.nus.edu.sg/~henz/publications/pdf/SIGCSETSDEMO.pdf), [video](https://www.youtube.com/watch?v=s_UPhAT25fo)
 
 - Xtreme Shrinking of JS for Teaching by Martin Henz. [XtremeJS 2022](https://xtremejs.dev/2022/schedule/). December 13, 2022. Available: [slides with links](https://www.comp.nus.edu.sg/~henz/publications/pdf/Xtreme_Shrinking.pdf), [video](https://www.youtube.com/watch?v=GGnZoB3Bekg)
 

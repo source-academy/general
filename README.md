@@ -6,4 +6,4 @@ To get an idea of the system and community, watch the videos of our
 
 -----------------
 
-Our mission is to *expose the beauty and fun in computational thinking, and make these ideas universally accessible*.
+Our mission is to *expose the beauty and fun in computational thinking, and make them universally accessible*.
