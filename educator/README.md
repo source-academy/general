@@ -11,7 +11,7 @@ Educators have the following options to work with [SICP JS](https://sourceacadem
 - Use the public version of the Source Academy; [see here](../vanilla/README.md) how [Source Academy](https://sourceacademy.org/) supports your course
 - Source Academy with GitHub Classroom: use GitHub Classroom to author and manage weekly assignments; [see here](github/README.md) how to do that
 - Source Academy @ NUS: An extension of Source Academy; [go here](https://sourceacademy.nus.edu.sg) to create your account and start your course
-- Deploy your own clone of Source Academy; [see here](../deployment/README.md) how to do that
+- Deploy your own Source Academy @ X; [see here](../deployment/README.md) how to do that
 
 Educators who have used the original Scheme-based SICP book may appreciate our [Scheme-JavaScript Comparison Edition](https://sicp.sourceacademy.org), where SICP and SICP JS can be viewed side-by-side.
 
