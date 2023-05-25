@@ -1,6 +1,6 @@
 ## Overview
 
-Instructors can setup a voting question for students to vote for some popular solutions of specific assessments.
+Instructors can setup a voting question for students to vote for some popular solutions of specific assessments using a ranked tierlist.
 
 ## Content
 
@@ -29,12 +29,13 @@ Instructors can setup a voting question for students to vote for some popular so
 
 ### Students
 
-1. Students access the side contents to vote for their favorite entries. They can click on the card which will input the entry into the AssessmentEditor.
+1. Students access the side contents to vote for their favorite entries.
 Students can then execute the program and view the contest entries to vote for.
-![image](https://user-images.githubusercontent.com/51410656/120003514-67486080-c008-11eb-9e06-c585985937e9.png)
+Students vote by dragging and dropping the card corresponding to the entry they are voting for into the tierlist.
+![image](https://github.com/source-academy/general/assets/122250318/12f69841-6e95-4510-b1a2-8da2229aba01)
 
-2. Once the student finalises the submission, the voting boxes are disabled and their votes are included in the leaderboard score tally.
-![image](https://user-images.githubusercontent.com/51410656/120004034-e342a880-c008-11eb-9bf9-d6d3bffde054.png)
+
+2. Once the student finalises the submission, the drag-and-drop function is disabled and scores are submitted based on the tier the student has placed each entry in.
 
 ## Contest Voting XML
 
@@ -64,9 +65,9 @@ Similar to the creating an [assessment xml](../assessment/README.md) for program
   <READING>Textbook Chapter 1</READING>
 
   <TEXT>
-Now is the time to rank the most beautiful runes made by your peers!
+Now is the time to rank the most beautiful runes made by your peers in a tierlist!
 
-You will be randomly assigned 10 runes to rank!
+You will be randomly assigned 10 runes to rank, from S to D tier!
   </TEXT>
 
   <PROBLEMS>
@@ -94,8 +95,15 @@ Rank the beautiful runes!
 
 ### Different Contest Types
 
+Students can vote on contests involving images (runes/curves) or sounds. The relevant modules will be automatically imported from Source Academy in the assessment.
+
 ### Random Assignment of Entries
 
-### Valid vs Invalid Entries
+Up to 10 entries from the contest entry bank will be randomly assigned to each student to vote on.
 
 ## Leaderboard
+
+When the contest is ongoing, instructors will be able to view the rolling leaderboard by opening the contest voting assessment in their own account and navigating to the leaderboard pane.
+![image](https://github.com/source-academy/general/assets/122250318/86775e8e-982f-44fb-80bd-d7372807bcbd)
+After the contest has finished, both instructors and students will be able to view the final leaderboard by opening the contest voting assessment in their own account and navigating to the leaderboard pane.
+![image](https://github.com/source-academy/general/assets/122250318/88d43007-949e-4d68-ab8e-d2b33d1e90c9)
