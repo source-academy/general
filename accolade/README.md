@@ -25,6 +25,8 @@ Peter Van Roy, Université catholique de Louvain
 
 # Awards
 
+- [OCP 2022/2023](https://www.comp.nus.edu.sg/programmes/ug/honour/faculty/): [Zhao Jingjing](https://github.com/zhaojj2209) won the Outstanding Computing Project Prize AY2022/2023 at the National University of Singapore for web-programming support in Source Academy
+- [OCP 2022/2023](https://www.comp.nus.edu.sg/programmes/ug/honour/faculty/): [Ian Yong](https://github.com/ianyong) won the Outstanding Computing Project Prize AY2022/2023 at the National University of Singapore for multi-file support in Source Academy
 - geNiUSbook Competition 2022 Consolation Prize: [Samuel Fang](https://github.com/samuelfangjw) and [Martin Henz](https://github.com/martin-henz) won the genNiUSbook Competition 2022 Consolation Prize, for [Interactive SICP JS](https://sourceacademy.org/sicpjs) at the National University of Singapore
 - OURP 2021/22: [Source Academy Student Team Rook](https://sourceacademy.org/contributors)
 (Tee Hao Wei, Chow En Rong, Chen Yanyu, Samuel Fang, Gokul Rajiv, Lee Hyung Woon, Shen Yi Hong, Thomas Tan Chee Kun, Bryan Loh, Marcus Tang Xin Kye)
