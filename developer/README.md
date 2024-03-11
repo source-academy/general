@@ -15,7 +15,7 @@ Source Academy. All of these are being pursued by Computer Science undergraduate
 students of the National University of Singapore.
 
 - Numerous improvements in the frontend and backend, including game support, grading, folders, visualization, share links, sessions, stories, contests, and mobile support
-- Support for new languages: TypeScript, Scheme, Python, C, Java, C\#
+- Support for new languages: TypeScript, Scheme, Python, C, Java, C<span>#</span>
 
 ## Deployment
 
