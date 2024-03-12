@@ -26,7 +26,7 @@ students of the National University of Singapore.
 - The runtime component for Source on embedded systems (GitHub repo `sling`) is (manually) published to [NPM @sourceacademy/sling-client](https://www.npmjs.com/package/@sourceacademy/sling-client).
 - The JavaScript module that goes with [SICP JS](https://sourceacademy.org/sicpjs/index) (GitHub repo `sicp`) is auto-deployed to [NPM sicp](https://www.npmjs.com/package/sicp)
 - The [SICP JS](https://sourceacademy.org/sicpjs/index) textbook chapters, sections, and subsections (GitHub repo `sicp`) are auto-deployed to `sicp.sourceacademy.org/json`, e.g. [sicp.sourceacademy.org/json/1.json](https://sicp.sourceacademy.org/json/1.json).
-- SourceAcademy @ NUS (including the backend, GitHub repo `backend`) is (manually) deployed to an AWS server at (sourceacademy.nus.edu.sg)[https://sourceacademy.nus.edu.sg].
+- SourceAcademy @ NUS (including the backend, GitHub repo `backend`) is (manually) deployed to an AWS server at [sourceacademy.nus.edu.sg](https://sourceacademy.nus.edu.sg).
 - The Source Academy modules (GitHub repo `modules`) are auto-deployed to [source-academy.github.io/modules](https://source-academy.github.io/modules/documentation/) via Github Pages.
 - This site (GitHub repo `general`) is auto-deployed to [about.sourceacademy.org](https://about.sourceacademy.org) via GitHub Pages.
 
