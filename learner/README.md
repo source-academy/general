@@ -17,6 +17,5 @@ The learners in the Source Academy community might find the following resources 
 Currently, learners have the following options. If you take a course based on SICP JS, check with your instructor which option applies to the course:
 
 - [Learn with SICP JS without Source Academy](../package/README.md) 
-- [Learn with Source Academy](../vanilla/README.md) without GitHub Classroom
-- [Learn with Source Academy and GitHub Classroom](github/README.md) 
+- [Learn with Source Academy](../vanilla/README.md) (public site)
 - [Learn with Source Academy @ X](x/README.md) 
