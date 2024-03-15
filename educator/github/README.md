@@ -1,3 +1,8 @@
+**The feature "GitHub Classroom" as been removed from Source Academy.
+If you land on this page through an active link, let us know via
+bug report in
+[Source Academy frontend](https://github.com/source-academy/frontend/issues)**
+
 # Overview
 
 This guide tells you how to use Source Academy with GitHub Classroom for your course.
