@@ -1,10 +1,6 @@
 **The feature "GitHub Classroom" as been removed from Source Academy. The feature didn't have any users and we felt that it complicated our development.
 If you land on this page through an active link, let us know via
-bug report in
-[Source Academy frontend](https://github.com/source-academy/frontend/issues).
-If you like the feature described below, let us know. Maybe you can get
-involved to bring it back?
-**
+bug report in [Source Academy frontend](https://github.com/source-academy/frontend/issues). If you like the feature described below, let us know. Maybe you can get involved to bring it back?**
 
 # Overview
 
