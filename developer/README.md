@@ -20,14 +20,15 @@ students of the National University of Singapore.
 ## Deployment
 
 - The serverless frontend (GitHub repo `frontend`) is currently auto-deployed to [sourceacademy.org](https://sourceacademy.org).
-- The JavaScript language implementations (GitHub repo `js-slang`) are (manually) published to [NPM js-slang](https://www.npmjs.com/package/js-slang); the implementations of Python (GitHub repo `py-slang`) and Scheme (GitHub repo `scm-slang`) are sub-modules of `js-slang`.
+- The JavaScript language implementations (GitHub repo `js-slang`) are (manually) published to [NPM js-slang](https://www.npmjs.com/package/js-slang); the implementations of Python (GitHub repo `py-slang`) and Scheme (GitHub repo `scm-slang`) are sub-modules of `js-slang`. The NPM js-slang package is imported by the frontend.
 - The WebAssembly-based language implementation (GitHub repo `sourceror`) is (manually) published to [NPM sourceror](https://www.npmjs.com/package/sourceror).
 - The sharing service for collaborative editing (GitHub repo `sharedb-ace`) is (manually) published to [NPM @sourceacademy/sharedb-ace](https://www.npmjs.com/package/@sourceacademy/sharedb-ace).
 - The runtime component for Source on embedded systems (GitHub repo `sling`) is (manually) published to [NPM @sourceacademy/sling-client](https://www.npmjs.com/package/@sourceacademy/sling-client).
 - The JavaScript module that goes with [SICP JS](https://sourceacademy.org/sicpjs/index) (GitHub repo `sicp`) is auto-deployed to [NPM sicp](https://www.npmjs.com/package/sicp)
 - The [SICP JS](https://sourceacademy.org/sicpjs/index) textbook chapters, sections, and subsections (GitHub repo `sicp`) are auto-deployed to `sicp.sourceacademy.org/json`, e.g. [sicp.sourceacademy.org/json/1.json](https://sicp.sourceacademy.org/json/1.json).
 - SourceAcademy @ NUS (including the backend, GitHub repo `backend`) is (manually) deployed to an AWS server at [sourceacademy.nus.edu.sg](https://sourceacademy.nus.edu.sg).
-- The Source Academy modules (GitHub repo `modules`) are auto-deployed to [source-academy.github.io/modules](https://source-academy.github.io/modules/documentation/) via Github Pages.
+- The Source Academy modules (GitHub repo `modules`) are auto-deployed to [source-academy.github.io/modules](https://source-academy.github.io/modules/documentation/) via Github Pages. The following NPM packages are managed by the Source Academy team and imported in `modules`:
+-- The package `source-academy-wabt` (GitHub repo `wabt`) is manually deployed to [source-academy-wab](https://www.npmjs.com/package/source-academy-wabt).
 - This site (GitHub repo `general`) is auto-deployed to [about.sourceacademy.org](https://about.sourceacademy.org) via GitHub Pages.
 
 ## Get Involved
