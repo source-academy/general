@@ -28,7 +28,7 @@ students of the National University of Singapore.
 - The [SICP JS](https://sourceacademy.org/sicpjs/index) textbook chapters, sections, and subsections (GitHub repo `sicp`) are auto-deployed to `sicp.sourceacademy.org/json`, e.g. [sicp.sourceacademy.org/json/1.json](https://sicp.sourceacademy.org/json/1.json).
 - SourceAcademy @ NUS (including the backend, GitHub repo `backend`) is (manually) deployed to an AWS server at [sourceacademy.nus.edu.sg](https://sourceacademy.nus.edu.sg).
 - The Source Academy modules (GitHub repo `modules`) are auto-deployed to [source-academy.github.io/modules](https://source-academy.github.io/modules/documentation/) via Github Pages. The following NPM packages are managed by the Source Academy team and imported in `modules`:
-- - The package `source-academy-wabt` (GitHub repo `wabt`) is manually deployed to [source-academy-wab](https://www.npmjs.com/package/source-academy-wabt).
+  - The package `source-academy-wabt` (GitHub repo `wabt`) is manually deployed to [source-academy-wab](https://www.npmjs.com/package/source-academy-wabt).
 - This site (GitHub repo `general`) is auto-deployed to [about.sourceacademy.org](https://about.sourceacademy.org) via GitHub Pages.
 
 ## Get Involved
