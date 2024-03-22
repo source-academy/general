@@ -20,7 +20,8 @@ students of the National University of Singapore.
 ## Deployment
 
 - The serverless frontend (GitHub repo `frontend`) is currently auto-deployed to [sourceacademy.org](https://sourceacademy.org).
-- The JavaScript language implementations (GitHub repo `js-slang`) are (manually) published to [NPM js-slang](https://www.npmjs.com/package/js-slang); the implementations of Python (GitHub repo `py-slang`) and Scheme (GitHub repo `scm-slang`) are sub-modules of `js-slang`. The NPM js-slang package is imported by the frontend.
+- The JavaScript language implementations (GitHub repo `js-slang`) are (manually) published to [NPM js-slang](https://www.npmjs.com/package/js-slang); the implementations of Python (GitHub repo `py-slang`) and Scheme (GitHub repo `scm-slang`) are sub-modules of `js-slang`. The NPM package `js-slang` is imported by the frontend.
+- The C language implementations (GitHub repo `c-slang`) are (manually) published to [NPM @sourceacademy/js-slang](https://www.npmjs.com/package/@sourceacademy/c-slang). The NPM package `@sourceacademy/js-slang` is imported by the frontend.
 - The WebAssembly-based language implementation (GitHub repo `sourceror`) is (manually) published to [NPM sourceror](https://www.npmjs.com/package/sourceror).
 - The sharing service for collaborative editing (GitHub repo `sharedb-ace`) is (manually) published to [NPM @sourceacademy/sharedb-ace](https://www.npmjs.com/package/@sourceacademy/sharedb-ace).
 - The runtime component for Source on embedded systems (GitHub repo `sling`) is (manually) published to [NPM @sourceacademy/sling-client](https://www.npmjs.com/package/@sourceacademy/sling-client).
