@@ -23,6 +23,7 @@ students of the National University of Singapore.
 - The JavaScript language implementations (GitHub repo `js-slang`) are (manually) published to [NPM js-slang](https://www.npmjs.com/package/js-slang). The NPM package `js-slang` is imported by the frontend. The implementations of
   - Python (GitHub repo `py-slang`) and
   - Scheme (GitHub repo `scm-slang`)
+
   are sub-modules of `js-slang`. 
 - The C language implementations (GitHub repo `c-slang`) are (manually) published to [NPM @sourceacademy/c-slang](https://www.npmjs.com/package/@sourceacademy/c-slang). The NPM package `@sourceacademy/c-slang` is imported by the frontend.
 - The Java language implementations (GitHub repo `java-slang`) are (manually) published to [NPM java-slang](https://www.npmjs.com/package/@sourceacademy/java-slang). The NPM package `@sourceacademy/java-slang` is imported by the frontend.
