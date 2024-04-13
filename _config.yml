@@ -30,7 +30,6 @@ github_repo_link: https://github.com/source-academy/general
 # Header Pages
 header_pages:
   - learner/README.md
-  - educator/README.md
   - developer/README.md
   - research/README.md
   - accolade/README.md
