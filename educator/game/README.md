@@ -892,7 +892,13 @@ Plays background music with sfxId `sfxId`.
 
 ##### `move_character(characterId, locationId, position?)`
 
-Moves a character from its original location to a new location. You may also change its default position (left, right, center)
+Moves a character from its original location to a new location. You may also change its default position (left, right, center).
+
+***
+
+##### `navigate_to_assessment(number)`
+
+Opens a assessment (or minigame) in another tab based on the unique string "number" provided.
 
 ***
 
