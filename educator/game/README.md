@@ -987,8 +987,8 @@ objectives
     talk
 
 gameStartActions
-    show_dialogue*(unwelcome) if !userstate.assessments.301
-    show_dialogue(welcome) if userstate.assessments.301
+    show_dialogue*(unwelcome) if !userstate.assessments.S0
+    show_dialogue(welcome) if userstate.assessments.S0
 
 checkpointCompleteActions
     show_dialogue(done)
