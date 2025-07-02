@@ -898,7 +898,7 @@ Moves a character from its original location to a new location. You may also cha
 
 ##### `navigate_to_assessment(number)`
 
-Opens a assessment (or minigame) in another tab based on the unique string "number" provided.
+Opens a assessment (or minigame) in another tab based on the unique string "number" provided. A "number" usually takes the form "an" or "ana" (e.g. "S1" for Path 1 and "M1A" for Mission 1A), assigned by course instructors. Please liase with the course instructors or your supervisor to get or assign a unique "number".
 
 ***
 
