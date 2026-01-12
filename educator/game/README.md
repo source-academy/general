@@ -892,7 +892,13 @@ Plays background music with sfxId `sfxId`.
 
 ##### `move_character(characterId, locationId, position?)`
 
-Moves a character from its original location to a new location. You may also change its default position (left, right, center)
+Moves a character from its original location to a new location. You may also change its default position (left, right, center).
+
+***
+
+##### `navigate_to_assessment(number)`
+
+Opens a assessment (or minigame) in another tab based on the unique string "number" provided. A "number" usually takes the form "an" or "ana" (e.g. "S1" for Path 1 and "M1A" for Mission 1A), assigned by course instructors. Please liase with the course instructors or your supervisor to get or assign a unique "number".
 
 ***
 
@@ -981,8 +987,8 @@ objectives
     talk
 
 gameStartActions
-    show_dialogue*(unwelcome) if !userstate.assessments.301
-    show_dialogue(welcome) if userstate.assessments.301
+    show_dialogue*(unwelcome) if !userstate.assessments.S0
+    show_dialogue(welcome) if userstate.assessments.S0
 
 checkpointCompleteActions
     show_dialogue(done)
