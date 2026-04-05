@@ -490,6 +490,7 @@ The following must be specified in the body of a location:
 |`modes`| Comma-listing of the [game modes](#mode) available in the chapter | Every mode must be one of the following: `talk`, `explore`, `move`|
 |`talkTopics`| Comma-listing of [talk topics](#talkTopic) available in a location, i.e. dialogues that players can choose from when click on "Talk" | Must be valid **dialogueIds** |
 |`nav`| Comma-listing of other locations that this location is connected to. |Must be valid **locationIds** |
+|`back`| The location that needs an extra button to go back to. This configuration is optional depending on how the scene is constructed. |Must be valid **locationId**|
 
 ### Paragraphs
 
@@ -905,6 +906,18 @@ Opens a assessment (or minigame) in another tab based on the unique string "numb
 ##### `update_character(characterId, expression)`
 
 Changes the default expression of a character.
+
+***
+
+##### `change_location_to(locationId)`
+
+Changes the location of the player.
+
+***
+
+##### `show_topics()`
+
+Shows the talkTopics of currentLocation.
 
 ***
 
