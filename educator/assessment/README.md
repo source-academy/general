@@ -56,7 +56,7 @@ You may assume that each element must be unique (i.e. only one exists per parent
           - [PREPEND](#prepend)
           - [TEMPLATE](#template)
       
-  - [DEPLOYMENT](#deployment) / [GRADERDEPLOYMENT](#graderdeployment)
+  - [PROGRAMMINGLANGUAGE](#programminglanguage) / [GRADERPROGRAMMINGLANGUAGE](#graderprogramminglanguage)
     - [IMPORT](#import)
       - [SYMBOL](#symbol)
     - [EXTERNAL](#external)
@@ -88,7 +88,7 @@ This is not necessarily a bad change, since a module staff may now explicitly re
 
 ### Children
 
-[READING](#reading), [WEBSUMMARY](#websummary), [TEXT](#text), [PROBLEMS](#problems), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment), [PASSWORD](#password)
+[READING](#reading), [WEBSUMMARY](#websummary), [TEXT](#text), [PROBLEMS](#problems), [PROGRAMMINGLANGUAGE](#programminglanguage), [GRADERPROGRAMMINGLANGUAGE](#graderprogramminglanguage), [PASSWORD](#password)
 
 Example
 
@@ -218,14 +218,14 @@ Required: at least one PROBLEM in the PROBLEMS element.
 
 ### Children
 
-[TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [VOTING](#voting), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
+[TEXT](#text), [SNIPPET](#snippet), [CHOICE](#choice), [VOTING](#voting), [PROGRAMMINGLANGUAGE](#programminglanguage), [GRADERPROGRAMMINGLANGUAGE](#graderprogramminglanguage)
 
 #### programming
-[TEXT](#text), [SNIPPET](#snippet), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
+[TEXT](#text), [SNIPPET](#snippet), [PROGRAMMINGLANGUAGE](#programminglanguage), [GRADERPROGRAMMINGLANGUAGE](#graderprogramminglanguage)
 #### mcq
 [TEXT](#text), [CHOICE](#choice)
 #### voting
-[TEXT](#text), [SNIPPET](#snippet), [VOTING](#voting), [DEPLOYMENT](#deployment), [GRADERDEPLOYMENT](#graderdeployment)
+[TEXT](#text), [SNIPPET](#snippet), [VOTING](#voting), [PROGRAMMINGLANGUAGE](#programminglanguage), [GRADERPROGRAMMINGLANGUAGE](#graderprogramminglanguage)
 
 ### Example
 
@@ -480,7 +480,7 @@ show(flipvert(sail_bb));
 </SOLUTION>
 ```
 
-## DEPLOYMENT
+## PROGRAMMINGLANGUAGE
 
 Represents interpreter settings for the source interpreter of cadet.
 
@@ -488,8 +488,8 @@ Represents interpreter settings for the source interpreter of cadet.
 
 For a given PROBLEM, the following checks are performed to determine what interpreter settings should be used for the PROBLEM:
 
-If the PROBLEM has a child DEPLOYMENT, use that
-Otherwise, use the DEPLOYMENT which is a child of the TASK
+If the PROBLEM has a child PROGRAMMINGLANGUAGE, use that
+Otherwise, use the PROGRAMMINGLANGUAGE which is a child of the TASK
 The missionType attribute was previously used by source-academy2, but is unused by cadet.
 
 ### Attributes
@@ -507,7 +507,7 @@ The missionType attribute was previously used by source-academy2, but is unused 
 ### Example
 
 ```xml
-<DEPLOYMENT interpreter="2" variant="default" exectime="1000">
+<PROGRAMMINGLANGUAGE interpreter="2" variant="default" exectime="1000">
   <IMPORT module="cs1101s_1920/two_dim_runes">
       <SYMBOL>beside</SYMBOL>
       <SYMBOL>make_cross</SYMBOL>
@@ -520,19 +520,19 @@ The missionType attribute was previously used by source-academy2, but is unused 
       <IDENTIFIER>student_names</IDENTIFIER>
       <VALUE>list("Alpha Centauri", "007", "Gilgamesh");</VALUE>
   </GLOBAL>
-</DEPLOYMENT>
+</PROGRAMMINGLANGUAGE>
 ```
 
-## GRADERDEPLOYMENT
+## GRADERPROGRAMMINGLANGUAGE
 
-Represents interpreter settings which override that of DEPLOYMENT, for the grader. Optional for both TASK and PROBLEM.
+Represents interpreter settings which override that of PROGRAMMINGLANGUAGE, for the grader. Optional for both TASK and PROBLEM.
 
 For a given PROBLEM, the following checks are performed to determine what interpreter settings should be used for the grader:
 
-If the PROBLEM has a child GRADERDEPLOYMENT, use that
-Otherwise, if the PROBLEM has a child DEPLOYMENT, use that
-Otherwise, if the TASK has a child GRADERDEPLOYMENT, use that
-Otherwise, use the DEPLOYMENT which is a child of the TASK
+If the PROBLEM has a child GRADERPROGRAMMINGLANGUAGE, use that
+Otherwise, if the PROBLEM has a child PROGRAMMINGLANGUAGE, use that
+Otherwise, if the TASK has a child GRADERPROGRAMMINGLANGUAGE, use that
+Otherwise, use the PROGRAMMINGLANGUAGE which is a child of the TASK
 This element is useful for assessments that utilise imported modules which use browser based APIs such as WebGL or HTML5 Audio. Since the grader runs on a node environment, these APIs are not available to the grader. Hence, it may be useful to 'overwrite' these functions with mock node-friendly alternative functions.
 
 Examples include `show` from the runes module, `draw_connected` from the curves module, or `play` from the sound module.
@@ -550,7 +550,7 @@ Examples include `show` from the runes module, `draw_connected` from the curves 
 ### Example
 
 ```xml
-<GRADERDEPLOYMENT interpreter="2">
+<GRADERPROGRAMMINGLANGUAGE interpreter="2">
   <IMPORT module="cs1101s_1920/two_dim_runes">
       <SYMBOL>beside</SYMBOL>
       <SYMBOL>make_cross</SYMBOL>
@@ -558,7 +558,7 @@ Examples include `show` from the runes module, `draw_connected` from the curves 
   <GLOBAL>...</GLOBAL>
   <GLOBAL>...</GLOBAL>
   <GLOBAL>...</GLOBAL>
-</GRADERDEPLOYMENT>
+</GRADERPROGRAMMINGLANGUAGE>
 ```
 
 ## IMPORT
@@ -698,9 +698,9 @@ Welcome to this assessment! This is the *briefing*.
 
 This mission consists of **four tasks**.
 
-1. A simple PROBLEM that uses the default DEPLOYMENT and GRADERDEPLOYMENT
+1. A simple PROBLEM that uses the default PROGRAMMINGLANGUAGE and GRADERPROGRAMMINGLANGUAGE
    for its GRADER programs (source 1).
-2. A sorting PROBLEM that uses it's own DEPLOYMENT AND GRADERDEPLOYMENT.
+2. A sorting PROBLEM that uses it's own PROGRAMMINGLANGUAGE AND GRADERPROGRAMMINGLANGUAGE.
    Here, GLOBALs and IMPORT are used to pre-define lists for the students
    as well as the grader to test the functions with.
 3. An MCQ question.
@@ -763,17 +763,17 @@ sort(numbers); // should be [1, 3, 5, 7]
             <PRIVATE answer="[1, [2, [3, [4, [5, [6, [7, [8, [9, [10, [11, [12, [13, [14, [15, []]]]]]]]]]]]]]]]" score="1">sort(list(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);</PRIVATE>
           </TESTCASES>
         </SNIPPET>
-        <DEPLOYMENT interpreter="2">
+        <PROGRAMMINGLANGUAGE interpreter="2">
           <IMPORT module="cs1101s_1920/two_dim_runes">
             <SYMBOL>show</SYMBOL>
           </EXTERNAL>
-        </DEPLOYMENT>
-        <GRADERDEPLOYMENT interpreter="2">
+        </PROGRAMMINGLANGUAGE>
+        <GRADERPROGRAMMINGLANGUAGE interpreter="2">
           <GLOBAL>
 	    <IDENTIFIER>show</IDENTIFIER>
 	      <VALUE>x => x;</VALUE>
 	  </GLOBAL>
-        </GRADERDEPLOYMENT>
+        </GRADERPROGRAMMINGLANGUAGE>
       </PROBLEM>
 
       <PROBLEM maxxp="20" type="mcq">
@@ -801,7 +801,7 @@ You'll use runes in your next mission. Why don't you give it a try?
 show(heart_bb);
           </TEMPLATE>
         </SNIPPET>
-        <DEPLOYMENT interpreter="1">
+        <PROGRAMMINGLANGUAGE interpreter="1">
           <IMPORT module="cs1101s_1920/two_dim_runes">
             <SYMBOL>beside</SYMBOL>
             <SYMBOL>make_cross</SYMBOL>
@@ -810,7 +810,7 @@ show(heart_bb);
             <SYMBOL>show</SYMBOL>
             <SYMBOL>heart_bb</SYMBOL>
           </EXTERNAL>
-        </DEPLOYMENT>
+        </PROGRAMMINGLANGUAGE>
       </PROBLEM>
 
     </PROBLEMS>
@@ -825,11 +825,11 @@ used to assess your solution.
 This TEXT will not be shown in cadet, but may be useful in the generated pdf.
     </TEXT>
 
-    <DEPLOYMENT interpreter="1">
-    </DEPLOYMENT>
+    <PROGRAMMINGLANGUAGE interpreter="1">
+    </PROGRAMMINGLANGUAGE>
 
-    <GRADERDEPLOYMENT interpreter="1">
-    </GRADERDEPLOYMENT>
+    <GRADERPROGRAMMINGLANGUAGE interpreter="1">
+    </GRADERPROGRAMMINGLANGUAGE>
 
 </TASK>
 </CONTENT>
